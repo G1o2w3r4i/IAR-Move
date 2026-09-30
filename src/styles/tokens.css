@@ -1,0 +1,1624 @@
+/* =========================================================
+   J&J GLOBAL THEME
+   Converted from the Next.js global.scss
+   ========================================================= */
+
+:root {
+  /* ---------- J&J Brand Colors ---------- */
+  --jj-red: #eb1700;
+  --jj-blue: #000099;
+  --jj-magenta: #c800a1;
+  --jj-black: #212121;
+  --jj-grey-dark: #63666a;
+  --jj-grey: #888b8d;
+  --jj-grey-light: #d8d8d8;
+  --jj-grey-extra-light: #f4f4f4;
+
+  --jj-red-dark: #801206;
+
+  /* ---------- Common Colors ---------- */
+  --black: #000000;
+  --grey-900: #101010;
+  --grey-dark: #343638;
+  --grey: #878787;
+  --grey-alt: #888b8d;
+  --grey-300: #c7c9cf;
+  --grey-light: #c0c0c0;
+  --grey-extra-light: #f4f4f6;
+  --white: #ffffff;
+
+  --blue-light: #f1f4ff;
+  --blue-extra-light: #f6f8ff;
+  --blue-bright: #0e65e8;
+
+  --cornflower: #8bb7f8;
+  --columbia: #c5dbfc;
+
+  --red-light: #ff5959;
+
+  --indigo: #005f86;
+  --pink-bright: #c800a1;
+  --magenta: #961a68;
+
+  --green-dark: #3a4b3e;
+  --grey-700: #63666a;
+  --green-300: #087d0d;
+  --green-light: #74cb52;
+
+  --orange: #ff8200;
+  --red-poppy: #e35050;
+  --red: #e95050;
+  --purple: #ae2573;
+
+  --grey-50: #ececec;
+
+  /* ---------- Violet ---------- */
+  --violet-5: #541980;
+  --violet-3: #8c3bbb;
+  --violet-2: #996bcb;
+  --violet-1: #b19beb;
+
+  /* ---------- Risk ---------- */
+  --risk-low: var(--green-300);
+  --risk-medium: var(--orange);
+  --risk-high: var(--red-poppy);
+  --risk-unknown: var(--jj-grey-dark);
+
+  /* ---------- Coverage ---------- */
+  --coverage-low: var(--red-poppy);
+  --coverage-medium: var(--orange);
+  --coverage-high: var(--green-300);
+  --coverage-unknown: var(--jj-grey-dark);
+
+  /* ---------- Theme ---------- */
+  --ara-theme-light-fill: var(--jj-grey);
+  --ara-theme-dark-fill: var(--jj-blue);
+
+  /* ---------- MUI ---------- */
+  --ara-mui-primary-dark: var(--jj-black);
+  --ara-mui-primary-main: var(--jj-blue);
+  --ara-mui-secondary-main: var(--jj-red);
+  --ara-mui-info-main: var(--blue-bright);
+
+  /* ---------- Common ---------- */
+  --ara-common-border-color: var(--jj-grey-light);
+  --ara-common-href: var(--blue-bright);
+
+  /* ---------- Body ---------- */
+  --ara-body-text: var(--jj-black);
+  --ara-body-bg: var(--white);
+
+  --ara-on-accent-body-text: var(--white);
+  --ara-on-accent-body-bg: #11115f;
+  --ara-on-accent-text-dim: #b5b1f1;
+  --ara-on-accent-border-color: #3f3faf;
+
+  /* ---------- Notification ---------- */
+  --ara-notification-bubble: var(--jj-red);
+  --ara-notification-date-text: var(--grey-dark);
+  --ara-notification-read-text: var(--jj-grey);
+
+  /* ---------- General ---------- */
+  --ara-general-accent-bg: var(--blue-light);
+  --ara-general-accent-border-color: var(--jj-blue);
+  --ara-general-alternate-bg: var(--jj-grey-extra-light);
+  --ara-general-alternate2-bg: var(--jj-grey-light);
+  --ara-general-divider: #d8d8d8;
+  --ara-divider-color: #d8d8d8;
+  --ara-separator-color: #d8d8d8;
+  --ara-border-color: #d8d8d8;
+  --ara-border-default: 1px solid #d8d8d8;
+
+  /* ---------- Scrollbar ---------- */
+  --ara-scrollbar-bg: var(--jj-grey-light);
+  --ara-scrollbar-thumb: var(--jj-grey);
+
+  /* ---------- Text ---------- */
+  --ara-text-dim: var(--jj-grey-dark);
+  --ara-text-h1: var(--jj-black);
+  --ara-text-h2: var(--jj-black);
+  --ara-text-h3: var(--jj-grey-dark);
+  --ara-text-h4: var(--jj-grey);
+
+  /* ---------- Header ---------- */
+  --ara-header-bg: var(--white);
+  --ara-header-text: var(--black);
+  --ara-header-app-title-text: var(--jj-grey-dark);
+  --ara-header-nav-text: var(--black);
+  --ara-header-nav-active-border-color: var(--jj-red);
+
+  /* ---------- Filter ---------- */
+  --ara-filter-accordion-title: var(--jj-grey-dark);
+  --ara-filter-bg: var(--blue-extra-light);
+  --ara-filter-border-color: var(--jj-blue);
+  --ara-filter-chip-text: var(--jj-black);
+  --ara-filter-chip-bg: var(--white);
+  --ara-filter-chip-border-color: var(--jj-grey);
+  --ara-filter-toggle-icon: var(--jj-red);
+
+  /* ---------- Risk / Coverage ---------- */
+  --ara-risk-low: var(--green-300);
+  --ara-risk-medium: var(--orange);
+  --ara-risk-high: var(--red-poppy);
+  --ara-risk-unknown: var(--jj-grey-dark);
+
+  --ara-coverage-low: var(--red-poppy);
+  --ara-coverage-medium: var(--orange);
+  --ara-coverage-high: var(--green-300);
+  --ara-coverage-unknown: var(--jj-grey-dark);
+
+  /* ---------- Tables ---------- */
+  --ara-table-selected-row-accent: var(--jj-blue);
+  --ara-table-selected-row-bg: var(--blue-light);
+  --ara-table-header-text: var(--jj-grey);
+
+  /* ---------- Popover ---------- */
+  --ara-popover-header-text: var(--jj-blue);
+  --ara-popover-border-color: var(--jj-blue);
+  --ara-popover-text: var(--jj-grey-dark);
+  --ara-popover-bg: var(--white);
+
+  /* ---------- Tabs ---------- */
+  --ara-tabs-inactive-border-color: #d8d8d8;
+  --ara-tabs-active-border-color: var(--jj-blue);
+
+  /* ---------- Tab List ---------- */
+  --ara-tab-list-bg: var(--jj-grey-extra-light);
+  --ara-tab-list-text: var(--jj-grey-dark);
+  --ara-tab-list-border-color: var(--jj-grey-light);
+
+  --ara-tab-list-active-bg: var(--jj-blue);
+  --ara-tab-list-active-text: var(--white);
+  --ara-tab-list-active-border-color: var(--jj-blue);
+
+  --ara-tab-list-disabled-bg: var(--grey);
+  --ara-tab-list-disabled-text: var(--jj-grey-dark);
+  --ara-tab-list-disabled-border: var(--jj-grey-dark);
+  --ara-tab-list-disabled-active-text: var(--grey-dark);
+
+  /* ---------- Checkbox ---------- */
+  --ara-checkbox-unchecked-fill: var(--jj-grey-light);
+  --ara-checkbox-checked-fill: var(--jj-red);
+
+  /* ---------- Yes / No ---------- */
+  --ara-yesno-yes-fill: var(--indigo);
+  --ara-yesno-no-fill: var(--pink-bright);
+
+  /* ---------- Banner ---------- */
+  --ara-banner-title-bg: var(--jj-red);
+  --ara-banner-title-bg-alt: var(--jj-red-dark);
+  --ara-banner-title-text: var(--white);
+}
+
+/* =========================================================
+   FONT
+   ========================================================= */
+
+@font-face {
+  font-family: "jj-circular";
+  src: url("/fonts/jj-circular-book.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "jj-circular";
+  src: url("/fonts/jj-circular-book.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "jj-circular";
+  src: url("/fonts/jj-circular-bold.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "jj-circular";
+  src: url("/fonts/jj-circular-black.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+/* =========================================================
+   GLOBAL RESET
+   ========================================================= */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "jj-circular", Arial, Helvetica, sans-serif;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+  width: 100%;
+}
+
+body {
+  max-width: 100%;
+  color: var(--ara-body-text);
+  background-color: var(--ara-body-bg);
+}
+
+a {
+  color: var(--ara-common-href);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
+}
+
+
+/* =========================================================
+   SCROLLBAR
+   ========================================================= */
+
+::-webkit-scrollbar {
+  width: 0.6rem;
+  height: 0.6rem;
+}
+
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-track {
+  border-radius: 0.25rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--ara-scrollbar-thumb);
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--ara-scrollbar-bg);
+  margin: 0.25rem;
+}
+
+
+/* =========================================================
+   MAIN / HEADER
+   ========================================================= */
+
+main {
+  overflow-x: auto;
+  color: var(--ara-body-text);
+  background-color: var(--ara-body-bg);
+}
+
+header {
+  position: relative;
+  z-index: 1;
+  background-color: var(--ara-header-bg);
+  color: var(--ara-header-text);
+}
+
+header .menu {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  height: 5rem;
+}
+
+main,
+header {
+  min-width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+
+/* =========================================================
+   HEADINGS
+   ========================================================= */
+
+h1,
+h2,
+h3,
+h4 {
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  color: var(--ara-text-h1);
+}
+
+h2 {
+  text-transform: none;
+  color: var(--ara-text-h2);
+}
+
+h3 {
+  font-size: 0.875rem;
+  color: var(--ara-text-h3);
+}
+
+h4 {
+  font-size: 0.875rem;
+  color: var(--ara-text-h4);
+}
+
+.form-label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--ara-text-dim);
+}
+
+.dim {
+  color: var(--ara-text-dim);
+}
+
+.dim.very-dim {
+  opacity: 0.35;
+}
+
+
+/* =========================================================
+   NAVIGATION
+   ========================================================= */
+
+.nav a {
+  font-weight: 500;
+  color: var(--ara-header-nav-text);
+  border-bottom: 6px transparent solid;
+  padding: 0 0.25rem 0.2rem;
+  text-decoration: none;
+}
+
+.nav a.active {
+  border-bottom-color: var(--ara-header-nav-active-border-color);
+}
+
+
+/* =========================================================
+   TEXTAREA
+   ========================================================= */
+
+textarea {
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 1rem;
+  min-height: 4rem;
+  max-height: 6rem;
+}
+
+textarea:focus-visible {
+  outline-width: 1px;
+  border-color: var(--jj-blue);
+  outline-color: var(--jj-blue);
+}
+
+
+/* =========================================================
+   COMMON BLOCK
+   ========================================================= */
+
+.ara-block {
+  margin-bottom: 3rem;
+  border: 1px solid var(--ara-common-border-color);
+  border-radius: 4px;
+  overflow: auto;
+  max-width: 100%;
+}
+
+.ara-block.with-bg {
+  background-color: var(--ara-body-bg);
+}
+
+.ara-block.with-shadow,
+.ara-block.inner,
+.ara-block .block {
+  box-shadow: 0 4px 30px rgba(158, 158, 158, 0.25);
+}
+
+.ara-block.border-none,
+.ara-block .block {
+  border: none;
+}
+
+
+/* =========================================================
+   TABLE
+   ========================================================= */
+
+.MuiTableRow-root.selected-row td:first-child {
+  box-shadow: 4px 0 inset var(--jj-blue);
+}
+
+.MuiTable-root.new-table-design th {
+  font-size: 12px;
+  background-color: #f8f8f8;
+  font-weight: 500;
+}
+
+.MuiTable-root.new-table-design th:first-child,
+.MuiTable-root.new-table-design td:first-child {
+  padding-left: 10px;
+}
+
+.MuiTable-root.new-table-design th:last-child,
+.MuiTable-root.new-table-design td:last-child {
+  padding-right: 10px;
+}
+
+
+/* =========================================================
+   RISK
+   ========================================================= */
+
+.color-risk-high {
+  color: var(--risk-high);
+}
+
+.color-risk-medium {
+  color: var(--risk-medium);
+}
+
+.color-risk-low {
+  color: var(--risk-low);
+}
+
+.risk-score-high,
+.risk-score-medium,
+.risk-score-low {
+  font-weight: bold;
+  width: 6rem;
+  border-radius: 0.375rem;
+  display: flex;
+  justify-content: center;
+}
+
+.risk-score-high {
+  color: var(--risk-high);
+}
+
+.risk-score-medium {
+  color: var(--risk-medium);
+}
+
+.risk-score-low {
+  color: var(--risk-low);
+}
+
+.non-risk-score-high,
+.non-risk-score-medium,
+.non-risk-score-low {
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  display: flex;
+}
+
+.non-risk-score-high {
+  background-color: var(--risk-high);
+}
+
+.non-risk-score-medium {
+  background-color: var(--risk-medium);
+}
+
+.non-risk-score-low {
+  background-color: var(--risk-low);
+}
+
+
+/* =========================================================
+   TAB LIST
+   ========================================================= */
+
+.tab-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tab-list li {
+  display: inline-block;
+  min-width: 5rem;
+  padding: 0.25rem 1.5rem;
+  cursor: pointer;
+  white-space: nowrap;
+  margin-right: -1px;
+  margin-bottom: 0.5rem;
+  color: var(--ara-tab-list-text);
+  background-color: var(--ara-tab-list-bg);
+  border: 1px solid var(--ara-tab-list-border-color);
+}
+
+.tab-list li.active {
+  color: var(--ara-tab-list-active-text);
+  background-color: var(--ara-tab-list-active-bg);
+  border-color: var(--ara-tab-list-active-border-color);
+}
+
+.tab-list.disabled {
+  pointer-events: none;
+}
+
+.tab-list.disabled li {
+  cursor: not-allowed;
+  color: var(--ara-tab-list-disabled-text);
+  background-color: var(--ara-tab-list-disabled-bg);
+  border-color: var(--ara-tab-list-disabled-border);
+}
+
+
+/* =========================================================
+   BANNER TITLE
+   ========================================================= */
+
+.banner-title {
+  position: relative;
+  display: inline-block;
+  height: 2rem;
+  line-height: 2rem;
+  padding-right: 1rem;
+  background-color: var(--ara-banner-title-bg);
+  color: var(--ara-banner-title-text);
+  text-transform: none;
+}
+
+.banner-title::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -2.5rem;
+  width: 2.5rem;
+  height: 2rem;
+  background-color: var(--ara-banner-title-bg);
+}
+
+.banner-title::after {
+  content: "";
+  position: absolute;
+  top: 2rem;
+  left: -2.5rem;
+  width: 1rem;
+  border-top: 0.75rem solid var(--ara-banner-title-bg-alt);
+  border-left: 1rem solid transparent;
+}
+
+/* =========================================================
+   J&J BRAND HEADER & BLUE RIBBON CONSISTENCY
+   ========================================================= */
+
+.jnj-app-header {
+  background-color: #ffffff;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.jnj-app-header-inner {
+  max-width: 100%;
+  padding: 0 32px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.jnj-logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  user-select: none;
+}
+
+.jnj-logo-img {
+  height: 28px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.jnj-logo-subtitle {
+  font-size: 10px;
+  font-weight: 700;
+  color: #63666a;
+  letter-spacing: 0.8px;
+  margin-top: 3px;
+  text-transform: uppercase;
+}
+
+.jnj-nav-bar {
+  display: flex;
+  align-items: center;
+  height: 64px;
+  gap: 32px;
+  position: relative;
+}
+
+.jnj-nav-item {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 2px 8px 2px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  color: #334155;
+  font-family: inherit;
+  line-height: 1.3;
+  transition: color 0.2s cubic-bezier(0.4, 0, 0.2, 1), transform 0.15s cubic-bezier(0.34, 1.56, 0.64, 1);
+  white-space: nowrap;
+  user-select: none;
+}
+
+.jnj-nav-item:hover {
+  color: #eb1700;
+}
+
+.jnj-nav-item:active {
+  transform: scale(0.96);
+}
+
+.jnj-nav-item.active {
+  color: #000000;
+  font-weight: 600;
+}
+
+.jnj-nav-indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4px;
+  background-color: #eb1700;
+  border-radius: 2px 2px 0 0;
+  pointer-events: none;
+  will-change: transform, width;
+}
+
+.jnj-header-tools {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.jnj-bell-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  color: #000000;
+  border-radius: 50%;
+  transition: background-color 0.15s ease;
+}
+
+.jnj-bell-button:hover {
+  background-color: #f4f4f4;
+}
+
+.jnj-user-profile-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 6px 8px;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  color: #000000;
+  transition: background-color 0.15s ease;
+}
+
+.jnj-user-profile-button:hover {
+  background-color: #f4f4f4;
+}
+
+.jnj-blue-ribbon {
+  width: 100%;
+  height: 13px;
+  background-image: url('/header-bg.png');
+  background-repeat: repeat-x;
+  background-position: left top;
+  background-size: auto 13px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* =========================================================
+   RISK DOT INDICATORS (.strength)
+   ========================================================= */
+.custom-audit-table .strength,
+.strength {
+  position: relative;
+  padding-left: 1.1rem;
+  display: inline-block;
+}
+
+.custom-audit-table .strength::before,
+.strength::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.28rem;
+  display: block;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 9999px;
+}
+
+.custom-audit-table .strengthLow::before,
+.custom-audit-table .strengthNone::before,
+.strengthLow::before,
+.strengthNone::before {
+  background-color: var(--ara-risk-low, #087d0d);
+}
+
+.custom-audit-table .strengthModerate::before,
+.strengthModerate::before {
+  background-color: var(--ara-risk-medium, #ff8200);
+}
+
+.custom-audit-table .strengthHigh::before,
+.custom-audit-table .strengthVeryHigh::before,
+.strengthHigh::before,
+.strengthVeryHigh::before {
+  background-color: var(--ara-risk-high, #e35050);
+}
+
+/* =========================================================
+   ENTERPRISE UI UTILITIES FOR SHARED COMPONENT PREVIEW
+   ========================================================= */
+.flex {
+  display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.shrink-0 {
+  flex-shrink: 0;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
+}
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.col-span-2 {
+  grid-column: span 2 / span 2;
+}
+
+.col-span-6 {
+  grid-column: span 6 / span 6;
+}
+
+.col-span-full {
+  grid-column: 1 / -1;
+}
+
+.gap-1 {
+  gap: 0.25rem;
+}
+
+.gap-1\.5 {
+  gap: 0.375rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-2\.5 {
+  gap: 0.625rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
+.space-y-1>*+* {
+  margin-top: 0.25rem;
+}
+
+.space-y-2>*+* {
+  margin-top: 0.5rem;
+}
+
+.space-y-3>*+* {
+  margin-top: 0.75rem;
+}
+
+.space-y-4>*+* {
+  margin-top: 1rem;
+}
+
+.space-y-6>*+* {
+  margin-top: 1.5rem;
+}
+
+.space-y-8>*+* {
+  margin-top: 2rem;
+}
+
+.space-y-12>*+* {
+  margin-top: 3rem;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
+.p-1\.5 {
+  padding: 0.375rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.px-1\.5 {
+  padding-left: 0.375rem;
+  padding-right: 0.375rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.px-2\.5 {
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.py-0\.5 {
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.py-1\.5 {
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.py-2\.5 {
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.mt-12 {
+  margin-top: 3rem;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+.pt-2 {
+  padding-top: 0.5rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.max-w-md {
+  max-width: 28rem;
+}
+
+.max-w-xl {
+  max-width: 36rem;
+}
+
+.max-w-4xl {
+  max-width: 56rem;
+}
+
+.max-w-6xl {
+  max-width: 72rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-x-auto {
+  overflow-x: auto;
+}
+
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.h-4 {
+  height: 1rem;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+.h-5 {
+  height: 1.25rem;
+}
+
+.w-5 {
+  width: 1.25rem;
+}
+
+.h-7 {
+  height: 1.75rem;
+}
+
+.h-8 {
+  height: 2rem;
+}
+
+.w-8 {
+  width: 2rem;
+}
+
+.h-9 {
+  height: 2.25rem;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-11 {
+  height: 2.75rem;
+}
+
+.rounded-none {
+  border-radius: 0px;
+}
+
+.rounded-sm {
+  border-radius: 2px;
+}
+
+.rounded {
+  border-radius: 4px;
+}
+
+.rounded-md {
+  border-radius: 6px;
+}
+
+.rounded-lg {
+  border-radius: 8px;
+}
+
+.rounded-xl {
+  border-radius: 12px;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.border {
+  border: 1px solid #e2e8f0;
+}
+
+.border-b {
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.border-t {
+  border-top: 1px solid #e2e8f0;
+}
+
+.border-t-4 {
+  border-top: 4px solid #cbd5e1;
+}
+
+.border-r {
+  border-right: 1px solid #e2e8f0;
+}
+
+.border-0 {
+  border: none !important;
+}
+
+.border-slate-200 {
+  border-color: #e2e8f0;
+}
+
+.border-slate-300 {
+  border-color: #cbd5e1;
+}
+
+.border-slate-400 {
+  border-color: #94a3b8;
+}
+
+.border-slate-700 {
+  border-color: #334155;
+}
+
+.border-slate-800 {
+  border-color: #1e293b;
+}
+
+.border-blue-200 {
+  border-color: #bfdbfe;
+}
+
+.border-red-100 {
+  border-color: #fee2e2;
+}
+
+.border-red-500 {
+  border-color: #ef4444;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.bg-slate-50 {
+  background-color: #f8fafc;
+}
+
+.bg-slate-100 {
+  background-color: #f1f5f9;
+}
+
+.bg-slate-200 {
+  background-color: #e2e8f0;
+}
+
+.bg-slate-300 {
+  background-color: #cbd5e1;
+}
+
+.bg-slate-700 {
+  background-color: #334155;
+}
+
+.bg-slate-800 {
+  background-color: #1e293b;
+}
+
+.bg-slate-900 {
+  background-color: #0f172a;
+}
+
+.bg-slate-950 {
+  background-color: #020617;
+}
+
+.bg-gray-50 {
+  background-color: #f9fafb;
+}
+
+.bg-gray-100 {
+  background-color: #f3f4f6;
+}
+
+.bg-gray-200 {
+  background-color: #e5e7eb;
+}
+
+.bg-blue-50 {
+  background-color: #eff6ff;
+}
+
+.bg-blue-600 {
+  background-color: #2563eb;
+}
+
+.bg-red-100 {
+  background-color: #fee2e2;
+}
+
+.bg-red-500 {
+  background-color: #ef4444;
+}
+
+.bg-amber-500 {
+  background-color: #f59e0b;
+}
+
+.bg-purple-500 {
+  background-color: #a855f7;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.text-slate-400 {
+  color: #94a3b8;
+}
+
+.text-slate-500 {
+  color: #64748b;
+}
+
+.text-slate-600 {
+  color: #475569;
+}
+
+.text-slate-700 {
+  color: #334155;
+}
+
+.text-slate-800 {
+  color: #1e293b;
+}
+
+.text-slate-900 {
+  color: #0f172a;
+}
+
+.text-blue-600 {
+  color: #2563eb;
+}
+
+.text-blue-700 {
+  color: #1d4ed8;
+}
+
+.text-blue-900 {
+  color: #1e3a8a;
+}
+
+.text-red-600 {
+  color: #dc2626;
+}
+
+.text-red-700 {
+  color: #b91c1c;
+}
+
+.text-amber-600 {
+  color: #d97706;
+}
+
+.text-emerald-600 {
+  color: #059669;
+}
+
+.text-\[9px\] {
+  font-size: 9px;
+}
+
+.text-\[10px\] {
+  font-size: 10px;
+}
+
+.text-\[11px\] {
+  font-size: 11px;
+}
+
+.text-\[13px\] {
+  font-size: 13px;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.tracking-wide {
+  letter-spacing: 0.025em;
+}
+
+.tracking-wider {
+  letter-spacing: 0.05em;
+}
+
+.tracking-tight {
+  letter-spacing: -0.025em;
+}
+
+.shadow-none {
+  box-shadow: none;
+}
+
+.shadow-sm {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.shadow {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.shadow-md {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.shadow-xl {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.border-\[\#f0d88d\] {
+  border-color: #f0d88d;
+}
+
+.bg-\[\#fef7db\] {
+  background-color: #fef7db;
+}
+
+.text-\[\#b98a00\] {
+  color: #b98a00;
+}
+
+.border-\[\#bfe8c8\] {
+  border-color: #bfe8c8;
+}
+
+.bg-\[\#ebf9ee\] {
+  background-color: #ebf9ee;
+}
+
+.text-\[\#0f8f4d\] {
+  color: #0f8f4d;
+}
+
+.text-\[\#e75a46\] {
+  color: #e75a46;
+}
+
+.bg-\[\#f5f5f3\] {
+  background-color: #f5f5f3;
+}
+
+.bg-\[\#f5f5f4\] {
+  background-color: #f5f5f4;
+}
+
+[class*="text-[#FF6B35]"] {
+  color: #FF6B35 !important;
+  border-color: #FF6B35 !important;
+  background-color: #ffffff !important;
+}
+
+[class*="text-[#FF6B35]"]:hover:not(:disabled) {
+  background-color: #FFF5F2 !important;
+  border-color: #FF5722 !important;
+}
+
+[class*="bg-[#00875A]"] {
+  background-color: #00875A !important;
+  border-color: #00875A !important;
+  color: #ffffff !important;
+}
+
+[class*="bg-[#00875A]"]:hover:not(:disabled) {
+  background-color: #006644 !important;
+  border-color: #006644 !important;
+}
+
+/* Primary Blue Button Theme (#000099) */
+.btn-primary,
+button.btn-primary,
+button.bg-\[\#000099\],
+.bg-\[\#000099\],
+button.bg-slate-900 {
+  background-color: #000099 !important;
+  color: #ffffff !important;
+  border-color: #000099 !important;
+}
+
+.btn-primary:hover:not(:disabled),
+button.btn-primary:hover:not(:disabled),
+button.bg-\[\#000099\]:hover:not(:disabled),
+.bg-\[\#000099\]:hover:not(:disabled),
+button.bg-slate-900:hover:not(:disabled) {
+  background-color: #000080 !important;
+  border-color: #000080 !important;
+}
+
+.btn-primary:active:not(:disabled),
+button.btn-primary:active:not(:disabled),
+button.bg-\[\#000099\]:active:not(:disabled),
+.bg-\[\#000099\]:active:not(:disabled),
+button.bg-slate-900:active:not(:disabled) {
+  background-color: #000066 !important;
+  border-color: #000066 !important;
+}
+
+button.bg-slate-100 {
+  background-color: #f1f5f9;
+  color: #1e293b;
+  border-color: #e2e8f0;
+}
+
+button.bg-slate-100:hover:not(:disabled) {
+  background-color: #e2e8f0;
+}
+
+button.bg-red-600 {
+  background-color: #dc2626;
+  color: #ffffff;
+  border-color: #dc2626;
+}
+
+button.bg-red-600:hover:not(:disabled) {
+  background-color: #b91c1c;
+}
+
+/* AIInput & TextArea Shared Harmonization Styles */
+.ai-input-textarea {
+  overflow: hidden !important;
+  resize: none !important;
+}
+
+.ai-input-textarea::placeholder {
+  color: #94a3b8;
+  font-size: 14px;
+  font-family: "jj-circular", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  opacity: 1;
+}
+
+.hover\:border-slate-400:hover {
+  border-color: #94a3b8 !important;
+}
+
+.focus-within\:border-blue-600:focus-within {
+  border-color: #2563eb !important;
+}
+
+.focus-within\:ring-2:focus-within {
+  box-shadow: 0 0 0 2px #dbeafe !important;
+}
+
+.focus-within\:ring-blue-100:focus-within {
+  --tw-ring-color: #dbeafe;
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "it-auditor",
+    "name": "IT Auditor",
+    "function": "IT",
+    "level": "Auditor",
+    "scope": "Issues Only",
+    "description": "Executes IT audit testing, cybersecurity safeguards, Part 11 validation, and logs issues"
+  },
+  {
+    "id": "it-team-coordinator",
+    "name": "IT Team Coordinator",
+    "function": "IT",
+    "level": "Team Coordinator",
+    "scope": "Issues, Audit & Summary",
+    "description": "Orchestrates IT audit milestones, issue tracking, and workpaper consolidation"
+  },
+  {
+    "id": "it-manager",
+    "name": "IT Manager",
+    "function": "IT",
+    "level": "Manager",
+    "scope": "Issues, Audit & Summary",
+    "description": "Supervises IT audit scope, approves draft issues, and manages auditee engagement"
+  },
+  {
+    "id": "it-director",
+    "name": "IT Director",
+    "function": "IT",
+    "level": "Director",
+    "scope": "Issues, Audit & Summary",
+    "description": "Reviews IT audit strategy, high-risk findings, and clears reports for executive distribution"
+  },
+  {
+    "id": "it-vp",
+    "name": "IT Vice President",
+    "function": "IT",
+    "level": "Vice President",
+    "scope": "Issues, Audit & Summary",
+    "description": "Executive IT audit sign-off, Board of Directors alignment, and final governance"
+  },
+  {
+    "id": "finops-auditor",
+    "name": "FinOps Auditor",
+    "function": "FinOps",
+    "level": "Auditor",
+    "scope": "Issues Only",
+    "description": "Performs financial operations, inventory reconciliation, scrap variance, and CapEx audits"
+  },
+  {
+    "id": "finops-team-coordinator",
+    "name": "FinOps Team Coordinator",
+    "function": "FinOps",
+    "level": "Team Coordinator",
+    "scope": "Issues, Audit & Summary",
+    "description": "Coordinates FinOps audit testing streams, deliverables, and team timelines"
+  },
+  {
+    "id": "finops-manager",
+    "name": "FinOps Manager",
+    "function": "FinOps",
+    "level": "Manager",
+    "scope": "Issues, Audit & Summary",
+    "description": "Directs FinOps audit execution, validates financial impacts, and reviews audit reports"
+  },
+  {
+    "id": "finops-director",
+    "name": "FinOps Director",
+    "function": "FinOps",
+    "level": "Director",
+    "scope": "Issues, Audit & Summary",
+    "description": "Provides oversight for financial control testing and enterprise accounting alignment"
+  },
+  {
+    "id": "finops-vp",
+    "name": "FinOps Vice President",
+    "function": "FinOps",
+    "level": "Vice President",
+    "scope": "Issues, Audit & Summary",
+    "description": "Executive FinOps sign-off, Audit Committee oversight, and governance"
+  },
+  {
+    "id": "business-contact",
+    "name": "Business Contact",
+    "function": "Business",
+    "level": "Business Contact",
+    "scope": "Issues, Audit & Summary",
+    "description": "Plant manager, site controller, or operational process owner under review"
+  }
+]

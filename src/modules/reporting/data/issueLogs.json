@@ -1,0 +1,518 @@
+[
+  {
+    "id": "LOG-ISS-801-01",
+    "issueId": "ISSUE-801",
+    "engagementId": "REP-2026-008",
+    "timestamp": "2026-07-28T09:15:00Z",
+    "displayTime": "07/28/2026 at 09:15 AM",
+    "actor": {
+      "userId": "USR-002",
+      "name": "Sarah Jenkins",
+      "role": "Staff IT Auditor",
+      "domain": "IT"
+    },
+    "category": "CREATION",
+    "badgeType": "create",
+    "action": "Issue Created from Test Procedure TP-101",
+    "fieldChanged": "Record Initialization",
+    "oldValue": null,
+    "newValue": "ISSUE-801 Draft Initialized",
+    "details": {
+      "source": "TEST_PROCEDURE",
+      "testProcedureCode": "TP-101",
+      "testProcedureName": "Calibration Drift & Telemetry Verification",
+      "initialCriticality": "Major",
+      "assignedFunction": "IT"
+    }
+  },
+  {
+    "id": "LOG-ISS-801-02",
+    "issueId": "ISSUE-801",
+    "engagementId": "REP-2026-008",
+    "timestamp": "2026-07-29T11:20:00Z",
+    "displayTime": "07/29/2026 at 11:20 AM",
+    "actor": {
+      "userId": "SYS-AI",
+      "name": "Vertex AI Assistant",
+      "role": "MedTech GxP Compliance Engine",
+      "domain": "Cross-Domain"
+    },
+    "category": "AI_GENERATION",
+    "badgeType": "ai",
+    "action": "AI Magic Wand Generated Issue Finding & Citations",
+    "fieldChanged": "Header, Root Cause, Impact, Recommendation",
+    "oldValue": "Raw Fieldwork Notes",
+    "newValue": "AI Refined Finding & GxP Compliance Citations",
+    "details": {
+      "generationType": "INITIAL",
+      "model": "Vertex AI / MedTech GxP Model v2.4",
+      "fieldsSynthesized": [
+        "updatedIssueHeader",
+        "rootCause",
+        "impact",
+        "description",
+        "recommendation"
+      ],
+      "complianceStandardsCited": [
+        "IAPP S-15 Sec 2",
+        "IAPP S-15 Sec 11",
+        "IAPP S-15 Sec 4.18"
+      ]
+    }
+  },
+  {
+    "id": "LOG-ISS-801-03",
+    "issueId": "ISSUE-801",
+    "engagementId": "REP-2026-008",
+    "timestamp": "2026-07-30T10:10:00Z",
+    "displayTime": "07/30/2026 at 10:10 AM",
+    "actor": {
+      "userId": "USR-003",
+      "name": "Kevin Zhang",
+      "role": "IT Audit Team Coordinator",
+      "domain": "IT"
+    },
+    "category": "FIELD_EDIT",
+    "badgeType": "update",
+    "action": "Updated Criticality Level: Moderate ➔ Major",
+    "fieldChanged": "Criticality",
+    "oldValue": "Moderate",
+    "newValue": "Major",
+    "details": {
+      "fieldKey": "criticality",
+      "fieldName": "Criticality Level",
+      "oldValue": "Moderate",
+      "newValue": "Major",
+      "rationale": "Elevated due to recurring thermal excursion pattern on Janssen Cold-Chain Storage Line 3"
+    }
+  },
+  {
+    "id": "LOG-ISS-801-04",
+    "issueId": "ISSUE-801",
+    "engagementId": "REP-2026-008",
+    "timestamp": "2026-07-30T14:40:00Z",
+    "displayTime": "07/30/2026 at 02:40 PM",
+    "actor": {
+      "userId": "USR-003",
+      "name": "Kevin Zhang",
+      "role": "IT Audit Team Coordinator",
+      "domain": "IT"
+    },
+    "category": "AI_REGENERATION",
+    "badgeType": "ai",
+    "action": "AI Prompt Regeneration & Version Card Comparison",
+    "fieldChanged": "Root Cause & Recommendation",
+    "oldValue": "Version 1 Root Cause",
+    "newValue": "Version 2 Root Cause (Refined)",
+    "details": {
+      "generationCycle": 2,
+      "versionComparison": {
+        "adoptedVersion": "v2 (Refined)",
+        "adoptedFields": [
+          "rootCause",
+          "recommendation"
+        ],
+        "retainedOriginalFields": [
+          "impact"
+        ]
+      },
+      "diffSummary": "Added specific thermal excursion telemetry gain offset metrics (+0.84°C excursion)."
+    }
+  },
+  {
+    "id": "LOG-ISS-801-05",
+    "issueId": "ISSUE-801",
+    "engagementId": "REP-2026-008",
+    "timestamp": "2026-07-31T10:15:00Z",
+    "displayTime": "07/31/2026 at 10:15 AM",
+    "actor": {
+      "userId": "USR-006",
+      "name": "Amanda Palmer",
+      "role": "IT Audit Manager",
+      "domain": "IT"
+    },
+    "category": "CALL_BACK",
+    "badgeType": "callback",
+    "action": "Issue Called Back from Business Response",
+    "fieldChanged": "Workflow Status",
+    "oldValue": "Pending with Business",
+    "newValue": "Called Back",
+    "details": {
+      "previousStatus": "Pending with Business",
+      "targetStatus": "Called Back",
+      "reason": "Missing supporting remediation evidence for Catheter Line 3 gain offset recalibration protocol",
+      "calledBackFrom": "Thomas Wright (Business Contact)"
+    }
+  },
+  {
+    "id": "LOG-ISS-801-06",
+    "issueId": "ISSUE-801",
+    "engagementId": "REP-2026-008",
+    "timestamp": "2026-08-01T15:30:00Z",
+    "displayTime": "08/01/2026 at 03:30 PM",
+    "actor": {
+      "userId": "USR-006",
+      "name": "Amanda Palmer",
+      "role": "IT Audit Manager",
+      "domain": "IT"
+    },
+    "category": "WORKFLOW_TRANSITION",
+    "badgeType": "workflow",
+    "action": "Manager Review Completed — Waiting for Remaining Audit Findings",
+    "fieldChanged": "Workflow Queue & Status",
+    "oldValue": "Pending Manager",
+    "newValue": "Manager Completed (Waiting on other issues)",
+    "details": {
+      "gateType": "INTERIM_ISSUE_CLEARANCE",
+      "remainingIssuesInEngagement": 2,
+      "auditEngagement": "REP-2026-008"
+    }
+  },
+  {
+    "id": "LOG-ISS-802-01",
+    "issueId": "ISSUE-802",
+    "engagementId": "REP-2026-008",
+    "timestamp": "2026-07-28T10:00:00Z",
+    "displayTime": "07/28/2026 at 10:00 AM",
+    "actor": {
+      "userId": "USR-001",
+      "name": "Marcus Vance",
+      "role": "Senior IT Auditor",
+      "domain": "IT"
+    },
+    "category": "CREATION",
+    "badgeType": "create",
+    "action": "Issue Created from Test Procedure TP-102",
+    "fieldChanged": "Record Initialization",
+    "oldValue": null,
+    "newValue": "ISSUE-802 Draft Initialized",
+    "details": {
+      "source": "TEST_PROCEDURE",
+      "testProcedureCode": "TP-102",
+      "testProcedureName": "Refrigeration Sensor Firmware Audit",
+      "initialCriticality": "Major"
+    }
+  },
+  {
+    "id": "LOG-ISS-802-02",
+    "issueId": "ISSUE-802",
+    "engagementId": "REP-2026-008",
+    "timestamp": "2026-07-29T16:00:00Z",
+    "displayTime": "07/29/2026 at 04:00 PM",
+    "actor": {
+      "userId": "USR-003",
+      "name": "Kevin Zhang",
+      "role": "IT Audit Team Coordinator",
+      "domain": "IT"
+    },
+    "category": "SEND_TO",
+    "badgeType": "reroute",
+    "action": "Re-routed Issue to FinOps Queue for Materiality Check",
+    "fieldChanged": "Assignment Queue",
+    "oldValue": "IT Audit Review Queue",
+    "newValue": "FinOps Lead Review Queue",
+    "details": {
+      "fromRole": "IT Audit Team Coordinator",
+      "toRole": "Lead FinOps Auditor",
+      "assignedTo": "Rachel Green",
+      "reason": "Requested FinOps validation of spoiled lot write-off quantification."
+    }
+  },
+  {
+    "id": "LOG-ISS-802-03",
+    "issueId": "ISSUE-802",
+    "engagementId": "REP-2026-008",
+    "timestamp": "2026-07-31T14:20:00Z",
+    "displayTime": "07/31/2026 at 02:20 PM",
+    "actor": {
+      "userId": "USR-006",
+      "name": "Amanda Palmer",
+      "role": "IT Audit Manager",
+      "domain": "IT"
+    },
+    "category": "WORKFLOW_TRANSITION",
+    "badgeType": "workflow",
+    "action": "Manager Review Completed — Waiting for Remaining Audit Findings",
+    "fieldChanged": "Workflow Queue & Status",
+    "oldValue": "Pending Manager",
+    "newValue": "Manager Completed (Waiting on other issues)",
+    "details": {
+      "gateType": "INTERIM_ISSUE_CLEARANCE",
+      "remainingIssuesInEngagement": 1,
+      "auditEngagement": "REP-2026-008"
+    }
+  },
+  {
+    "id": "LOG-ISS-803-01",
+    "issueId": "ISSUE-803",
+    "engagementId": "REP-2026-008",
+    "timestamp": "2026-07-28T11:30:00Z",
+    "displayTime": "07/28/2026 at 11:30 AM",
+    "actor": {
+      "userId": "USR-002",
+      "name": "Sarah Jenkins",
+      "role": "Staff IT Auditor",
+      "domain": "IT"
+    },
+    "category": "CREATION",
+    "badgeType": "create",
+    "action": "Issue Created from Test Procedure TP-103",
+    "fieldChanged": "Record Initialization",
+    "oldValue": null,
+    "newValue": "ISSUE-803 Draft Initialized",
+    "details": {
+      "source": "TEST_PROCEDURE",
+      "testProcedureCode": "TP-103",
+      "testProcedureName": "Environmental Monitoring Access Review",
+      "initialCriticality": "Moderate"
+    }
+  },
+  {
+    "id": "LOG-ISS-803-02",
+    "issueId": "ISSUE-803",
+    "engagementId": "REP-2026-008",
+    "timestamp": "2026-07-29T09:45:00Z",
+    "displayTime": "07/29/2026 at 09:45 AM",
+    "actor": {
+      "userId": "USR-002",
+      "name": "Sarah Jenkins",
+      "role": "Staff IT Auditor",
+      "domain": "IT"
+    },
+    "category": "NOT_MY_FUNCTION",
+    "badgeType": "function",
+    "action": "Flagged as 'Not My Function Issue'",
+    "fieldChanged": "Functional Scope Status",
+    "oldValue": "IT Security Scope",
+    "newValue": "Not My Function Issue",
+    "details": {
+      "currentFunction": "IT",
+      "suggestedFunction": "Physical Plant Facilities Management",
+      "notes": "Sensor physical enclosure tampering falls under physical security rather than IT access control."
+    }
+  },
+  {
+    "id": "LOG-ISS-803-03",
+    "issueId": "ISSUE-803",
+    "engagementId": "REP-2026-008",
+    "timestamp": "2026-07-30T11:00:00Z",
+    "displayTime": "07/30/2026 at 11:00 AM",
+    "actor": {
+      "userId": "USR-003",
+      "name": "Kevin Zhang",
+      "role": "IT Audit Team Coordinator",
+      "domain": "IT"
+    },
+    "category": "FIELD_EDIT",
+    "badgeType": "update",
+    "action": "Refined Summary Finding & Added Mitigating Control",
+    "fieldChanged": "Mitigating Controls",
+    "oldValue": "None reported",
+    "newValue": "Interim CCTV camera logs correlated with physical badge swipes at Warehouse Door 4",
+    "details": {
+      "fieldKey": "mitigatingControl",
+      "fieldName": "Mitigating Control",
+      "oldValue": "None reported",
+      "newValue": "Interim CCTV camera logs correlated with physical badge swipes at Warehouse Door 4"
+    }
+  },
+  {
+    "id": "LOG-ISS-001-01",
+    "issueId": "ISSUE-001",
+    "engagementId": "REP-2026-001",
+    "timestamp": "2026-07-20T08:30:00Z",
+    "displayTime": "07/20/2026 at 08:30 AM",
+    "actor": {
+      "userId": "USR-001",
+      "name": "Marcus Vance",
+      "role": "Senior IT Auditor",
+      "domain": "IT"
+    },
+    "category": "CREATION",
+    "badgeType": "create",
+    "action": "Issue Created from Test Procedure TP-001",
+    "fieldChanged": "Record Initialization",
+    "oldValue": null,
+    "newValue": "ISSUE-001 Draft Initialized",
+    "details": {
+      "source": "TEST_PROCEDURE",
+      "testProcedureCode": "TP-001",
+      "testProcedureName": "User Access Deprovisioning Review",
+      "initialCriticality": "Major"
+    }
+  },
+  {
+    "id": "LOG-ISS-001-02",
+    "issueId": "ISSUE-001",
+    "engagementId": "REP-2026-001",
+    "timestamp": "2026-07-21T13:15:00Z",
+    "displayTime": "07/21/2026 at 01:15 PM",
+    "actor": {
+      "userId": "SYS-AI",
+      "name": "Vertex AI Assistant",
+      "role": "MedTech GxP Compliance Engine",
+      "domain": "Cross-Domain"
+    },
+    "category": "AI_GENERATION",
+    "badgeType": "ai",
+    "action": "AI Magic Wand Generated Comprehensive Finding",
+    "fieldChanged": "Header, Root Cause, Impact, Recommendation",
+    "oldValue": "Initial fieldwork summary",
+    "newValue": "AI Refined Finding & GxP Compliance Citations",
+    "details": {
+      "generationType": "INITIAL",
+      "model": "Vertex AI / MedTech GxP Model v2.4",
+      "fieldsSynthesized": [
+        "updatedIssueHeader",
+        "rootCause",
+        "impact",
+        "description",
+        "recommendation"
+      ]
+    }
+  },
+  {
+    "id": "LOG-ISS-001-03",
+    "issueId": "ISSUE-001",
+    "engagementId": "REP-2026-001",
+    "timestamp": "2026-07-22T10:00:00Z",
+    "displayTime": "07/22/2026 at 10:00 AM",
+    "actor": {
+      "userId": "USR-006",
+      "name": "Amanda Palmer",
+      "role": "IT Audit Manager",
+      "domain": "IT"
+    },
+    "category": "EXCLUSION_TOGGLE",
+    "badgeType": "exclude",
+    "action": "Issue Excluded from Final Audit Report",
+    "fieldChanged": "Report Compilation Inclusion",
+    "oldValue": "Included",
+    "newValue": "Excluded",
+    "details": {
+      "isExcluded": true,
+      "previousStatus": "Pending Manager",
+      "reason": "Access revoked via active directory global policy before quarter-end close."
+    }
+  },
+  {
+    "id": "LOG-ISS-001-04",
+    "issueId": "ISSUE-001",
+    "engagementId": "REP-2026-001",
+    "timestamp": "2026-07-23T09:30:00Z",
+    "displayTime": "07/23/2026 at 09:30 AM",
+    "actor": {
+      "userId": "USR-006",
+      "name": "Amanda Palmer",
+      "role": "IT Audit Manager",
+      "domain": "IT"
+    },
+    "category": "EXCLUSION_TOGGLE",
+    "badgeType": "create",
+    "action": "Issue Restored & Included Back into Report",
+    "fieldChanged": "Report Compilation Inclusion",
+    "oldValue": "Excluded",
+    "newValue": "Included",
+    "details": {
+      "isExcluded": false,
+      "restoredStatus": "Pending Manager",
+      "reason": "Reinstated per Director instruction to ensure audit committee visibility."
+    }
+  },
+  {
+    "id": "LOG-ISS-002-01",
+    "issueId": "ISSUE-002",
+    "engagementId": "REP-2026-001",
+    "timestamp": "2026-07-20T09:00:00Z",
+    "displayTime": "07/20/2026 at 09:00 AM",
+    "actor": {
+      "userId": "USR-002",
+      "name": "Sarah Jenkins",
+      "role": "Staff IT Auditor",
+      "domain": "IT"
+    },
+    "category": "CREATION",
+    "badgeType": "create",
+    "action": "Issue Created from Test Procedure TP-002",
+    "fieldChanged": "Record Initialization",
+    "oldValue": null,
+    "newValue": "ISSUE-002 Draft Initialized",
+    "details": {
+      "source": "TEST_PROCEDURE",
+      "testProcedureCode": "TP-002",
+      "testProcedureName": "SAP Role Conflict & Segregation of Duties",
+      "initialCriticality": "Critical"
+    }
+  },
+  {
+    "id": "LOG-ISS-002-02",
+    "issueId": "ISSUE-002",
+    "engagementId": "REP-2026-001",
+    "timestamp": "2026-07-24T16:15:00Z",
+    "displayTime": "07/24/2026 at 04:15 PM",
+    "actor": {
+      "userId": "USR-013",
+      "name": "Thomas Wright",
+      "role": "Plant Operations Business Contact",
+      "domain": "Cross-Domain"
+    },
+    "category": "MANAGEMENT_RESPONSE",
+    "badgeType": "response",
+    "action": "Business Management Response Submitted",
+    "fieldChanged": "Management Response & Remediation Date",
+    "oldValue": "Awaiting Business Input",
+    "newValue": "Agreed remediation plan submitted with target date Dec 31, 2026",
+    "details": {
+      "managementResponse": "Management concurs. System access roles will be recertified quarterly by plant IT controller.",
+      "agreedRemediationDate": "2026-12-31",
+      "attachmentsCount": 2
+    }
+  },
+  {
+    "id": "LOG-ISS-301-01",
+    "issueId": "ISSUE-301",
+    "engagementId": "REP-2026-003",
+    "timestamp": "2026-08-02T16:00:00Z",
+    "displayTime": "08/02/2026 at 04:00 PM",
+    "actor": {
+      "userId": "USR-006",
+      "name": "Amanda Palmer",
+      "role": "IT Audit Manager",
+      "domain": "IT"
+    },
+    "category": "WORKFLOW_TRANSITION",
+    "badgeType": "workflow",
+    "action": "Promoted to 'Pending Director' via Batch Report Clearance Gate",
+    "fieldChanged": "Workflow Status",
+    "oldValue": "Manager Completed (Waiting on other issues)",
+    "newValue": "Pending Director",
+    "details": {
+      "gateType": "BATCH_REPORT_CLEARANCE",
+      "allIssuesCleared": true,
+      "engagementId": "REP-2026-003"
+    }
+  },
+  {
+    "id": "LOG-ISS-501-01",
+    "issueId": "ISSUE-501",
+    "engagementId": "REP-2026-005",
+    "timestamp": "2026-08-04T15:00:00Z",
+    "displayTime": "08/04/2026 at 03:00 PM",
+    "actor": {
+      "userId": "USR-009",
+      "name": "Brian Cox",
+      "role": "IT Audit Director",
+      "domain": "IT"
+    },
+    "category": "WORKFLOW_TRANSITION",
+    "badgeType": "workflow",
+    "action": "Director Approved — Promoted to 'Pending VP' for Final Review",
+    "fieldChanged": "Workflow Status",
+    "oldValue": "Pending Director",
+    "newValue": "Pending VP",
+    "details": {
+      "gateType": "DIRECTOR_BATCH_CLEARANCE",
+      "engagementId": "REP-2026-005"
+    }
+  }
+]

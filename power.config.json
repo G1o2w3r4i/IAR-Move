@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "appId": "da62ad0a-d964-4efb-b81c-ae927c3160d9",
+  "appDisplayName": "IAR",
+  "region": "prod",
+  "appType": "CodeApp",
+  "environmentId": "b8461fbf-240f-e19c-b8fe-847915803ed8",
+  "description": " ",
+  "buildPath": "./dist",
+  "buildEntryPoint": "index.html",
+  "localAppUrl": "http://localhost:3000",
+  "logoPath": "Default",
+  "connectionReferences": {},
+  "databaseReferences": {}
+}

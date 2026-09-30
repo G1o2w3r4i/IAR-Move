@@ -1,0 +1,146 @@
+[
+  {
+    "standardId": "STD-IAPP-S15",
+    "code": "S-15",
+    "title": "Information Asset Protection Policy — System & Application Security",
+    "category": "IT Security & Architecture",
+    "version": "v4.2",
+    "effectiveDate": "2025-01-01",
+    "pdfDocument": "sample-iapp-standard.pdf",
+    "overview": "Defines mandatory baseline security requirements for all software applications, COTS platforms, and infrastructure hosted within Johnson & Johnson environments.",
+    "sections": [
+      {
+        "sectionNumber": "2",
+        "title": "Security Assessment for COTS Systems/Applications",
+        "requirement": "All commercial-off-the-shelf (COTS) and internally developed software must undergo a formal security assessment prior to deployment.",
+        "severity": "High",
+        "pdfPage": 4
+      },
+      {
+        "sectionNumber": "11",
+        "title": "ISRM Approval Prior to Production",
+        "requirement": "Information Security & Risk Management (ISRM) approval must be formally documented and recorded prior to production release.",
+        "severity": "High",
+        "pdfPage": 9
+      },
+      {
+        "sectionNumber": "4.18",
+        "title": "Periodic Application Architecture/Code/Config Assessment",
+        "requirement": "Periodic re-assessment of system architecture, configuration baselines, and code security posture must be conducted at minimum every 12 months.",
+        "severity": "Medium",
+        "pdfPage": 14
+      }
+    ]
+  },
+  {
+    "standardId": "STD-IAPP-S07",
+    "code": "S-07",
+    "title": "Identity & Access Management Governance Policy",
+    "category": "Identity & Access Management",
+    "version": "v3.8",
+    "effectiveDate": "2024-06-15",
+    "pdfDocument": "sample-iapp-standard.pdf",
+    "overview": "Establishes controls for identity lifecycle management, privileged account governance, and recurring user access recertification.",
+    "sections": [
+      {
+        "sectionNumber": "9",
+        "title": "Privileged User Access Recertification Review",
+        "requirement": "Comprehensive privileged account listings must be reviewed and recertified quarterly by business and system owners.",
+        "severity": "High",
+        "pdfPage": 6
+      },
+      {
+        "sectionNumber": "10",
+        "title": "Semi-Annual User Access Certification",
+        "requirement": "Semi-annual recertification must identify and isolate dormant accounts with active entitlements across all enterprise systems.",
+        "severity": "High",
+        "pdfPage": 7
+      },
+      {
+        "sectionNumber": "3.2",
+        "title": "Multi-Factor Authentication (MFA) Enforcement",
+        "requirement": "Multi-Factor Authentication is mandatory for all administrative access, external network access, and elevated privilege roles.",
+        "severity": "Critical",
+        "pdfPage": 3
+      }
+    ]
+  },
+  {
+    "standardId": "STD-IAPP-S12",
+    "code": "S-12",
+    "title": "Automated System Telemetry Logging & Monitoring Policy",
+    "category": "Operational Telemetry & Monitoring",
+    "version": "v2.4",
+    "effectiveDate": "2024-09-01",
+    "pdfDocument": "sample-iapp-standard.pdf",
+    "overview": "Prescribes requirements for continuous shopfloor telemetry, sensor calibration drift monitoring, and event log ingestion.",
+    "sections": [
+      {
+        "sectionNumber": "3.4",
+        "title": "Automated System Telemetry Logging & Monitoring",
+        "requirement": "Automated monitoring pipelines must continuously ingest sensor telemetry and trigger supervisory alarms when tolerance thresholds are breached.",
+        "severity": "Medium",
+        "pdfPage": 5
+      },
+      {
+        "sectionNumber": "8.1",
+        "title": "Hardware Integrity & Recalibration Protocols",
+        "requirement": "Mandatory gain verification and recalibration cycles must be executed and logged during continuous multi-batch production runs.",
+        "severity": "High",
+        "pdfPage": 11
+      }
+    ]
+  },
+  {
+    "standardId": "STD-IAPP-S19",
+    "code": "S-19",
+    "title": "GxP Audit Trail & Electronic Records Retention Policy",
+    "category": "Quality & Regulatory Compliance",
+    "version": "v5.0",
+    "effectiveDate": "2023-11-20",
+    "pdfDocument": "sample-iapp-standard.pdf",
+    "overview": "Enforces global regulatory compliance for computerized systems validation, audit trails, and electronic record retention schedules.",
+    "sections": [
+      {
+        "sectionNumber": "5",
+        "title": "GxP Audit Trail & Log Retention Policy",
+        "requirement": "Operational and access logs for all GxP validated systems must be archived immutably for a mandatory minimum period of 7 years.",
+        "severity": "Critical",
+        "pdfPage": 8
+      },
+      {
+        "sectionNumber": "12",
+        "title": "Vendor Hosted Application Verification",
+        "requirement": "Third-party cloud software providers hosting GxP regulated data must contractually demonstrate automated immutable log archiving and disaster recovery.",
+        "severity": "High",
+        "pdfPage": 13
+      }
+    ]
+  },
+  {
+    "standardId": "STD-IAPP-S04",
+    "code": "S-04",
+    "title": "Inventory Variance & Scrap Reconciliation Protocol",
+    "category": "Supply Chain & Inventory Management",
+    "version": "v3.1",
+    "effectiveDate": "2024-03-10",
+    "pdfDocument": "sample-iapp-standard.pdf",
+    "overview": "Governs the verification, reconciliation, and managerial approvals required for manufacturing material losses and scrap variances.",
+    "sections": [
+      {
+        "sectionNumber": "6.2",
+        "title": "Inventory Variance & Scrap Reconciliation Protocol",
+        "requirement": "Material variances exceeding defined standard cost tolerances must undergo documented supervisory review and root-cause reconciliation.",
+        "severity": "Medium",
+        "pdfPage": 4
+      },
+      {
+        "sectionNumber": "9",
+        "title": "Batch Integrity & Financial Material Scrap Verification",
+        "requirement": "Mandatory secondary financial review and controller sign-off is required for any single batch scrap occurrence exceeding $25,000.",
+        "severity": "High",
+        "pdfPage": 10
+      }
+    ]
+  }
+]

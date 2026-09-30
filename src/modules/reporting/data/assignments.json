@@ -1,0 +1,5986 @@
+[
+  {
+    "id": "ASG-20250701-it-auditor",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-001",
+    "jobId": "20250701",
+    "engagementName": "Commercial Quality Audit",
+    "plant": "DePuy Synthes Warsaw",
+    "roleId": "it-auditor",
+    "roleName": "IT Auditor",
+    "function": "IT",
+    "level": "Auditor",
+    "userIds": [
+      "USR-001",
+      "USR-002"
+    ],
+    "users": [
+      {
+        "id": "USR-001",
+        "name": "Marcus Vance",
+        "email": "marcus.vance@jnj.com",
+        "initials": "MV",
+        "title": "Senior IT Auditor",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-auditor"
+      },
+      {
+        "id": "USR-002",
+        "name": "Sarah Jenkins",
+        "email": "sarah.jenkins@jnj.com",
+        "initials": "SJ",
+        "title": "Staff IT Auditor",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-auditor"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250701-it-team-coordinator",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-001",
+    "jobId": "20250701",
+    "engagementName": "Commercial Quality Audit",
+    "plant": "DePuy Synthes Warsaw",
+    "roleId": "it-team-coordinator",
+    "roleName": "IT Team Coordinator",
+    "function": "IT",
+    "level": "Team Coordinator",
+    "userIds": [
+      "USR-003"
+    ],
+    "users": [
+      {
+        "id": "USR-003",
+        "name": "Kevin Zhang",
+        "email": "kevin.zhang@jnj.com",
+        "initials": "KZ",
+        "title": "IT Audit Team Coordinator",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-team-coordinator"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250701-it-manager",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-001",
+    "jobId": "20250701",
+    "engagementName": "Commercial Quality Audit",
+    "plant": "DePuy Synthes Warsaw",
+    "roleId": "it-manager",
+    "roleName": "IT Manager",
+    "function": "IT",
+    "level": "Manager",
+    "userIds": [
+      "USR-006"
+    ],
+    "users": [
+      {
+        "id": "USR-006",
+        "name": "Amanda Palmer",
+        "email": "amanda.palmer@jnj.com",
+        "initials": "AP",
+        "title": "IT Audit Manager",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-manager"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250701-it-director",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-001",
+    "jobId": "20250701",
+    "engagementName": "Commercial Quality Audit",
+    "plant": "DePuy Synthes Warsaw",
+    "roleId": "it-director",
+    "roleName": "IT Director",
+    "function": "IT",
+    "level": "Director",
+    "userIds": [
+      "USR-009"
+    ],
+    "users": [
+      {
+        "id": "USR-009",
+        "name": "Brian Cox",
+        "email": "brian.cox@jnj.com",
+        "initials": "BC",
+        "title": "IT Audit Director",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-director"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250701-it-vp",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-001",
+    "jobId": "20250701",
+    "engagementName": "Commercial Quality Audit",
+    "plant": "DePuy Synthes Warsaw",
+    "roleId": "it-vp",
+    "roleName": "IT Vice President",
+    "function": "IT",
+    "level": "Vice President",
+    "userIds": [
+      "USR-011"
+    ],
+    "users": [
+      {
+        "id": "USR-011",
+        "name": "Robert Chen",
+        "email": "robert.chen@jnj.com",
+        "initials": "RC",
+        "title": "VP, Global IT Audit",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-vp"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250701-finops-auditor",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-001",
+    "jobId": "20250701",
+    "engagementName": "Commercial Quality Audit",
+    "plant": "DePuy Synthes Warsaw",
+    "roleId": "finops-auditor",
+    "roleName": "FinOps Auditor",
+    "function": "FinOps",
+    "level": "Auditor",
+    "userIds": [
+      "USR-005",
+      "USR-004"
+    ],
+    "users": [
+      {
+        "id": "USR-005",
+        "name": "David Miller",
+        "email": "david.miller@jnj.com",
+        "initials": "DM",
+        "title": "Senior FinOps Auditor",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-auditor"
+      },
+      {
+        "id": "USR-004",
+        "name": "Rachel Green",
+        "email": "rachel.green@jnj.com",
+        "initials": "RG",
+        "title": "Lead FinOps Auditor",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-auditor"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250701-finops-team-coordinator",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-001",
+    "jobId": "20250701",
+    "engagementName": "Commercial Quality Audit",
+    "plant": "DePuy Synthes Warsaw",
+    "roleId": "finops-team-coordinator",
+    "roleName": "FinOps Team Coordinator",
+    "function": "FinOps",
+    "level": "Team Coordinator",
+    "userIds": [
+      "USR-008"
+    ],
+    "users": [
+      {
+        "id": "USR-008",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@jnj.com",
+        "initials": "ER",
+        "title": "FinOps Team Coordinator",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-team-coordinator"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250701-finops-manager",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-001",
+    "jobId": "20250701",
+    "engagementName": "Commercial Quality Audit",
+    "plant": "DePuy Synthes Warsaw",
+    "roleId": "finops-manager",
+    "roleName": "FinOps Manager",
+    "function": "FinOps",
+    "level": "Manager",
+    "userIds": [
+      "USR-007"
+    ],
+    "users": [
+      {
+        "id": "USR-007",
+        "name": "Carlos Mendez",
+        "email": "carlos.mendez@jnj.com",
+        "initials": "CM",
+        "title": "FinOps Audit Manager",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-manager"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250701-finops-director",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-001",
+    "jobId": "20250701",
+    "engagementName": "Commercial Quality Audit",
+    "plant": "DePuy Synthes Warsaw",
+    "roleId": "finops-director",
+    "roleName": "FinOps Director",
+    "function": "FinOps",
+    "level": "Director",
+    "userIds": [
+      "USR-010"
+    ],
+    "users": [
+      {
+        "id": "USR-010",
+        "name": "Jessica Taylor",
+        "email": "jessica.taylor@jnj.com",
+        "initials": "JT",
+        "title": "FinOps Audit Director",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-director"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250701-finops-vp",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-001",
+    "jobId": "20250701",
+    "engagementName": "Commercial Quality Audit",
+    "plant": "DePuy Synthes Warsaw",
+    "roleId": "finops-vp",
+    "roleName": "FinOps Vice President",
+    "function": "FinOps",
+    "level": "Vice President",
+    "userIds": [
+      "USR-012"
+    ],
+    "users": [
+      {
+        "id": "USR-012",
+        "name": "Emily Davis",
+        "email": "emily.davis@jnj.com",
+        "initials": "ED",
+        "title": "VP, Global FinOps Audit",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-vp"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250701-business-contact",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-001",
+    "jobId": "20250701",
+    "engagementName": "Commercial Quality Audit",
+    "plant": "DePuy Synthes Warsaw",
+    "roleId": "business-contact",
+    "roleName": "Business Contact",
+    "function": "Business",
+    "level": "Business Contact",
+    "userIds": [
+      "USR-013"
+    ],
+    "users": [
+      {
+        "id": "USR-013",
+        "name": "Thomas Wright",
+        "email": "thomas.wright@jnj.com",
+        "initials": "TW",
+        "title": "Plant Operations Business Contact",
+        "function": "Business",
+        "isAlternateRole": false,
+        "baselineRole": "business-contact"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250702-it-auditor",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-002",
+    "jobId": "20250702",
+    "engagementName": "Supply Chain Operations Audit",
+    "plant": "Ethicon Somerville",
+    "roleId": "it-auditor",
+    "roleName": "IT Auditor",
+    "function": "IT",
+    "level": "Auditor",
+    "userIds": [
+      "USR-001",
+      "USR-002"
+    ],
+    "users": [
+      {
+        "id": "USR-001",
+        "name": "Marcus Vance",
+        "email": "marcus.vance@jnj.com",
+        "initials": "MV",
+        "title": "Senior IT Auditor",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-auditor"
+      },
+      {
+        "id": "USR-002",
+        "name": "Sarah Jenkins",
+        "email": "sarah.jenkins@jnj.com",
+        "initials": "SJ",
+        "title": "Staff IT Auditor",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-auditor"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250702-it-team-coordinator",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-002",
+    "jobId": "20250702",
+    "engagementName": "Supply Chain Operations Audit",
+    "plant": "Ethicon Somerville",
+    "roleId": "it-team-coordinator",
+    "roleName": "IT Team Coordinator",
+    "function": "IT",
+    "level": "Team Coordinator",
+    "userIds": [
+      "USR-003"
+    ],
+    "users": [
+      {
+        "id": "USR-003",
+        "name": "Kevin Zhang",
+        "email": "kevin.zhang@jnj.com",
+        "initials": "KZ",
+        "title": "IT Audit Team Coordinator",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-team-coordinator"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250702-it-manager",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-002",
+    "jobId": "20250702",
+    "engagementName": "Supply Chain Operations Audit",
+    "plant": "Ethicon Somerville",
+    "roleId": "it-manager",
+    "roleName": "IT Manager",
+    "function": "IT",
+    "level": "Manager",
+    "userIds": [
+      "USR-006"
+    ],
+    "users": [
+      {
+        "id": "USR-006",
+        "name": "Amanda Palmer",
+        "email": "amanda.palmer@jnj.com",
+        "initials": "AP",
+        "title": "IT Audit Manager",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-manager"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250702-it-director",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-002",
+    "jobId": "20250702",
+    "engagementName": "Supply Chain Operations Audit",
+    "plant": "Ethicon Somerville",
+    "roleId": "it-director",
+    "roleName": "IT Director",
+    "function": "IT",
+    "level": "Director",
+    "userIds": [
+      "USR-009"
+    ],
+    "users": [
+      {
+        "id": "USR-009",
+        "name": "Brian Cox",
+        "email": "brian.cox@jnj.com",
+        "initials": "BC",
+        "title": "IT Audit Director",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-director"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250702-it-vp",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-002",
+    "jobId": "20250702",
+    "engagementName": "Supply Chain Operations Audit",
+    "plant": "Ethicon Somerville",
+    "roleId": "it-vp",
+    "roleName": "IT Vice President",
+    "function": "IT",
+    "level": "Vice President",
+    "userIds": [
+      "USR-011"
+    ],
+    "users": [
+      {
+        "id": "USR-011",
+        "name": "Robert Chen",
+        "email": "robert.chen@jnj.com",
+        "initials": "RC",
+        "title": "VP, Global IT Audit",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-vp"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250702-finops-auditor",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-002",
+    "jobId": "20250702",
+    "engagementName": "Supply Chain Operations Audit",
+    "plant": "Ethicon Somerville",
+    "roleId": "finops-auditor",
+    "roleName": "FinOps Auditor",
+    "function": "FinOps",
+    "level": "Auditor",
+    "userIds": [
+      "USR-005",
+      "USR-004"
+    ],
+    "users": [
+      {
+        "id": "USR-005",
+        "name": "David Miller",
+        "email": "david.miller@jnj.com",
+        "initials": "DM",
+        "title": "Senior FinOps Auditor",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-auditor"
+      },
+      {
+        "id": "USR-004",
+        "name": "Rachel Green",
+        "email": "rachel.green@jnj.com",
+        "initials": "RG",
+        "title": "Lead FinOps Auditor",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-auditor"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250702-finops-team-coordinator",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-002",
+    "jobId": "20250702",
+    "engagementName": "Supply Chain Operations Audit",
+    "plant": "Ethicon Somerville",
+    "roleId": "finops-team-coordinator",
+    "roleName": "FinOps Team Coordinator",
+    "function": "FinOps",
+    "level": "Team Coordinator",
+    "userIds": [
+      "USR-008"
+    ],
+    "users": [
+      {
+        "id": "USR-008",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@jnj.com",
+        "initials": "ER",
+        "title": "FinOps Team Coordinator",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-team-coordinator"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250702-finops-manager",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-002",
+    "jobId": "20250702",
+    "engagementName": "Supply Chain Operations Audit",
+    "plant": "Ethicon Somerville",
+    "roleId": "finops-manager",
+    "roleName": "FinOps Manager",
+    "function": "FinOps",
+    "level": "Manager",
+    "userIds": [
+      "USR-007"
+    ],
+    "users": [
+      {
+        "id": "USR-007",
+        "name": "Carlos Mendez",
+        "email": "carlos.mendez@jnj.com",
+        "initials": "CM",
+        "title": "FinOps Audit Manager",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-manager"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250702-finops-director",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-002",
+    "jobId": "20250702",
+    "engagementName": "Supply Chain Operations Audit",
+    "plant": "Ethicon Somerville",
+    "roleId": "finops-director",
+    "roleName": "FinOps Director",
+    "function": "FinOps",
+    "level": "Director",
+    "userIds": [
+      "USR-010"
+    ],
+    "users": [
+      {
+        "id": "USR-010",
+        "name": "Jessica Taylor",
+        "email": "jessica.taylor@jnj.com",
+        "initials": "JT",
+        "title": "FinOps Audit Director",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-director"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250702-finops-vp",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-002",
+    "jobId": "20250702",
+    "engagementName": "Supply Chain Operations Audit",
+    "plant": "Ethicon Somerville",
+    "roleId": "finops-vp",
+    "roleName": "FinOps Vice President",
+    "function": "FinOps",
+    "level": "Vice President",
+    "userIds": [
+      "USR-012"
+    ],
+    "users": [
+      {
+        "id": "USR-012",
+        "name": "Emily Davis",
+        "email": "emily.davis@jnj.com",
+        "initials": "ED",
+        "title": "VP, Global FinOps Audit",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-vp"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250702-business-contact",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-002",
+    "jobId": "20250702",
+    "engagementName": "Supply Chain Operations Audit",
+    "plant": "Ethicon Somerville",
+    "roleId": "business-contact",
+    "roleName": "Business Contact",
+    "function": "Business",
+    "level": "Business Contact",
+    "userIds": [
+      "USR-014"
+    ],
+    "users": [
+      {
+        "id": "USR-014",
+        "name": "Michael Scott",
+        "email": "michael.scott@jnj.com",
+        "initials": "MS",
+        "title": "Regional Business Liaison",
+        "function": "Business",
+        "isAlternateRole": false,
+        "baselineRole": "business-contact"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250703-it-auditor",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-003",
+    "jobId": "20250703",
+    "engagementName": "GxP Logistics Audit",
+    "plant": "Janssen Titusville",
+    "roleId": "it-auditor",
+    "roleName": "IT Auditor",
+    "function": "IT",
+    "level": "Auditor",
+    "userIds": [
+      "USR-001",
+      "USR-002"
+    ],
+    "users": [
+      {
+        "id": "USR-001",
+        "name": "Marcus Vance",
+        "email": "marcus.vance@jnj.com",
+        "initials": "MV",
+        "title": "Senior IT Auditor",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-auditor"
+      },
+      {
+        "id": "USR-002",
+        "name": "Sarah Jenkins",
+        "email": "sarah.jenkins@jnj.com",
+        "initials": "SJ",
+        "title": "Staff IT Auditor",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-auditor"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250703-it-team-coordinator",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-003",
+    "jobId": "20250703",
+    "engagementName": "GxP Logistics Audit",
+    "plant": "Janssen Titusville",
+    "roleId": "it-team-coordinator",
+    "roleName": "IT Team Coordinator",
+    "function": "IT",
+    "level": "Team Coordinator",
+    "userIds": [
+      "USR-003"
+    ],
+    "users": [
+      {
+        "id": "USR-003",
+        "name": "Kevin Zhang",
+        "email": "kevin.zhang@jnj.com",
+        "initials": "KZ",
+        "title": "IT Audit Team Coordinator",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-team-coordinator"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250703-it-manager",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-003",
+    "jobId": "20250703",
+    "engagementName": "GxP Logistics Audit",
+    "plant": "Janssen Titusville",
+    "roleId": "it-manager",
+    "roleName": "IT Manager",
+    "function": "IT",
+    "level": "Manager",
+    "userIds": [
+      "USR-006"
+    ],
+    "users": [
+      {
+        "id": "USR-006",
+        "name": "Amanda Palmer",
+        "email": "amanda.palmer@jnj.com",
+        "initials": "AP",
+        "title": "IT Audit Manager",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-manager"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250703-it-director",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-003",
+    "jobId": "20250703",
+    "engagementName": "GxP Logistics Audit",
+    "plant": "Janssen Titusville",
+    "roleId": "it-director",
+    "roleName": "IT Director",
+    "function": "IT",
+    "level": "Director",
+    "userIds": [
+      "USR-009"
+    ],
+    "users": [
+      {
+        "id": "USR-009",
+        "name": "Brian Cox",
+        "email": "brian.cox@jnj.com",
+        "initials": "BC",
+        "title": "IT Audit Director",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-director"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250703-it-vp",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-003",
+    "jobId": "20250703",
+    "engagementName": "GxP Logistics Audit",
+    "plant": "Janssen Titusville",
+    "roleId": "it-vp",
+    "roleName": "IT Vice President",
+    "function": "IT",
+    "level": "Vice President",
+    "userIds": [
+      "USR-011"
+    ],
+    "users": [
+      {
+        "id": "USR-011",
+        "name": "Robert Chen",
+        "email": "robert.chen@jnj.com",
+        "initials": "RC",
+        "title": "VP, Global IT Audit",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-vp"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250703-finops-auditor",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-003",
+    "jobId": "20250703",
+    "engagementName": "GxP Logistics Audit",
+    "plant": "Janssen Titusville",
+    "roleId": "finops-auditor",
+    "roleName": "FinOps Auditor",
+    "function": "FinOps",
+    "level": "Auditor",
+    "userIds": [
+      "USR-005",
+      "USR-004"
+    ],
+    "users": [
+      {
+        "id": "USR-005",
+        "name": "David Miller",
+        "email": "david.miller@jnj.com",
+        "initials": "DM",
+        "title": "Senior FinOps Auditor",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-auditor"
+      },
+      {
+        "id": "USR-004",
+        "name": "Rachel Green",
+        "email": "rachel.green@jnj.com",
+        "initials": "RG",
+        "title": "Lead FinOps Auditor",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-auditor"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250703-finops-team-coordinator",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-003",
+    "jobId": "20250703",
+    "engagementName": "GxP Logistics Audit",
+    "plant": "Janssen Titusville",
+    "roleId": "finops-team-coordinator",
+    "roleName": "FinOps Team Coordinator",
+    "function": "FinOps",
+    "level": "Team Coordinator",
+    "userIds": [
+      "USR-008"
+    ],
+    "users": [
+      {
+        "id": "USR-008",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@jnj.com",
+        "initials": "ER",
+        "title": "FinOps Team Coordinator",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-team-coordinator"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250703-finops-manager",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-003",
+    "jobId": "20250703",
+    "engagementName": "GxP Logistics Audit",
+    "plant": "Janssen Titusville",
+    "roleId": "finops-manager",
+    "roleName": "FinOps Manager",
+    "function": "FinOps",
+    "level": "Manager",
+    "userIds": [
+      "USR-007"
+    ],
+    "users": [
+      {
+        "id": "USR-007",
+        "name": "Carlos Mendez",
+        "email": "carlos.mendez@jnj.com",
+        "initials": "CM",
+        "title": "FinOps Audit Manager",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-manager"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250703-finops-director",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-003",
+    "jobId": "20250703",
+    "engagementName": "GxP Logistics Audit",
+    "plant": "Janssen Titusville",
+    "roleId": "finops-director",
+    "roleName": "FinOps Director",
+    "function": "FinOps",
+    "level": "Director",
+    "userIds": [
+      "USR-010"
+    ],
+    "users": [
+      {
+        "id": "USR-010",
+        "name": "Jessica Taylor",
+        "email": "jessica.taylor@jnj.com",
+        "initials": "JT",
+        "title": "FinOps Audit Director",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-director"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250703-finops-vp",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-003",
+    "jobId": "20250703",
+    "engagementName": "GxP Logistics Audit",
+    "plant": "Janssen Titusville",
+    "roleId": "finops-vp",
+    "roleName": "FinOps Vice President",
+    "function": "FinOps",
+    "level": "Vice President",
+    "userIds": [
+      "USR-012"
+    ],
+    "users": [
+      {
+        "id": "USR-012",
+        "name": "Emily Davis",
+        "email": "emily.davis@jnj.com",
+        "initials": "ED",
+        "title": "VP, Global FinOps Audit",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-vp"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250703-business-contact",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-003",
+    "jobId": "20250703",
+    "engagementName": "GxP Logistics Audit",
+    "plant": "Janssen Titusville",
+    "roleId": "business-contact",
+    "roleName": "Business Contact",
+    "function": "Business",
+    "level": "Business Contact",
+    "userIds": [
+      "USR-015"
+    ],
+    "users": [
+      {
+        "id": "USR-015",
+        "name": "Jennifer Aniston",
+        "email": "jennifer.aniston@jnj.com",
+        "initials": "JA",
+        "title": "Quality Assurance Business Contact",
+        "function": "Business",
+        "isAlternateRole": false,
+        "baselineRole": "business-contact"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250704-it-auditor",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-004",
+    "jobId": "20250704",
+    "engagementName": "Packaging & Controls Audit",
+    "plant": "Vision Care Jacksonville",
+    "roleId": "it-auditor",
+    "roleName": "IT Auditor",
+    "function": "IT",
+    "level": "Auditor",
+    "userIds": [
+      "USR-001",
+      "USR-002"
+    ],
+    "users": [
+      {
+        "id": "USR-001",
+        "name": "Marcus Vance",
+        "email": "marcus.vance@jnj.com",
+        "initials": "MV",
+        "title": "Senior IT Auditor",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-auditor"
+      },
+      {
+        "id": "USR-002",
+        "name": "Sarah Jenkins",
+        "email": "sarah.jenkins@jnj.com",
+        "initials": "SJ",
+        "title": "Staff IT Auditor",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-auditor"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250704-it-team-coordinator",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-004",
+    "jobId": "20250704",
+    "engagementName": "Packaging & Controls Audit",
+    "plant": "Vision Care Jacksonville",
+    "roleId": "it-team-coordinator",
+    "roleName": "IT Team Coordinator",
+    "function": "IT",
+    "level": "Team Coordinator",
+    "userIds": [
+      "USR-003"
+    ],
+    "users": [
+      {
+        "id": "USR-003",
+        "name": "Kevin Zhang",
+        "email": "kevin.zhang@jnj.com",
+        "initials": "KZ",
+        "title": "IT Audit Team Coordinator",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-team-coordinator"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250704-it-manager",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-004",
+    "jobId": "20250704",
+    "engagementName": "Packaging & Controls Audit",
+    "plant": "Vision Care Jacksonville",
+    "roleId": "it-manager",
+    "roleName": "IT Manager",
+    "function": "IT",
+    "level": "Manager",
+    "userIds": [
+      "USR-006"
+    ],
+    "users": [
+      {
+        "id": "USR-006",
+        "name": "Amanda Palmer",
+        "email": "amanda.palmer@jnj.com",
+        "initials": "AP",
+        "title": "IT Audit Manager",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-manager"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250704-it-director",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-004",
+    "jobId": "20250704",
+    "engagementName": "Packaging & Controls Audit",
+    "plant": "Vision Care Jacksonville",
+    "roleId": "it-director",
+    "roleName": "IT Director",
+    "function": "IT",
+    "level": "Director",
+    "userIds": [
+      "USR-009"
+    ],
+    "users": [
+      {
+        "id": "USR-009",
+        "name": "Brian Cox",
+        "email": "brian.cox@jnj.com",
+        "initials": "BC",
+        "title": "IT Audit Director",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-director"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250704-it-vp",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-004",
+    "jobId": "20250704",
+    "engagementName": "Packaging & Controls Audit",
+    "plant": "Vision Care Jacksonville",
+    "roleId": "it-vp",
+    "roleName": "IT Vice President",
+    "function": "IT",
+    "level": "Vice President",
+    "userIds": [
+      "USR-011"
+    ],
+    "users": [
+      {
+        "id": "USR-011",
+        "name": "Robert Chen",
+        "email": "robert.chen@jnj.com",
+        "initials": "RC",
+        "title": "VP, Global IT Audit",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-vp"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250704-finops-auditor",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-004",
+    "jobId": "20250704",
+    "engagementName": "Packaging & Controls Audit",
+    "plant": "Vision Care Jacksonville",
+    "roleId": "finops-auditor",
+    "roleName": "FinOps Auditor",
+    "function": "FinOps",
+    "level": "Auditor",
+    "userIds": [
+      "USR-005",
+      "USR-004"
+    ],
+    "users": [
+      {
+        "id": "USR-005",
+        "name": "David Miller",
+        "email": "david.miller@jnj.com",
+        "initials": "DM",
+        "title": "Senior FinOps Auditor",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-auditor"
+      },
+      {
+        "id": "USR-004",
+        "name": "Rachel Green",
+        "email": "rachel.green@jnj.com",
+        "initials": "RG",
+        "title": "Lead FinOps Auditor",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-auditor"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250704-finops-team-coordinator",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-004",
+    "jobId": "20250704",
+    "engagementName": "Packaging & Controls Audit",
+    "plant": "Vision Care Jacksonville",
+    "roleId": "finops-team-coordinator",
+    "roleName": "FinOps Team Coordinator",
+    "function": "FinOps",
+    "level": "Team Coordinator",
+    "userIds": [
+      "USR-008"
+    ],
+    "users": [
+      {
+        "id": "USR-008",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@jnj.com",
+        "initials": "ER",
+        "title": "FinOps Team Coordinator",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-team-coordinator"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250704-finops-manager",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-004",
+    "jobId": "20250704",
+    "engagementName": "Packaging & Controls Audit",
+    "plant": "Vision Care Jacksonville",
+    "roleId": "finops-manager",
+    "roleName": "FinOps Manager",
+    "function": "FinOps",
+    "level": "Manager",
+    "userIds": [
+      "USR-007"
+    ],
+    "users": [
+      {
+        "id": "USR-007",
+        "name": "Carlos Mendez",
+        "email": "carlos.mendez@jnj.com",
+        "initials": "CM",
+        "title": "FinOps Audit Manager",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-manager"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250704-finops-director",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-004",
+    "jobId": "20250704",
+    "engagementName": "Packaging & Controls Audit",
+    "plant": "Vision Care Jacksonville",
+    "roleId": "finops-director",
+    "roleName": "FinOps Director",
+    "function": "FinOps",
+    "level": "Director",
+    "userIds": [
+      "USR-010"
+    ],
+    "users": [
+      {
+        "id": "USR-010",
+        "name": "Jessica Taylor",
+        "email": "jessica.taylor@jnj.com",
+        "initials": "JT",
+        "title": "FinOps Audit Director",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-director"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250704-finops-vp",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-004",
+    "jobId": "20250704",
+    "engagementName": "Packaging & Controls Audit",
+    "plant": "Vision Care Jacksonville",
+    "roleId": "finops-vp",
+    "roleName": "FinOps Vice President",
+    "function": "FinOps",
+    "level": "Vice President",
+    "userIds": [
+      "USR-012"
+    ],
+    "users": [
+      {
+        "id": "USR-012",
+        "name": "Emily Davis",
+        "email": "emily.davis@jnj.com",
+        "initials": "ED",
+        "title": "VP, Global FinOps Audit",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-vp"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20250704-business-contact",
+    "assessmentId": "ASM-2025",
+    "assessmentName": "2025 Internal Audit Assessments",
+    "assessmentStatus": "Closed",
+    "engagementId": "REP-2025-004",
+    "jobId": "20250704",
+    "engagementName": "Packaging & Controls Audit",
+    "plant": "Vision Care Jacksonville",
+    "roleId": "business-contact",
+    "roleName": "Business Contact",
+    "function": "Business",
+    "level": "Business Contact",
+    "userIds": [
+      "USR-018"
+    ],
+    "users": [
+      {
+        "id": "USR-018",
+        "name": "Brandon Walsh",
+        "email": "brandon.walsh@jnj.com",
+        "initials": "BW",
+        "title": "Commercial Compliance Partner",
+        "function": "Business",
+        "isAlternateRole": false,
+        "baselineRole": "business-contact"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260881-it-auditor",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-001",
+    "jobId": "20260881",
+    "engagementName": "Audit Enhancements",
+    "plant": "MedTech Suzhou",
+    "roleId": "it-auditor",
+    "roleName": "IT Auditor",
+    "function": "IT",
+    "level": "Auditor",
+    "userIds": [
+      "USR-001",
+      "USR-002"
+    ],
+    "users": [
+      {
+        "id": "USR-001",
+        "name": "Marcus Vance",
+        "email": "marcus.vance@jnj.com",
+        "initials": "MV",
+        "title": "Senior IT Auditor",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-auditor"
+      },
+      {
+        "id": "USR-002",
+        "name": "Sarah Jenkins",
+        "email": "sarah.jenkins@jnj.com",
+        "initials": "SJ",
+        "title": "Staff IT Auditor",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-auditor"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260881-it-team-coordinator",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-001",
+    "jobId": "20260881",
+    "engagementName": "Audit Enhancements",
+    "plant": "MedTech Suzhou",
+    "roleId": "it-team-coordinator",
+    "roleName": "IT Team Coordinator",
+    "function": "IT",
+    "level": "Team Coordinator",
+    "userIds": [
+      "USR-003"
+    ],
+    "users": [
+      {
+        "id": "USR-003",
+        "name": "Kevin Zhang",
+        "email": "kevin.zhang@jnj.com",
+        "initials": "KZ",
+        "title": "IT Audit Team Coordinator",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-team-coordinator"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260881-it-manager",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-001",
+    "jobId": "20260881",
+    "engagementName": "Audit Enhancements",
+    "plant": "MedTech Suzhou",
+    "roleId": "it-manager",
+    "roleName": "IT Manager",
+    "function": "IT",
+    "level": "Manager",
+    "userIds": [
+      "USR-006"
+    ],
+    "users": [
+      {
+        "id": "USR-006",
+        "name": "Amanda Palmer",
+        "email": "amanda.palmer@jnj.com",
+        "initials": "AP",
+        "title": "IT Audit Manager",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-manager"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260881-it-director",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-001",
+    "jobId": "20260881",
+    "engagementName": "Audit Enhancements",
+    "plant": "MedTech Suzhou",
+    "roleId": "it-director",
+    "roleName": "IT Director",
+    "function": "IT",
+    "level": "Director",
+    "userIds": [
+      "USR-009"
+    ],
+    "users": [
+      {
+        "id": "USR-009",
+        "name": "Brian Cox",
+        "email": "brian.cox@jnj.com",
+        "initials": "BC",
+        "title": "IT Audit Director",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-director"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260881-it-vp",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-001",
+    "jobId": "20260881",
+    "engagementName": "Audit Enhancements",
+    "plant": "MedTech Suzhou",
+    "roleId": "it-vp",
+    "roleName": "IT Vice President",
+    "function": "IT",
+    "level": "Vice President",
+    "userIds": [
+      "USR-011"
+    ],
+    "users": [
+      {
+        "id": "USR-011",
+        "name": "Robert Chen",
+        "email": "robert.chen@jnj.com",
+        "initials": "RC",
+        "title": "VP, Global IT Audit",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-vp"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260881-finops-auditor",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-001",
+    "jobId": "20260881",
+    "engagementName": "Audit Enhancements",
+    "plant": "MedTech Suzhou",
+    "roleId": "finops-auditor",
+    "roleName": "FinOps Auditor",
+    "function": "FinOps",
+    "level": "Auditor",
+    "userIds": [
+      "USR-005",
+      "USR-004"
+    ],
+    "users": [
+      {
+        "id": "USR-005",
+        "name": "David Miller",
+        "email": "david.miller@jnj.com",
+        "initials": "DM",
+        "title": "Senior FinOps Auditor",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-auditor"
+      },
+      {
+        "id": "USR-004",
+        "name": "Rachel Green",
+        "email": "rachel.green@jnj.com",
+        "initials": "RG",
+        "title": "Lead FinOps Auditor",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-auditor"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260881-finops-team-coordinator",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-001",
+    "jobId": "20260881",
+    "engagementName": "Audit Enhancements",
+    "plant": "MedTech Suzhou",
+    "roleId": "finops-team-coordinator",
+    "roleName": "FinOps Team Coordinator",
+    "function": "FinOps",
+    "level": "Team Coordinator",
+    "userIds": [
+      "USR-008"
+    ],
+    "users": [
+      {
+        "id": "USR-008",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@jnj.com",
+        "initials": "ER",
+        "title": "FinOps Team Coordinator",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-team-coordinator"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260881-finops-manager",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-001",
+    "jobId": "20260881",
+    "engagementName": "Audit Enhancements",
+    "plant": "MedTech Suzhou",
+    "roleId": "finops-manager",
+    "roleName": "FinOps Manager",
+    "function": "FinOps",
+    "level": "Manager",
+    "userIds": [
+      "USR-007"
+    ],
+    "users": [
+      {
+        "id": "USR-007",
+        "name": "Carlos Mendez",
+        "email": "carlos.mendez@jnj.com",
+        "initials": "CM",
+        "title": "FinOps Audit Manager",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-manager"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260881-finops-director",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-001",
+    "jobId": "20260881",
+    "engagementName": "Audit Enhancements",
+    "plant": "MedTech Suzhou",
+    "roleId": "finops-director",
+    "roleName": "FinOps Director",
+    "function": "FinOps",
+    "level": "Director",
+    "userIds": [
+      "USR-010"
+    ],
+    "users": [
+      {
+        "id": "USR-010",
+        "name": "Jessica Taylor",
+        "email": "jessica.taylor@jnj.com",
+        "initials": "JT",
+        "title": "FinOps Audit Director",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-director"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260881-finops-vp",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-001",
+    "jobId": "20260881",
+    "engagementName": "Audit Enhancements",
+    "plant": "MedTech Suzhou",
+    "roleId": "finops-vp",
+    "roleName": "FinOps Vice President",
+    "function": "FinOps",
+    "level": "Vice President",
+    "userIds": [
+      "USR-012"
+    ],
+    "users": [
+      {
+        "id": "USR-012",
+        "name": "Emily Davis",
+        "email": "emily.davis@jnj.com",
+        "initials": "ED",
+        "title": "VP, Global FinOps Audit",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-vp"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260881-business-contact",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-001",
+    "jobId": "20260881",
+    "engagementName": "Audit Enhancements",
+    "plant": "MedTech Suzhou",
+    "roleId": "business-contact",
+    "roleName": "Business Contact",
+    "function": "Business",
+    "level": "Business Contact",
+    "userIds": [
+      "USR-013"
+    ],
+    "users": [
+      {
+        "id": "USR-013",
+        "name": "Thomas Wright",
+        "email": "thomas.wright@jnj.com",
+        "initials": "TW",
+        "title": "Plant Operations Business Contact",
+        "function": "Business",
+        "isAlternateRole": false,
+        "baselineRole": "business-contact"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260882-it-auditor",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-002",
+    "jobId": "20260882",
+    "engagementName": "Manufacturing Plant Audit",
+    "plant": "Ethicon Juarez",
+    "roleId": "it-auditor",
+    "roleName": "IT Auditor",
+    "function": "IT",
+    "level": "Auditor",
+    "userIds": [
+      "USR-001",
+      "USR-002"
+    ],
+    "users": [
+      {
+        "id": "USR-001",
+        "name": "Marcus Vance",
+        "email": "marcus.vance@jnj.com",
+        "initials": "MV",
+        "title": "Senior IT Auditor",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-auditor"
+      },
+      {
+        "id": "USR-002",
+        "name": "Sarah Jenkins",
+        "email": "sarah.jenkins@jnj.com",
+        "initials": "SJ",
+        "title": "Staff IT Auditor",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-auditor"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260882-it-team-coordinator",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-002",
+    "jobId": "20260882",
+    "engagementName": "Manufacturing Plant Audit",
+    "plant": "Ethicon Juarez",
+    "roleId": "it-team-coordinator",
+    "roleName": "IT Team Coordinator",
+    "function": "IT",
+    "level": "Team Coordinator",
+    "userIds": [
+      "USR-003"
+    ],
+    "users": [
+      {
+        "id": "USR-003",
+        "name": "Kevin Zhang",
+        "email": "kevin.zhang@jnj.com",
+        "initials": "KZ",
+        "title": "IT Audit Team Coordinator",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-team-coordinator"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260882-it-manager",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-002",
+    "jobId": "20260882",
+    "engagementName": "Manufacturing Plant Audit",
+    "plant": "Ethicon Juarez",
+    "roleId": "it-manager",
+    "roleName": "IT Manager",
+    "function": "IT",
+    "level": "Manager",
+    "userIds": [
+      "USR-006"
+    ],
+    "users": [
+      {
+        "id": "USR-006",
+        "name": "Amanda Palmer",
+        "email": "amanda.palmer@jnj.com",
+        "initials": "AP",
+        "title": "IT Audit Manager",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-manager"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260882-it-director",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-002",
+    "jobId": "20260882",
+    "engagementName": "Manufacturing Plant Audit",
+    "plant": "Ethicon Juarez",
+    "roleId": "it-director",
+    "roleName": "IT Director",
+    "function": "IT",
+    "level": "Director",
+    "userIds": [
+      "USR-009"
+    ],
+    "users": [
+      {
+        "id": "USR-009",
+        "name": "Brian Cox",
+        "email": "brian.cox@jnj.com",
+        "initials": "BC",
+        "title": "IT Audit Director",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-director"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260882-it-vp",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-002",
+    "jobId": "20260882",
+    "engagementName": "Manufacturing Plant Audit",
+    "plant": "Ethicon Juarez",
+    "roleId": "it-vp",
+    "roleName": "IT Vice President",
+    "function": "IT",
+    "level": "Vice President",
+    "userIds": [
+      "USR-011"
+    ],
+    "users": [
+      {
+        "id": "USR-011",
+        "name": "Robert Chen",
+        "email": "robert.chen@jnj.com",
+        "initials": "RC",
+        "title": "VP, Global IT Audit",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-vp"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260882-finops-auditor",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-002",
+    "jobId": "20260882",
+    "engagementName": "Manufacturing Plant Audit",
+    "plant": "Ethicon Juarez",
+    "roleId": "finops-auditor",
+    "roleName": "FinOps Auditor",
+    "function": "FinOps",
+    "level": "Auditor",
+    "userIds": [
+      "USR-005",
+      "USR-004"
+    ],
+    "users": [
+      {
+        "id": "USR-005",
+        "name": "David Miller",
+        "email": "david.miller@jnj.com",
+        "initials": "DM",
+        "title": "Senior FinOps Auditor",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-auditor"
+      },
+      {
+        "id": "USR-004",
+        "name": "Rachel Green",
+        "email": "rachel.green@jnj.com",
+        "initials": "RG",
+        "title": "Lead FinOps Auditor",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-auditor"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260882-finops-team-coordinator",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-002",
+    "jobId": "20260882",
+    "engagementName": "Manufacturing Plant Audit",
+    "plant": "Ethicon Juarez",
+    "roleId": "finops-team-coordinator",
+    "roleName": "FinOps Team Coordinator",
+    "function": "FinOps",
+    "level": "Team Coordinator",
+    "userIds": [
+      "USR-008"
+    ],
+    "users": [
+      {
+        "id": "USR-008",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@jnj.com",
+        "initials": "ER",
+        "title": "FinOps Team Coordinator",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-team-coordinator"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260882-finops-manager",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-002",
+    "jobId": "20260882",
+    "engagementName": "Manufacturing Plant Audit",
+    "plant": "Ethicon Juarez",
+    "roleId": "finops-manager",
+    "roleName": "FinOps Manager",
+    "function": "FinOps",
+    "level": "Manager",
+    "userIds": [
+      "USR-007"
+    ],
+    "users": [
+      {
+        "id": "USR-007",
+        "name": "Carlos Mendez",
+        "email": "carlos.mendez@jnj.com",
+        "initials": "CM",
+        "title": "FinOps Audit Manager",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-manager"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260882-finops-director",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-002",
+    "jobId": "20260882",
+    "engagementName": "Manufacturing Plant Audit",
+    "plant": "Ethicon Juarez",
+    "roleId": "finops-director",
+    "roleName": "FinOps Director",
+    "function": "FinOps",
+    "level": "Director",
+    "userIds": [
+      "USR-010"
+    ],
+    "users": [
+      {
+        "id": "USR-010",
+        "name": "Jessica Taylor",
+        "email": "jessica.taylor@jnj.com",
+        "initials": "JT",
+        "title": "FinOps Audit Director",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-director"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260882-finops-vp",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-002",
+    "jobId": "20260882",
+    "engagementName": "Manufacturing Plant Audit",
+    "plant": "Ethicon Juarez",
+    "roleId": "finops-vp",
+    "roleName": "FinOps Vice President",
+    "function": "FinOps",
+    "level": "Vice President",
+    "userIds": [
+      "USR-012"
+    ],
+    "users": [
+      {
+        "id": "USR-012",
+        "name": "Emily Davis",
+        "email": "emily.davis@jnj.com",
+        "initials": "ED",
+        "title": "VP, Global FinOps Audit",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-vp"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260882-business-contact",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-002",
+    "jobId": "20260882",
+    "engagementName": "Manufacturing Plant Audit",
+    "plant": "Ethicon Juarez",
+    "roleId": "business-contact",
+    "roleName": "Business Contact",
+    "function": "Business",
+    "level": "Business Contact",
+    "userIds": [
+      "USR-014"
+    ],
+    "users": [
+      {
+        "id": "USR-014",
+        "name": "Michael Scott",
+        "email": "michael.scott@jnj.com",
+        "initials": "MS",
+        "title": "Regional Business Liaison",
+        "function": "Business",
+        "isAlternateRole": false,
+        "baselineRole": "business-contact"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260883-it-auditor",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-003",
+    "jobId": "20260883",
+    "engagementName": "Audit Enhancements",
+    "plant": "Janssen Leiden",
+    "roleId": "it-auditor",
+    "roleName": "IT Auditor",
+    "function": "IT",
+    "level": "Auditor",
+    "userIds": [
+      "USR-001",
+      "USR-002"
+    ],
+    "users": [
+      {
+        "id": "USR-001",
+        "name": "Marcus Vance",
+        "email": "marcus.vance@jnj.com",
+        "initials": "MV",
+        "title": "Senior IT Auditor",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-auditor"
+      },
+      {
+        "id": "USR-002",
+        "name": "Sarah Jenkins",
+        "email": "sarah.jenkins@jnj.com",
+        "initials": "SJ",
+        "title": "Staff IT Auditor",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-auditor"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260883-it-team-coordinator",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-003",
+    "jobId": "20260883",
+    "engagementName": "Audit Enhancements",
+    "plant": "Janssen Leiden",
+    "roleId": "it-team-coordinator",
+    "roleName": "IT Team Coordinator",
+    "function": "IT",
+    "level": "Team Coordinator",
+    "userIds": [
+      "USR-003"
+    ],
+    "users": [
+      {
+        "id": "USR-003",
+        "name": "Kevin Zhang",
+        "email": "kevin.zhang@jnj.com",
+        "initials": "KZ",
+        "title": "IT Audit Team Coordinator",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-team-coordinator"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260883-it-manager",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-003",
+    "jobId": "20260883",
+    "engagementName": "Audit Enhancements",
+    "plant": "Janssen Leiden",
+    "roleId": "it-manager",
+    "roleName": "IT Manager",
+    "function": "IT",
+    "level": "Manager",
+    "userIds": [
+      "USR-006"
+    ],
+    "users": [
+      {
+        "id": "USR-006",
+        "name": "Amanda Palmer",
+        "email": "amanda.palmer@jnj.com",
+        "initials": "AP",
+        "title": "IT Audit Manager",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-manager"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260883-it-director",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-003",
+    "jobId": "20260883",
+    "engagementName": "Audit Enhancements",
+    "plant": "Janssen Leiden",
+    "roleId": "it-director",
+    "roleName": "IT Director",
+    "function": "IT",
+    "level": "Director",
+    "userIds": [
+      "USR-009"
+    ],
+    "users": [
+      {
+        "id": "USR-009",
+        "name": "Brian Cox",
+        "email": "brian.cox@jnj.com",
+        "initials": "BC",
+        "title": "IT Audit Director",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-director"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260883-it-vp",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-003",
+    "jobId": "20260883",
+    "engagementName": "Audit Enhancements",
+    "plant": "Janssen Leiden",
+    "roleId": "it-vp",
+    "roleName": "IT Vice President",
+    "function": "IT",
+    "level": "Vice President",
+    "userIds": [
+      "USR-011"
+    ],
+    "users": [
+      {
+        "id": "USR-011",
+        "name": "Robert Chen",
+        "email": "robert.chen@jnj.com",
+        "initials": "RC",
+        "title": "VP, Global IT Audit",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-vp"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260883-finops-auditor",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-003",
+    "jobId": "20260883",
+    "engagementName": "Audit Enhancements",
+    "plant": "Janssen Leiden",
+    "roleId": "finops-auditor",
+    "roleName": "FinOps Auditor",
+    "function": "FinOps",
+    "level": "Auditor",
+    "userIds": [
+      "USR-005",
+      "USR-004"
+    ],
+    "users": [
+      {
+        "id": "USR-005",
+        "name": "David Miller",
+        "email": "david.miller@jnj.com",
+        "initials": "DM",
+        "title": "Senior FinOps Auditor",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-auditor"
+      },
+      {
+        "id": "USR-004",
+        "name": "Rachel Green",
+        "email": "rachel.green@jnj.com",
+        "initials": "RG",
+        "title": "Lead FinOps Auditor",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-auditor"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260883-finops-team-coordinator",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-003",
+    "jobId": "20260883",
+    "engagementName": "Audit Enhancements",
+    "plant": "Janssen Leiden",
+    "roleId": "finops-team-coordinator",
+    "roleName": "FinOps Team Coordinator",
+    "function": "FinOps",
+    "level": "Team Coordinator",
+    "userIds": [
+      "USR-008"
+    ],
+    "users": [
+      {
+        "id": "USR-008",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@jnj.com",
+        "initials": "ER",
+        "title": "FinOps Team Coordinator",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-team-coordinator"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260883-finops-manager",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-003",
+    "jobId": "20260883",
+    "engagementName": "Audit Enhancements",
+    "plant": "Janssen Leiden",
+    "roleId": "finops-manager",
+    "roleName": "FinOps Manager",
+    "function": "FinOps",
+    "level": "Manager",
+    "userIds": [
+      "USR-007"
+    ],
+    "users": [
+      {
+        "id": "USR-007",
+        "name": "Carlos Mendez",
+        "email": "carlos.mendez@jnj.com",
+        "initials": "CM",
+        "title": "FinOps Audit Manager",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-manager"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260883-finops-director",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-003",
+    "jobId": "20260883",
+    "engagementName": "Audit Enhancements",
+    "plant": "Janssen Leiden",
+    "roleId": "finops-director",
+    "roleName": "FinOps Director",
+    "function": "FinOps",
+    "level": "Director",
+    "userIds": [
+      "USR-010"
+    ],
+    "users": [
+      {
+        "id": "USR-010",
+        "name": "Jessica Taylor",
+        "email": "jessica.taylor@jnj.com",
+        "initials": "JT",
+        "title": "FinOps Audit Director",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-director"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260883-finops-vp",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-003",
+    "jobId": "20260883",
+    "engagementName": "Audit Enhancements",
+    "plant": "Janssen Leiden",
+    "roleId": "finops-vp",
+    "roleName": "FinOps Vice President",
+    "function": "FinOps",
+    "level": "Vice President",
+    "userIds": [
+      "USR-012"
+    ],
+    "users": [
+      {
+        "id": "USR-012",
+        "name": "Emily Davis",
+        "email": "emily.davis@jnj.com",
+        "initials": "ED",
+        "title": "VP, Global FinOps Audit",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-vp"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260883-business-contact",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-003",
+    "jobId": "20260883",
+    "engagementName": "Audit Enhancements",
+    "plant": "Janssen Leiden",
+    "roleId": "business-contact",
+    "roleName": "Business Contact",
+    "function": "Business",
+    "level": "Business Contact",
+    "userIds": [
+      "USR-015"
+    ],
+    "users": [
+      {
+        "id": "USR-015",
+        "name": "Jennifer Aniston",
+        "email": "jennifer.aniston@jnj.com",
+        "initials": "JA",
+        "title": "Quality Assurance Business Contact",
+        "function": "Business",
+        "isAlternateRole": false,
+        "baselineRole": "business-contact"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260884-it-auditor",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-004",
+    "jobId": "20260884",
+    "engagementName": "Audit Training",
+    "plant": "DePuy Synthes Cork",
+    "roleId": "it-auditor",
+    "roleName": "IT Auditor",
+    "function": "IT",
+    "level": "Auditor",
+    "userIds": [
+      "USR-016",
+      "USR-002"
+    ],
+    "users": [
+      {
+        "id": "USR-016",
+        "name": "Christopher Hayes",
+        "email": "christopher.hayes@jnj.com",
+        "initials": "CH",
+        "title": "Associate IT Auditor",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-auditor"
+      },
+      {
+        "id": "USR-002",
+        "name": "Sarah Jenkins",
+        "email": "sarah.jenkins@jnj.com",
+        "initials": "SJ",
+        "title": "Staff IT Auditor",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-auditor"
+      }
+    ],
+    "isRoleRotated": true
+  },
+  {
+    "id": "ASG-20260884-it-team-coordinator",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-004",
+    "jobId": "20260884",
+    "engagementName": "Audit Training",
+    "plant": "DePuy Synthes Cork",
+    "roleId": "it-team-coordinator",
+    "roleName": "IT Team Coordinator",
+    "function": "IT",
+    "level": "Team Coordinator",
+    "userIds": [
+      "USR-001"
+    ],
+    "users": [
+      {
+        "id": "USR-001",
+        "name": "Marcus Vance",
+        "email": "marcus.vance@jnj.com",
+        "initials": "MV",
+        "title": "Senior IT Auditor",
+        "function": "IT",
+        "isAlternateRole": true,
+        "baselineRole": "it-auditor"
+      }
+    ],
+    "isRoleRotated": true
+  },
+  {
+    "id": "ASG-20260884-it-manager",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-004",
+    "jobId": "20260884",
+    "engagementName": "Audit Training",
+    "plant": "DePuy Synthes Cork",
+    "roleId": "it-manager",
+    "roleName": "IT Manager",
+    "function": "IT",
+    "level": "Manager",
+    "userIds": [
+      "USR-003"
+    ],
+    "users": [
+      {
+        "id": "USR-003",
+        "name": "Kevin Zhang",
+        "email": "kevin.zhang@jnj.com",
+        "initials": "KZ",
+        "title": "IT Audit Team Coordinator",
+        "function": "IT",
+        "isAlternateRole": true,
+        "baselineRole": "it-team-coordinator"
+      }
+    ],
+    "isRoleRotated": true
+  },
+  {
+    "id": "ASG-20260884-it-director",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-004",
+    "jobId": "20260884",
+    "engagementName": "Audit Training",
+    "plant": "DePuy Synthes Cork",
+    "roleId": "it-director",
+    "roleName": "IT Director",
+    "function": "IT",
+    "level": "Director",
+    "userIds": [
+      "USR-006"
+    ],
+    "users": [
+      {
+        "id": "USR-006",
+        "name": "Amanda Palmer",
+        "email": "amanda.palmer@jnj.com",
+        "initials": "AP",
+        "title": "IT Audit Manager",
+        "function": "IT",
+        "isAlternateRole": true,
+        "baselineRole": "it-manager"
+      }
+    ],
+    "isRoleRotated": true
+  },
+  {
+    "id": "ASG-20260884-it-vp",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-004",
+    "jobId": "20260884",
+    "engagementName": "Audit Training",
+    "plant": "DePuy Synthes Cork",
+    "roleId": "it-vp",
+    "roleName": "IT Vice President",
+    "function": "IT",
+    "level": "Vice President",
+    "userIds": [
+      "USR-009"
+    ],
+    "users": [
+      {
+        "id": "USR-009",
+        "name": "Brian Cox",
+        "email": "brian.cox@jnj.com",
+        "initials": "BC",
+        "title": "IT Audit Director",
+        "function": "IT",
+        "isAlternateRole": true,
+        "baselineRole": "it-director"
+      }
+    ],
+    "isRoleRotated": true
+  },
+  {
+    "id": "ASG-20260884-finops-auditor",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-004",
+    "jobId": "20260884",
+    "engagementName": "Audit Training",
+    "plant": "DePuy Synthes Cork",
+    "roleId": "finops-auditor",
+    "roleName": "FinOps Auditor",
+    "function": "FinOps",
+    "level": "Auditor",
+    "userIds": [
+      "USR-005",
+      "USR-017"
+    ],
+    "users": [
+      {
+        "id": "USR-005",
+        "name": "David Miller",
+        "email": "david.miller@jnj.com",
+        "initials": "DM",
+        "title": "Senior FinOps Auditor",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-auditor"
+      },
+      {
+        "id": "USR-017",
+        "name": "Laura Bailey",
+        "email": "laura.bailey@jnj.com",
+        "initials": "LB",
+        "title": "Associate FinOps Auditor",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-auditor"
+      }
+    ],
+    "isRoleRotated": true
+  },
+  {
+    "id": "ASG-20260884-finops-team-coordinator",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-004",
+    "jobId": "20260884",
+    "engagementName": "Audit Training",
+    "plant": "DePuy Synthes Cork",
+    "roleId": "finops-team-coordinator",
+    "roleName": "FinOps Team Coordinator",
+    "function": "FinOps",
+    "level": "Team Coordinator",
+    "userIds": [
+      "USR-004"
+    ],
+    "users": [
+      {
+        "id": "USR-004",
+        "name": "Rachel Green",
+        "email": "rachel.green@jnj.com",
+        "initials": "RG",
+        "title": "Lead FinOps Auditor",
+        "function": "FinOps",
+        "isAlternateRole": true,
+        "baselineRole": "finops-auditor"
+      }
+    ],
+    "isRoleRotated": true
+  },
+  {
+    "id": "ASG-20260884-finops-manager",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-004",
+    "jobId": "20260884",
+    "engagementName": "Audit Training",
+    "plant": "DePuy Synthes Cork",
+    "roleId": "finops-manager",
+    "roleName": "FinOps Manager",
+    "function": "FinOps",
+    "level": "Manager",
+    "userIds": [
+      "USR-008"
+    ],
+    "users": [
+      {
+        "id": "USR-008",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@jnj.com",
+        "initials": "ER",
+        "title": "FinOps Team Coordinator",
+        "function": "FinOps",
+        "isAlternateRole": true,
+        "baselineRole": "finops-team-coordinator"
+      }
+    ],
+    "isRoleRotated": true
+  },
+  {
+    "id": "ASG-20260884-finops-director",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-004",
+    "jobId": "20260884",
+    "engagementName": "Audit Training",
+    "plant": "DePuy Synthes Cork",
+    "roleId": "finops-director",
+    "roleName": "FinOps Director",
+    "function": "FinOps",
+    "level": "Director",
+    "userIds": [
+      "USR-010"
+    ],
+    "users": [
+      {
+        "id": "USR-010",
+        "name": "Jessica Taylor",
+        "email": "jessica.taylor@jnj.com",
+        "initials": "JT",
+        "title": "FinOps Audit Director",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-director"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260884-finops-vp",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-004",
+    "jobId": "20260884",
+    "engagementName": "Audit Training",
+    "plant": "DePuy Synthes Cork",
+    "roleId": "finops-vp",
+    "roleName": "FinOps Vice President",
+    "function": "FinOps",
+    "level": "Vice President",
+    "userIds": [
+      "USR-012"
+    ],
+    "users": [
+      {
+        "id": "USR-012",
+        "name": "Emily Davis",
+        "email": "emily.davis@jnj.com",
+        "initials": "ED",
+        "title": "VP, Global FinOps Audit",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-vp"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260884-business-contact",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-004",
+    "jobId": "20260884",
+    "engagementName": "Audit Training",
+    "plant": "DePuy Synthes Cork",
+    "roleId": "business-contact",
+    "roleName": "Business Contact",
+    "function": "Business",
+    "level": "Business Contact",
+    "userIds": [
+      "USR-007"
+    ],
+    "users": [
+      {
+        "id": "USR-007",
+        "name": "Carlos Mendez",
+        "email": "carlos.mendez@jnj.com",
+        "initials": "CM",
+        "title": "FinOps Audit Manager",
+        "function": "FinOps",
+        "isAlternateRole": true,
+        "baselineRole": "finops-manager"
+      }
+    ],
+    "isRoleRotated": true
+  },
+  {
+    "id": "ASG-20260885-it-auditor",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-005",
+    "jobId": "20260885",
+    "engagementName": "GxP Compliance Audit",
+    "plant": "Global Distribution Hub Singapore",
+    "roleId": "it-auditor",
+    "roleName": "IT Auditor",
+    "function": "IT",
+    "level": "Auditor",
+    "userIds": [
+      "USR-001",
+      "USR-002"
+    ],
+    "users": [
+      {
+        "id": "USR-001",
+        "name": "Marcus Vance",
+        "email": "marcus.vance@jnj.com",
+        "initials": "MV",
+        "title": "Senior IT Auditor",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-auditor"
+      },
+      {
+        "id": "USR-002",
+        "name": "Sarah Jenkins",
+        "email": "sarah.jenkins@jnj.com",
+        "initials": "SJ",
+        "title": "Staff IT Auditor",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-auditor"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260885-it-team-coordinator",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-005",
+    "jobId": "20260885",
+    "engagementName": "GxP Compliance Audit",
+    "plant": "Global Distribution Hub Singapore",
+    "roleId": "it-team-coordinator",
+    "roleName": "IT Team Coordinator",
+    "function": "IT",
+    "level": "Team Coordinator",
+    "userIds": [
+      "USR-003"
+    ],
+    "users": [
+      {
+        "id": "USR-003",
+        "name": "Kevin Zhang",
+        "email": "kevin.zhang@jnj.com",
+        "initials": "KZ",
+        "title": "IT Audit Team Coordinator",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-team-coordinator"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260885-it-manager",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-005",
+    "jobId": "20260885",
+    "engagementName": "GxP Compliance Audit",
+    "plant": "Global Distribution Hub Singapore",
+    "roleId": "it-manager",
+    "roleName": "IT Manager",
+    "function": "IT",
+    "level": "Manager",
+    "userIds": [
+      "USR-006"
+    ],
+    "users": [
+      {
+        "id": "USR-006",
+        "name": "Amanda Palmer",
+        "email": "amanda.palmer@jnj.com",
+        "initials": "AP",
+        "title": "IT Audit Manager",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-manager"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260885-it-director",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-005",
+    "jobId": "20260885",
+    "engagementName": "GxP Compliance Audit",
+    "plant": "Global Distribution Hub Singapore",
+    "roleId": "it-director",
+    "roleName": "IT Director",
+    "function": "IT",
+    "level": "Director",
+    "userIds": [
+      "USR-009"
+    ],
+    "users": [
+      {
+        "id": "USR-009",
+        "name": "Brian Cox",
+        "email": "brian.cox@jnj.com",
+        "initials": "BC",
+        "title": "IT Audit Director",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-director"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260885-it-vp",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-005",
+    "jobId": "20260885",
+    "engagementName": "GxP Compliance Audit",
+    "plant": "Global Distribution Hub Singapore",
+    "roleId": "it-vp",
+    "roleName": "IT Vice President",
+    "function": "IT",
+    "level": "Vice President",
+    "userIds": [
+      "USR-011"
+    ],
+    "users": [
+      {
+        "id": "USR-011",
+        "name": "Robert Chen",
+        "email": "robert.chen@jnj.com",
+        "initials": "RC",
+        "title": "VP, Global IT Audit",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-vp"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260885-finops-auditor",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-005",
+    "jobId": "20260885",
+    "engagementName": "GxP Compliance Audit",
+    "plant": "Global Distribution Hub Singapore",
+    "roleId": "finops-auditor",
+    "roleName": "FinOps Auditor",
+    "function": "FinOps",
+    "level": "Auditor",
+    "userIds": [
+      "USR-005",
+      "USR-004"
+    ],
+    "users": [
+      {
+        "id": "USR-005",
+        "name": "David Miller",
+        "email": "david.miller@jnj.com",
+        "initials": "DM",
+        "title": "Senior FinOps Auditor",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-auditor"
+      },
+      {
+        "id": "USR-004",
+        "name": "Rachel Green",
+        "email": "rachel.green@jnj.com",
+        "initials": "RG",
+        "title": "Lead FinOps Auditor",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-auditor"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260885-finops-team-coordinator",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-005",
+    "jobId": "20260885",
+    "engagementName": "GxP Compliance Audit",
+    "plant": "Global Distribution Hub Singapore",
+    "roleId": "finops-team-coordinator",
+    "roleName": "FinOps Team Coordinator",
+    "function": "FinOps",
+    "level": "Team Coordinator",
+    "userIds": [
+      "USR-008"
+    ],
+    "users": [
+      {
+        "id": "USR-008",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@jnj.com",
+        "initials": "ER",
+        "title": "FinOps Team Coordinator",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-team-coordinator"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260885-finops-manager",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-005",
+    "jobId": "20260885",
+    "engagementName": "GxP Compliance Audit",
+    "plant": "Global Distribution Hub Singapore",
+    "roleId": "finops-manager",
+    "roleName": "FinOps Manager",
+    "function": "FinOps",
+    "level": "Manager",
+    "userIds": [
+      "USR-007"
+    ],
+    "users": [
+      {
+        "id": "USR-007",
+        "name": "Carlos Mendez",
+        "email": "carlos.mendez@jnj.com",
+        "initials": "CM",
+        "title": "FinOps Audit Manager",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-manager"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260885-finops-director",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-005",
+    "jobId": "20260885",
+    "engagementName": "GxP Compliance Audit",
+    "plant": "Global Distribution Hub Singapore",
+    "roleId": "finops-director",
+    "roleName": "FinOps Director",
+    "function": "FinOps",
+    "level": "Director",
+    "userIds": [
+      "USR-010"
+    ],
+    "users": [
+      {
+        "id": "USR-010",
+        "name": "Jessica Taylor",
+        "email": "jessica.taylor@jnj.com",
+        "initials": "JT",
+        "title": "FinOps Audit Director",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-director"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260885-finops-vp",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-005",
+    "jobId": "20260885",
+    "engagementName": "GxP Compliance Audit",
+    "plant": "Global Distribution Hub Singapore",
+    "roleId": "finops-vp",
+    "roleName": "FinOps Vice President",
+    "function": "FinOps",
+    "level": "Vice President",
+    "userIds": [
+      "USR-012"
+    ],
+    "users": [
+      {
+        "id": "USR-012",
+        "name": "Emily Davis",
+        "email": "emily.davis@jnj.com",
+        "initials": "ED",
+        "title": "VP, Global FinOps Audit",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-vp"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260885-business-contact",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-005",
+    "jobId": "20260885",
+    "engagementName": "GxP Compliance Audit",
+    "plant": "Global Distribution Hub Singapore",
+    "roleId": "business-contact",
+    "roleName": "Business Contact",
+    "function": "Business",
+    "level": "Business Contact",
+    "userIds": [
+      "USR-013"
+    ],
+    "users": [
+      {
+        "id": "USR-013",
+        "name": "Thomas Wright",
+        "email": "thomas.wright@jnj.com",
+        "initials": "TW",
+        "title": "Plant Operations Business Contact",
+        "function": "Business",
+        "isAlternateRole": false,
+        "baselineRole": "business-contact"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260886-it-auditor",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-006",
+    "jobId": "20260886",
+    "engagementName": "Medical Device Software Audit",
+    "plant": "Biosense Webster Irvine",
+    "roleId": "it-auditor",
+    "roleName": "IT Auditor",
+    "function": "IT",
+    "level": "Auditor",
+    "userIds": [
+      "USR-001",
+      "USR-002"
+    ],
+    "users": [
+      {
+        "id": "USR-001",
+        "name": "Marcus Vance",
+        "email": "marcus.vance@jnj.com",
+        "initials": "MV",
+        "title": "Senior IT Auditor",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-auditor"
+      },
+      {
+        "id": "USR-002",
+        "name": "Sarah Jenkins",
+        "email": "sarah.jenkins@jnj.com",
+        "initials": "SJ",
+        "title": "Staff IT Auditor",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-auditor"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260886-it-team-coordinator",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-006",
+    "jobId": "20260886",
+    "engagementName": "Medical Device Software Audit",
+    "plant": "Biosense Webster Irvine",
+    "roleId": "it-team-coordinator",
+    "roleName": "IT Team Coordinator",
+    "function": "IT",
+    "level": "Team Coordinator",
+    "userIds": [
+      "USR-003"
+    ],
+    "users": [
+      {
+        "id": "USR-003",
+        "name": "Kevin Zhang",
+        "email": "kevin.zhang@jnj.com",
+        "initials": "KZ",
+        "title": "IT Audit Team Coordinator",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-team-coordinator"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260886-it-manager",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-006",
+    "jobId": "20260886",
+    "engagementName": "Medical Device Software Audit",
+    "plant": "Biosense Webster Irvine",
+    "roleId": "it-manager",
+    "roleName": "IT Manager",
+    "function": "IT",
+    "level": "Manager",
+    "userIds": [
+      "USR-006"
+    ],
+    "users": [
+      {
+        "id": "USR-006",
+        "name": "Amanda Palmer",
+        "email": "amanda.palmer@jnj.com",
+        "initials": "AP",
+        "title": "IT Audit Manager",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-manager"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260886-it-director",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-006",
+    "jobId": "20260886",
+    "engagementName": "Medical Device Software Audit",
+    "plant": "Biosense Webster Irvine",
+    "roleId": "it-director",
+    "roleName": "IT Director",
+    "function": "IT",
+    "level": "Director",
+    "userIds": [
+      "USR-009"
+    ],
+    "users": [
+      {
+        "id": "USR-009",
+        "name": "Brian Cox",
+        "email": "brian.cox@jnj.com",
+        "initials": "BC",
+        "title": "IT Audit Director",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-director"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260886-it-vp",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-006",
+    "jobId": "20260886",
+    "engagementName": "Medical Device Software Audit",
+    "plant": "Biosense Webster Irvine",
+    "roleId": "it-vp",
+    "roleName": "IT Vice President",
+    "function": "IT",
+    "level": "Vice President",
+    "userIds": [
+      "USR-011"
+    ],
+    "users": [
+      {
+        "id": "USR-011",
+        "name": "Robert Chen",
+        "email": "robert.chen@jnj.com",
+        "initials": "RC",
+        "title": "VP, Global IT Audit",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-vp"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260886-finops-auditor",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-006",
+    "jobId": "20260886",
+    "engagementName": "Medical Device Software Audit",
+    "plant": "Biosense Webster Irvine",
+    "roleId": "finops-auditor",
+    "roleName": "FinOps Auditor",
+    "function": "FinOps",
+    "level": "Auditor",
+    "userIds": [
+      "USR-005",
+      "USR-004"
+    ],
+    "users": [
+      {
+        "id": "USR-005",
+        "name": "David Miller",
+        "email": "david.miller@jnj.com",
+        "initials": "DM",
+        "title": "Senior FinOps Auditor",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-auditor"
+      },
+      {
+        "id": "USR-004",
+        "name": "Rachel Green",
+        "email": "rachel.green@jnj.com",
+        "initials": "RG",
+        "title": "Lead FinOps Auditor",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-auditor"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260886-finops-team-coordinator",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-006",
+    "jobId": "20260886",
+    "engagementName": "Medical Device Software Audit",
+    "plant": "Biosense Webster Irvine",
+    "roleId": "finops-team-coordinator",
+    "roleName": "FinOps Team Coordinator",
+    "function": "FinOps",
+    "level": "Team Coordinator",
+    "userIds": [
+      "USR-008"
+    ],
+    "users": [
+      {
+        "id": "USR-008",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@jnj.com",
+        "initials": "ER",
+        "title": "FinOps Team Coordinator",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-team-coordinator"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260886-finops-manager",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-006",
+    "jobId": "20260886",
+    "engagementName": "Medical Device Software Audit",
+    "plant": "Biosense Webster Irvine",
+    "roleId": "finops-manager",
+    "roleName": "FinOps Manager",
+    "function": "FinOps",
+    "level": "Manager",
+    "userIds": [
+      "USR-007"
+    ],
+    "users": [
+      {
+        "id": "USR-007",
+        "name": "Carlos Mendez",
+        "email": "carlos.mendez@jnj.com",
+        "initials": "CM",
+        "title": "FinOps Audit Manager",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-manager"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260886-finops-director",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-006",
+    "jobId": "20260886",
+    "engagementName": "Medical Device Software Audit",
+    "plant": "Biosense Webster Irvine",
+    "roleId": "finops-director",
+    "roleName": "FinOps Director",
+    "function": "FinOps",
+    "level": "Director",
+    "userIds": [
+      "USR-010"
+    ],
+    "users": [
+      {
+        "id": "USR-010",
+        "name": "Jessica Taylor",
+        "email": "jessica.taylor@jnj.com",
+        "initials": "JT",
+        "title": "FinOps Audit Director",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-director"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260886-finops-vp",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-006",
+    "jobId": "20260886",
+    "engagementName": "Medical Device Software Audit",
+    "plant": "Biosense Webster Irvine",
+    "roleId": "finops-vp",
+    "roleName": "FinOps Vice President",
+    "function": "FinOps",
+    "level": "Vice President",
+    "userIds": [
+      "USR-012"
+    ],
+    "users": [
+      {
+        "id": "USR-012",
+        "name": "Emily Davis",
+        "email": "emily.davis@jnj.com",
+        "initials": "ED",
+        "title": "VP, Global FinOps Audit",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-vp"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260886-business-contact",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-006",
+    "jobId": "20260886",
+    "engagementName": "Medical Device Software Audit",
+    "plant": "Biosense Webster Irvine",
+    "roleId": "business-contact",
+    "roleName": "Business Contact",
+    "function": "Business",
+    "level": "Business Contact",
+    "userIds": [
+      "USR-014"
+    ],
+    "users": [
+      {
+        "id": "USR-014",
+        "name": "Michael Scott",
+        "email": "michael.scott@jnj.com",
+        "initials": "MS",
+        "title": "Regional Business Liaison",
+        "function": "Business",
+        "isAlternateRole": false,
+        "baselineRole": "business-contact"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260887-it-auditor",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-007",
+    "jobId": "20260887",
+    "engagementName": "Quality Management Review",
+    "plant": "Janssen Raritan",
+    "roleId": "it-auditor",
+    "roleName": "IT Auditor",
+    "function": "IT",
+    "level": "Auditor",
+    "userIds": [
+      "USR-001",
+      "USR-002"
+    ],
+    "users": [
+      {
+        "id": "USR-001",
+        "name": "Marcus Vance",
+        "email": "marcus.vance@jnj.com",
+        "initials": "MV",
+        "title": "Senior IT Auditor",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-auditor"
+      },
+      {
+        "id": "USR-002",
+        "name": "Sarah Jenkins",
+        "email": "sarah.jenkins@jnj.com",
+        "initials": "SJ",
+        "title": "Staff IT Auditor",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-auditor"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260887-it-team-coordinator",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-007",
+    "jobId": "20260887",
+    "engagementName": "Quality Management Review",
+    "plant": "Janssen Raritan",
+    "roleId": "it-team-coordinator",
+    "roleName": "IT Team Coordinator",
+    "function": "IT",
+    "level": "Team Coordinator",
+    "userIds": [
+      "USR-003"
+    ],
+    "users": [
+      {
+        "id": "USR-003",
+        "name": "Kevin Zhang",
+        "email": "kevin.zhang@jnj.com",
+        "initials": "KZ",
+        "title": "IT Audit Team Coordinator",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-team-coordinator"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260887-it-manager",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-007",
+    "jobId": "20260887",
+    "engagementName": "Quality Management Review",
+    "plant": "Janssen Raritan",
+    "roleId": "it-manager",
+    "roleName": "IT Manager",
+    "function": "IT",
+    "level": "Manager",
+    "userIds": [
+      "USR-006"
+    ],
+    "users": [
+      {
+        "id": "USR-006",
+        "name": "Amanda Palmer",
+        "email": "amanda.palmer@jnj.com",
+        "initials": "AP",
+        "title": "IT Audit Manager",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-manager"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260887-it-director",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-007",
+    "jobId": "20260887",
+    "engagementName": "Quality Management Review",
+    "plant": "Janssen Raritan",
+    "roleId": "it-director",
+    "roleName": "IT Director",
+    "function": "IT",
+    "level": "Director",
+    "userIds": [
+      "USR-009"
+    ],
+    "users": [
+      {
+        "id": "USR-009",
+        "name": "Brian Cox",
+        "email": "brian.cox@jnj.com",
+        "initials": "BC",
+        "title": "IT Audit Director",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-director"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260887-it-vp",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-007",
+    "jobId": "20260887",
+    "engagementName": "Quality Management Review",
+    "plant": "Janssen Raritan",
+    "roleId": "it-vp",
+    "roleName": "IT Vice President",
+    "function": "IT",
+    "level": "Vice President",
+    "userIds": [
+      "USR-011"
+    ],
+    "users": [
+      {
+        "id": "USR-011",
+        "name": "Robert Chen",
+        "email": "robert.chen@jnj.com",
+        "initials": "RC",
+        "title": "VP, Global IT Audit",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-vp"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260887-finops-auditor",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-007",
+    "jobId": "20260887",
+    "engagementName": "Quality Management Review",
+    "plant": "Janssen Raritan",
+    "roleId": "finops-auditor",
+    "roleName": "FinOps Auditor",
+    "function": "FinOps",
+    "level": "Auditor",
+    "userIds": [
+      "USR-005",
+      "USR-004"
+    ],
+    "users": [
+      {
+        "id": "USR-005",
+        "name": "David Miller",
+        "email": "david.miller@jnj.com",
+        "initials": "DM",
+        "title": "Senior FinOps Auditor",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-auditor"
+      },
+      {
+        "id": "USR-004",
+        "name": "Rachel Green",
+        "email": "rachel.green@jnj.com",
+        "initials": "RG",
+        "title": "Lead FinOps Auditor",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-auditor"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260887-finops-team-coordinator",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-007",
+    "jobId": "20260887",
+    "engagementName": "Quality Management Review",
+    "plant": "Janssen Raritan",
+    "roleId": "finops-team-coordinator",
+    "roleName": "FinOps Team Coordinator",
+    "function": "FinOps",
+    "level": "Team Coordinator",
+    "userIds": [
+      "USR-008"
+    ],
+    "users": [
+      {
+        "id": "USR-008",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@jnj.com",
+        "initials": "ER",
+        "title": "FinOps Team Coordinator",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-team-coordinator"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260887-finops-manager",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-007",
+    "jobId": "20260887",
+    "engagementName": "Quality Management Review",
+    "plant": "Janssen Raritan",
+    "roleId": "finops-manager",
+    "roleName": "FinOps Manager",
+    "function": "FinOps",
+    "level": "Manager",
+    "userIds": [
+      "USR-007"
+    ],
+    "users": [
+      {
+        "id": "USR-007",
+        "name": "Carlos Mendez",
+        "email": "carlos.mendez@jnj.com",
+        "initials": "CM",
+        "title": "FinOps Audit Manager",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-manager"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260887-finops-director",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-007",
+    "jobId": "20260887",
+    "engagementName": "Quality Management Review",
+    "plant": "Janssen Raritan",
+    "roleId": "finops-director",
+    "roleName": "FinOps Director",
+    "function": "FinOps",
+    "level": "Director",
+    "userIds": [
+      "USR-010"
+    ],
+    "users": [
+      {
+        "id": "USR-010",
+        "name": "Jessica Taylor",
+        "email": "jessica.taylor@jnj.com",
+        "initials": "JT",
+        "title": "FinOps Audit Director",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-director"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260887-finops-vp",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-007",
+    "jobId": "20260887",
+    "engagementName": "Quality Management Review",
+    "plant": "Janssen Raritan",
+    "roleId": "finops-vp",
+    "roleName": "FinOps Vice President",
+    "function": "FinOps",
+    "level": "Vice President",
+    "userIds": [
+      "USR-012"
+    ],
+    "users": [
+      {
+        "id": "USR-012",
+        "name": "Emily Davis",
+        "email": "emily.davis@jnj.com",
+        "initials": "ED",
+        "title": "VP, Global FinOps Audit",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-vp"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260887-business-contact",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-007",
+    "jobId": "20260887",
+    "engagementName": "Quality Management Review",
+    "plant": "Janssen Raritan",
+    "roleId": "business-contact",
+    "roleName": "Business Contact",
+    "function": "Business",
+    "level": "Business Contact",
+    "userIds": [
+      "USR-015"
+    ],
+    "users": [
+      {
+        "id": "USR-015",
+        "name": "Jennifer Aniston",
+        "email": "jennifer.aniston@jnj.com",
+        "initials": "JA",
+        "title": "Quality Assurance Business Contact",
+        "function": "Business",
+        "isAlternateRole": false,
+        "baselineRole": "business-contact"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260888-it-auditor",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-008",
+    "jobId": "20260888",
+    "engagementName": "Regulatory Compliance Audit",
+    "plant": "Ethicon San Angelo",
+    "roleId": "it-auditor",
+    "roleName": "IT Auditor",
+    "function": "IT",
+    "level": "Auditor",
+    "userIds": [
+      "USR-001",
+      "USR-002"
+    ],
+    "users": [
+      {
+        "id": "USR-001",
+        "name": "Marcus Vance",
+        "email": "marcus.vance@jnj.com",
+        "initials": "MV",
+        "title": "Senior IT Auditor",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-auditor"
+      },
+      {
+        "id": "USR-002",
+        "name": "Sarah Jenkins",
+        "email": "sarah.jenkins@jnj.com",
+        "initials": "SJ",
+        "title": "Staff IT Auditor",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-auditor"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260888-it-team-coordinator",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-008",
+    "jobId": "20260888",
+    "engagementName": "Regulatory Compliance Audit",
+    "plant": "Ethicon San Angelo",
+    "roleId": "it-team-coordinator",
+    "roleName": "IT Team Coordinator",
+    "function": "IT",
+    "level": "Team Coordinator",
+    "userIds": [
+      "USR-003"
+    ],
+    "users": [
+      {
+        "id": "USR-003",
+        "name": "Kevin Zhang",
+        "email": "kevin.zhang@jnj.com",
+        "initials": "KZ",
+        "title": "IT Audit Team Coordinator",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-team-coordinator"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260888-it-manager",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-008",
+    "jobId": "20260888",
+    "engagementName": "Regulatory Compliance Audit",
+    "plant": "Ethicon San Angelo",
+    "roleId": "it-manager",
+    "roleName": "IT Manager",
+    "function": "IT",
+    "level": "Manager",
+    "userIds": [
+      "USR-006"
+    ],
+    "users": [
+      {
+        "id": "USR-006",
+        "name": "Amanda Palmer",
+        "email": "amanda.palmer@jnj.com",
+        "initials": "AP",
+        "title": "IT Audit Manager",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-manager"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260888-it-director",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-008",
+    "jobId": "20260888",
+    "engagementName": "Regulatory Compliance Audit",
+    "plant": "Ethicon San Angelo",
+    "roleId": "it-director",
+    "roleName": "IT Director",
+    "function": "IT",
+    "level": "Director",
+    "userIds": [
+      "USR-009"
+    ],
+    "users": [
+      {
+        "id": "USR-009",
+        "name": "Brian Cox",
+        "email": "brian.cox@jnj.com",
+        "initials": "BC",
+        "title": "IT Audit Director",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-director"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260888-it-vp",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-008",
+    "jobId": "20260888",
+    "engagementName": "Regulatory Compliance Audit",
+    "plant": "Ethicon San Angelo",
+    "roleId": "it-vp",
+    "roleName": "IT Vice President",
+    "function": "IT",
+    "level": "Vice President",
+    "userIds": [
+      "USR-011"
+    ],
+    "users": [
+      {
+        "id": "USR-011",
+        "name": "Robert Chen",
+        "email": "robert.chen@jnj.com",
+        "initials": "RC",
+        "title": "VP, Global IT Audit",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-vp"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260888-finops-auditor",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-008",
+    "jobId": "20260888",
+    "engagementName": "Regulatory Compliance Audit",
+    "plant": "Ethicon San Angelo",
+    "roleId": "finops-auditor",
+    "roleName": "FinOps Auditor",
+    "function": "FinOps",
+    "level": "Auditor",
+    "userIds": [
+      "USR-005",
+      "USR-004"
+    ],
+    "users": [
+      {
+        "id": "USR-005",
+        "name": "David Miller",
+        "email": "david.miller@jnj.com",
+        "initials": "DM",
+        "title": "Senior FinOps Auditor",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-auditor"
+      },
+      {
+        "id": "USR-004",
+        "name": "Rachel Green",
+        "email": "rachel.green@jnj.com",
+        "initials": "RG",
+        "title": "Lead FinOps Auditor",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-auditor"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260888-finops-team-coordinator",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-008",
+    "jobId": "20260888",
+    "engagementName": "Regulatory Compliance Audit",
+    "plant": "Ethicon San Angelo",
+    "roleId": "finops-team-coordinator",
+    "roleName": "FinOps Team Coordinator",
+    "function": "FinOps",
+    "level": "Team Coordinator",
+    "userIds": [
+      "USR-008"
+    ],
+    "users": [
+      {
+        "id": "USR-008",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@jnj.com",
+        "initials": "ER",
+        "title": "FinOps Team Coordinator",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-team-coordinator"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260888-finops-manager",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-008",
+    "jobId": "20260888",
+    "engagementName": "Regulatory Compliance Audit",
+    "plant": "Ethicon San Angelo",
+    "roleId": "finops-manager",
+    "roleName": "FinOps Manager",
+    "function": "FinOps",
+    "level": "Manager",
+    "userIds": [
+      "USR-007"
+    ],
+    "users": [
+      {
+        "id": "USR-007",
+        "name": "Carlos Mendez",
+        "email": "carlos.mendez@jnj.com",
+        "initials": "CM",
+        "title": "FinOps Audit Manager",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-manager"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260888-finops-director",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-008",
+    "jobId": "20260888",
+    "engagementName": "Regulatory Compliance Audit",
+    "plant": "Ethicon San Angelo",
+    "roleId": "finops-director",
+    "roleName": "FinOps Director",
+    "function": "FinOps",
+    "level": "Director",
+    "userIds": [
+      "USR-010"
+    ],
+    "users": [
+      {
+        "id": "USR-010",
+        "name": "Jessica Taylor",
+        "email": "jessica.taylor@jnj.com",
+        "initials": "JT",
+        "title": "FinOps Audit Director",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-director"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260888-finops-vp",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-008",
+    "jobId": "20260888",
+    "engagementName": "Regulatory Compliance Audit",
+    "plant": "Ethicon San Angelo",
+    "roleId": "finops-vp",
+    "roleName": "FinOps Vice President",
+    "function": "FinOps",
+    "level": "Vice President",
+    "userIds": [
+      "USR-012"
+    ],
+    "users": [
+      {
+        "id": "USR-012",
+        "name": "Emily Davis",
+        "email": "emily.davis@jnj.com",
+        "initials": "ED",
+        "title": "VP, Global FinOps Audit",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-vp"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260888-business-contact",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-008",
+    "jobId": "20260888",
+    "engagementName": "Regulatory Compliance Audit",
+    "plant": "Ethicon San Angelo",
+    "roleId": "business-contact",
+    "roleName": "Business Contact",
+    "function": "Business",
+    "level": "Business Contact",
+    "userIds": [
+      "USR-018"
+    ],
+    "users": [
+      {
+        "id": "USR-018",
+        "name": "Brandon Walsh",
+        "email": "brandon.walsh@jnj.com",
+        "initials": "BW",
+        "title": "Commercial Compliance Partner",
+        "function": "Business",
+        "isAlternateRole": false,
+        "baselineRole": "business-contact"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260889-it-auditor",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-009",
+    "jobId": "20260889",
+    "engagementName": "Vision Care Contact Lens Manufacturing Audit",
+    "plant": "Vision Care Limerick",
+    "roleId": "it-auditor",
+    "roleName": "IT Auditor",
+    "function": "IT",
+    "level": "Auditor",
+    "userIds": [
+      "USR-001",
+      "USR-002"
+    ],
+    "users": [
+      {
+        "id": "USR-001",
+        "name": "Marcus Vance",
+        "email": "marcus.vance@jnj.com",
+        "initials": "MV",
+        "title": "Senior IT Auditor",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-auditor"
+      },
+      {
+        "id": "USR-002",
+        "name": "Sarah Jenkins",
+        "email": "sarah.jenkins@jnj.com",
+        "initials": "SJ",
+        "title": "Staff IT Auditor",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-auditor"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260889-it-team-coordinator",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-009",
+    "jobId": "20260889",
+    "engagementName": "Vision Care Contact Lens Manufacturing Audit",
+    "plant": "Vision Care Limerick",
+    "roleId": "it-team-coordinator",
+    "roleName": "IT Team Coordinator",
+    "function": "IT",
+    "level": "Team Coordinator",
+    "userIds": [
+      "USR-003"
+    ],
+    "users": [
+      {
+        "id": "USR-003",
+        "name": "Kevin Zhang",
+        "email": "kevin.zhang@jnj.com",
+        "initials": "KZ",
+        "title": "IT Audit Team Coordinator",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-team-coordinator"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260889-it-manager",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-009",
+    "jobId": "20260889",
+    "engagementName": "Vision Care Contact Lens Manufacturing Audit",
+    "plant": "Vision Care Limerick",
+    "roleId": "it-manager",
+    "roleName": "IT Manager",
+    "function": "IT",
+    "level": "Manager",
+    "userIds": [
+      "USR-006"
+    ],
+    "users": [
+      {
+        "id": "USR-006",
+        "name": "Amanda Palmer",
+        "email": "amanda.palmer@jnj.com",
+        "initials": "AP",
+        "title": "IT Audit Manager",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-manager"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260889-it-director",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-009",
+    "jobId": "20260889",
+    "engagementName": "Vision Care Contact Lens Manufacturing Audit",
+    "plant": "Vision Care Limerick",
+    "roleId": "it-director",
+    "roleName": "IT Director",
+    "function": "IT",
+    "level": "Director",
+    "userIds": [
+      "USR-009"
+    ],
+    "users": [
+      {
+        "id": "USR-009",
+        "name": "Brian Cox",
+        "email": "brian.cox@jnj.com",
+        "initials": "BC",
+        "title": "IT Audit Director",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-director"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260889-it-vp",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-009",
+    "jobId": "20260889",
+    "engagementName": "Vision Care Contact Lens Manufacturing Audit",
+    "plant": "Vision Care Limerick",
+    "roleId": "it-vp",
+    "roleName": "IT Vice President",
+    "function": "IT",
+    "level": "Vice President",
+    "userIds": [
+      "USR-011"
+    ],
+    "users": [
+      {
+        "id": "USR-011",
+        "name": "Robert Chen",
+        "email": "robert.chen@jnj.com",
+        "initials": "RC",
+        "title": "VP, Global IT Audit",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-vp"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260889-finops-auditor",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-009",
+    "jobId": "20260889",
+    "engagementName": "Vision Care Contact Lens Manufacturing Audit",
+    "plant": "Vision Care Limerick",
+    "roleId": "finops-auditor",
+    "roleName": "FinOps Auditor",
+    "function": "FinOps",
+    "level": "Auditor",
+    "userIds": [
+      "USR-005",
+      "USR-004"
+    ],
+    "users": [
+      {
+        "id": "USR-005",
+        "name": "David Miller",
+        "email": "david.miller@jnj.com",
+        "initials": "DM",
+        "title": "Senior FinOps Auditor",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-auditor"
+      },
+      {
+        "id": "USR-004",
+        "name": "Rachel Green",
+        "email": "rachel.green@jnj.com",
+        "initials": "RG",
+        "title": "Lead FinOps Auditor",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-auditor"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260889-finops-team-coordinator",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-009",
+    "jobId": "20260889",
+    "engagementName": "Vision Care Contact Lens Manufacturing Audit",
+    "plant": "Vision Care Limerick",
+    "roleId": "finops-team-coordinator",
+    "roleName": "FinOps Team Coordinator",
+    "function": "FinOps",
+    "level": "Team Coordinator",
+    "userIds": [
+      "USR-008"
+    ],
+    "users": [
+      {
+        "id": "USR-008",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@jnj.com",
+        "initials": "ER",
+        "title": "FinOps Team Coordinator",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-team-coordinator"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260889-finops-manager",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-009",
+    "jobId": "20260889",
+    "engagementName": "Vision Care Contact Lens Manufacturing Audit",
+    "plant": "Vision Care Limerick",
+    "roleId": "finops-manager",
+    "roleName": "FinOps Manager",
+    "function": "FinOps",
+    "level": "Manager",
+    "userIds": [
+      "USR-007"
+    ],
+    "users": [
+      {
+        "id": "USR-007",
+        "name": "Carlos Mendez",
+        "email": "carlos.mendez@jnj.com",
+        "initials": "CM",
+        "title": "FinOps Audit Manager",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-manager"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260889-finops-director",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-009",
+    "jobId": "20260889",
+    "engagementName": "Vision Care Contact Lens Manufacturing Audit",
+    "plant": "Vision Care Limerick",
+    "roleId": "finops-director",
+    "roleName": "FinOps Director",
+    "function": "FinOps",
+    "level": "Director",
+    "userIds": [
+      "USR-010"
+    ],
+    "users": [
+      {
+        "id": "USR-010",
+        "name": "Jessica Taylor",
+        "email": "jessica.taylor@jnj.com",
+        "initials": "JT",
+        "title": "FinOps Audit Director",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-director"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260889-finops-vp",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-009",
+    "jobId": "20260889",
+    "engagementName": "Vision Care Contact Lens Manufacturing Audit",
+    "plant": "Vision Care Limerick",
+    "roleId": "finops-vp",
+    "roleName": "FinOps Vice President",
+    "function": "FinOps",
+    "level": "Vice President",
+    "userIds": [
+      "USR-012"
+    ],
+    "users": [
+      {
+        "id": "USR-012",
+        "name": "Emily Davis",
+        "email": "emily.davis@jnj.com",
+        "initials": "ED",
+        "title": "VP, Global FinOps Audit",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-vp"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20260889-business-contact",
+    "assessmentId": "ASM-2026",
+    "assessmentName": "2026 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2026-009",
+    "jobId": "20260889",
+    "engagementName": "Vision Care Contact Lens Manufacturing Audit",
+    "plant": "Vision Care Limerick",
+    "roleId": "business-contact",
+    "roleName": "Business Contact",
+    "function": "Business",
+    "level": "Business Contact",
+    "userIds": [
+      "USR-013"
+    ],
+    "users": [
+      {
+        "id": "USR-013",
+        "name": "Thomas Wright",
+        "email": "thomas.wright@jnj.com",
+        "initials": "TW",
+        "title": "Plant Operations Business Contact",
+        "function": "Business",
+        "isAlternateRole": false,
+        "baselineRole": "business-contact"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270901-it-auditor",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-001",
+    "jobId": "20270901",
+    "engagementName": "AI & Robotics Controls Audit",
+    "plant": "Ethicon Cincinnati",
+    "roleId": "it-auditor",
+    "roleName": "IT Auditor",
+    "function": "IT",
+    "level": "Auditor",
+    "userIds": [
+      "USR-001",
+      "USR-002"
+    ],
+    "users": [
+      {
+        "id": "USR-001",
+        "name": "Marcus Vance",
+        "email": "marcus.vance@jnj.com",
+        "initials": "MV",
+        "title": "Senior IT Auditor",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-auditor"
+      },
+      {
+        "id": "USR-002",
+        "name": "Sarah Jenkins",
+        "email": "sarah.jenkins@jnj.com",
+        "initials": "SJ",
+        "title": "Staff IT Auditor",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-auditor"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270901-it-team-coordinator",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-001",
+    "jobId": "20270901",
+    "engagementName": "AI & Robotics Controls Audit",
+    "plant": "Ethicon Cincinnati",
+    "roleId": "it-team-coordinator",
+    "roleName": "IT Team Coordinator",
+    "function": "IT",
+    "level": "Team Coordinator",
+    "userIds": [
+      "USR-003"
+    ],
+    "users": [
+      {
+        "id": "USR-003",
+        "name": "Kevin Zhang",
+        "email": "kevin.zhang@jnj.com",
+        "initials": "KZ",
+        "title": "IT Audit Team Coordinator",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-team-coordinator"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270901-it-manager",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-001",
+    "jobId": "20270901",
+    "engagementName": "AI & Robotics Controls Audit",
+    "plant": "Ethicon Cincinnati",
+    "roleId": "it-manager",
+    "roleName": "IT Manager",
+    "function": "IT",
+    "level": "Manager",
+    "userIds": [
+      "USR-006"
+    ],
+    "users": [
+      {
+        "id": "USR-006",
+        "name": "Amanda Palmer",
+        "email": "amanda.palmer@jnj.com",
+        "initials": "AP",
+        "title": "IT Audit Manager",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-manager"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270901-it-director",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-001",
+    "jobId": "20270901",
+    "engagementName": "AI & Robotics Controls Audit",
+    "plant": "Ethicon Cincinnati",
+    "roleId": "it-director",
+    "roleName": "IT Director",
+    "function": "IT",
+    "level": "Director",
+    "userIds": [
+      "USR-009"
+    ],
+    "users": [
+      {
+        "id": "USR-009",
+        "name": "Brian Cox",
+        "email": "brian.cox@jnj.com",
+        "initials": "BC",
+        "title": "IT Audit Director",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-director"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270901-it-vp",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-001",
+    "jobId": "20270901",
+    "engagementName": "AI & Robotics Controls Audit",
+    "plant": "Ethicon Cincinnati",
+    "roleId": "it-vp",
+    "roleName": "IT Vice President",
+    "function": "IT",
+    "level": "Vice President",
+    "userIds": [
+      "USR-011"
+    ],
+    "users": [
+      {
+        "id": "USR-011",
+        "name": "Robert Chen",
+        "email": "robert.chen@jnj.com",
+        "initials": "RC",
+        "title": "VP, Global IT Audit",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-vp"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270901-finops-auditor",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-001",
+    "jobId": "20270901",
+    "engagementName": "AI & Robotics Controls Audit",
+    "plant": "Ethicon Cincinnati",
+    "roleId": "finops-auditor",
+    "roleName": "FinOps Auditor",
+    "function": "FinOps",
+    "level": "Auditor",
+    "userIds": [
+      "USR-005",
+      "USR-004"
+    ],
+    "users": [
+      {
+        "id": "USR-005",
+        "name": "David Miller",
+        "email": "david.miller@jnj.com",
+        "initials": "DM",
+        "title": "Senior FinOps Auditor",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-auditor"
+      },
+      {
+        "id": "USR-004",
+        "name": "Rachel Green",
+        "email": "rachel.green@jnj.com",
+        "initials": "RG",
+        "title": "Lead FinOps Auditor",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-auditor"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270901-finops-team-coordinator",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-001",
+    "jobId": "20270901",
+    "engagementName": "AI & Robotics Controls Audit",
+    "plant": "Ethicon Cincinnati",
+    "roleId": "finops-team-coordinator",
+    "roleName": "FinOps Team Coordinator",
+    "function": "FinOps",
+    "level": "Team Coordinator",
+    "userIds": [
+      "USR-008"
+    ],
+    "users": [
+      {
+        "id": "USR-008",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@jnj.com",
+        "initials": "ER",
+        "title": "FinOps Team Coordinator",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-team-coordinator"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270901-finops-manager",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-001",
+    "jobId": "20270901",
+    "engagementName": "AI & Robotics Controls Audit",
+    "plant": "Ethicon Cincinnati",
+    "roleId": "finops-manager",
+    "roleName": "FinOps Manager",
+    "function": "FinOps",
+    "level": "Manager",
+    "userIds": [
+      "USR-007"
+    ],
+    "users": [
+      {
+        "id": "USR-007",
+        "name": "Carlos Mendez",
+        "email": "carlos.mendez@jnj.com",
+        "initials": "CM",
+        "title": "FinOps Audit Manager",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-manager"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270901-finops-director",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-001",
+    "jobId": "20270901",
+    "engagementName": "AI & Robotics Controls Audit",
+    "plant": "Ethicon Cincinnati",
+    "roleId": "finops-director",
+    "roleName": "FinOps Director",
+    "function": "FinOps",
+    "level": "Director",
+    "userIds": [
+      "USR-010"
+    ],
+    "users": [
+      {
+        "id": "USR-010",
+        "name": "Jessica Taylor",
+        "email": "jessica.taylor@jnj.com",
+        "initials": "JT",
+        "title": "FinOps Audit Director",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-director"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270901-finops-vp",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-001",
+    "jobId": "20270901",
+    "engagementName": "AI & Robotics Controls Audit",
+    "plant": "Ethicon Cincinnati",
+    "roleId": "finops-vp",
+    "roleName": "FinOps Vice President",
+    "function": "FinOps",
+    "level": "Vice President",
+    "userIds": [
+      "USR-012"
+    ],
+    "users": [
+      {
+        "id": "USR-012",
+        "name": "Emily Davis",
+        "email": "emily.davis@jnj.com",
+        "initials": "ED",
+        "title": "VP, Global FinOps Audit",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-vp"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270901-business-contact",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-001",
+    "jobId": "20270901",
+    "engagementName": "AI & Robotics Controls Audit",
+    "plant": "Ethicon Cincinnati",
+    "roleId": "business-contact",
+    "roleName": "Business Contact",
+    "function": "Business",
+    "level": "Business Contact",
+    "userIds": [
+      "USR-013"
+    ],
+    "users": [
+      {
+        "id": "USR-013",
+        "name": "Thomas Wright",
+        "email": "thomas.wright@jnj.com",
+        "initials": "TW",
+        "title": "Plant Operations Business Contact",
+        "function": "Business",
+        "isAlternateRole": false,
+        "baselineRole": "business-contact"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270902-it-auditor",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-002",
+    "jobId": "20270902",
+    "engagementName": "Pharma Cold-Chain Quality Audit",
+    "plant": "Janssen Malvern",
+    "roleId": "it-auditor",
+    "roleName": "IT Auditor",
+    "function": "IT",
+    "level": "Auditor",
+    "userIds": [
+      "USR-001",
+      "USR-002"
+    ],
+    "users": [
+      {
+        "id": "USR-001",
+        "name": "Marcus Vance",
+        "email": "marcus.vance@jnj.com",
+        "initials": "MV",
+        "title": "Senior IT Auditor",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-auditor"
+      },
+      {
+        "id": "USR-002",
+        "name": "Sarah Jenkins",
+        "email": "sarah.jenkins@jnj.com",
+        "initials": "SJ",
+        "title": "Staff IT Auditor",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-auditor"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270902-it-team-coordinator",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-002",
+    "jobId": "20270902",
+    "engagementName": "Pharma Cold-Chain Quality Audit",
+    "plant": "Janssen Malvern",
+    "roleId": "it-team-coordinator",
+    "roleName": "IT Team Coordinator",
+    "function": "IT",
+    "level": "Team Coordinator",
+    "userIds": [
+      "USR-003"
+    ],
+    "users": [
+      {
+        "id": "USR-003",
+        "name": "Kevin Zhang",
+        "email": "kevin.zhang@jnj.com",
+        "initials": "KZ",
+        "title": "IT Audit Team Coordinator",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-team-coordinator"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270902-it-manager",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-002",
+    "jobId": "20270902",
+    "engagementName": "Pharma Cold-Chain Quality Audit",
+    "plant": "Janssen Malvern",
+    "roleId": "it-manager",
+    "roleName": "IT Manager",
+    "function": "IT",
+    "level": "Manager",
+    "userIds": [
+      "USR-006"
+    ],
+    "users": [
+      {
+        "id": "USR-006",
+        "name": "Amanda Palmer",
+        "email": "amanda.palmer@jnj.com",
+        "initials": "AP",
+        "title": "IT Audit Manager",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-manager"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270902-it-director",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-002",
+    "jobId": "20270902",
+    "engagementName": "Pharma Cold-Chain Quality Audit",
+    "plant": "Janssen Malvern",
+    "roleId": "it-director",
+    "roleName": "IT Director",
+    "function": "IT",
+    "level": "Director",
+    "userIds": [
+      "USR-009"
+    ],
+    "users": [
+      {
+        "id": "USR-009",
+        "name": "Brian Cox",
+        "email": "brian.cox@jnj.com",
+        "initials": "BC",
+        "title": "IT Audit Director",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-director"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270902-it-vp",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-002",
+    "jobId": "20270902",
+    "engagementName": "Pharma Cold-Chain Quality Audit",
+    "plant": "Janssen Malvern",
+    "roleId": "it-vp",
+    "roleName": "IT Vice President",
+    "function": "IT",
+    "level": "Vice President",
+    "userIds": [
+      "USR-011"
+    ],
+    "users": [
+      {
+        "id": "USR-011",
+        "name": "Robert Chen",
+        "email": "robert.chen@jnj.com",
+        "initials": "RC",
+        "title": "VP, Global IT Audit",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-vp"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270902-finops-auditor",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-002",
+    "jobId": "20270902",
+    "engagementName": "Pharma Cold-Chain Quality Audit",
+    "plant": "Janssen Malvern",
+    "roleId": "finops-auditor",
+    "roleName": "FinOps Auditor",
+    "function": "FinOps",
+    "level": "Auditor",
+    "userIds": [
+      "USR-005",
+      "USR-004"
+    ],
+    "users": [
+      {
+        "id": "USR-005",
+        "name": "David Miller",
+        "email": "david.miller@jnj.com",
+        "initials": "DM",
+        "title": "Senior FinOps Auditor",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-auditor"
+      },
+      {
+        "id": "USR-004",
+        "name": "Rachel Green",
+        "email": "rachel.green@jnj.com",
+        "initials": "RG",
+        "title": "Lead FinOps Auditor",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-auditor"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270902-finops-team-coordinator",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-002",
+    "jobId": "20270902",
+    "engagementName": "Pharma Cold-Chain Quality Audit",
+    "plant": "Janssen Malvern",
+    "roleId": "finops-team-coordinator",
+    "roleName": "FinOps Team Coordinator",
+    "function": "FinOps",
+    "level": "Team Coordinator",
+    "userIds": [
+      "USR-008"
+    ],
+    "users": [
+      {
+        "id": "USR-008",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@jnj.com",
+        "initials": "ER",
+        "title": "FinOps Team Coordinator",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-team-coordinator"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270902-finops-manager",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-002",
+    "jobId": "20270902",
+    "engagementName": "Pharma Cold-Chain Quality Audit",
+    "plant": "Janssen Malvern",
+    "roleId": "finops-manager",
+    "roleName": "FinOps Manager",
+    "function": "FinOps",
+    "level": "Manager",
+    "userIds": [
+      "USR-007"
+    ],
+    "users": [
+      {
+        "id": "USR-007",
+        "name": "Carlos Mendez",
+        "email": "carlos.mendez@jnj.com",
+        "initials": "CM",
+        "title": "FinOps Audit Manager",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-manager"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270902-finops-director",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-002",
+    "jobId": "20270902",
+    "engagementName": "Pharma Cold-Chain Quality Audit",
+    "plant": "Janssen Malvern",
+    "roleId": "finops-director",
+    "roleName": "FinOps Director",
+    "function": "FinOps",
+    "level": "Director",
+    "userIds": [
+      "USR-010"
+    ],
+    "users": [
+      {
+        "id": "USR-010",
+        "name": "Jessica Taylor",
+        "email": "jessica.taylor@jnj.com",
+        "initials": "JT",
+        "title": "FinOps Audit Director",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-director"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270902-finops-vp",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-002",
+    "jobId": "20270902",
+    "engagementName": "Pharma Cold-Chain Quality Audit",
+    "plant": "Janssen Malvern",
+    "roleId": "finops-vp",
+    "roleName": "FinOps Vice President",
+    "function": "FinOps",
+    "level": "Vice President",
+    "userIds": [
+      "USR-012"
+    ],
+    "users": [
+      {
+        "id": "USR-012",
+        "name": "Emily Davis",
+        "email": "emily.davis@jnj.com",
+        "initials": "ED",
+        "title": "VP, Global FinOps Audit",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-vp"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270902-business-contact",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-002",
+    "jobId": "20270902",
+    "engagementName": "Pharma Cold-Chain Quality Audit",
+    "plant": "Janssen Malvern",
+    "roleId": "business-contact",
+    "roleName": "Business Contact",
+    "function": "Business",
+    "level": "Business Contact",
+    "userIds": [
+      "USR-014"
+    ],
+    "users": [
+      {
+        "id": "USR-014",
+        "name": "Michael Scott",
+        "email": "michael.scott@jnj.com",
+        "initials": "MS",
+        "title": "Regional Business Liaison",
+        "function": "Business",
+        "isAlternateRole": false,
+        "baselineRole": "business-contact"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270903-it-auditor",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-003",
+    "jobId": "20270903",
+    "engagementName": "Software Part 11 Audit",
+    "plant": "Biosense Webster Irvine",
+    "roleId": "it-auditor",
+    "roleName": "IT Auditor",
+    "function": "IT",
+    "level": "Auditor",
+    "userIds": [
+      "USR-001",
+      "USR-002"
+    ],
+    "users": [
+      {
+        "id": "USR-001",
+        "name": "Marcus Vance",
+        "email": "marcus.vance@jnj.com",
+        "initials": "MV",
+        "title": "Senior IT Auditor",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-auditor"
+      },
+      {
+        "id": "USR-002",
+        "name": "Sarah Jenkins",
+        "email": "sarah.jenkins@jnj.com",
+        "initials": "SJ",
+        "title": "Staff IT Auditor",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-auditor"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270903-it-team-coordinator",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-003",
+    "jobId": "20270903",
+    "engagementName": "Software Part 11 Audit",
+    "plant": "Biosense Webster Irvine",
+    "roleId": "it-team-coordinator",
+    "roleName": "IT Team Coordinator",
+    "function": "IT",
+    "level": "Team Coordinator",
+    "userIds": [
+      "USR-003"
+    ],
+    "users": [
+      {
+        "id": "USR-003",
+        "name": "Kevin Zhang",
+        "email": "kevin.zhang@jnj.com",
+        "initials": "KZ",
+        "title": "IT Audit Team Coordinator",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-team-coordinator"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270903-it-manager",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-003",
+    "jobId": "20270903",
+    "engagementName": "Software Part 11 Audit",
+    "plant": "Biosense Webster Irvine",
+    "roleId": "it-manager",
+    "roleName": "IT Manager",
+    "function": "IT",
+    "level": "Manager",
+    "userIds": [
+      "USR-006"
+    ],
+    "users": [
+      {
+        "id": "USR-006",
+        "name": "Amanda Palmer",
+        "email": "amanda.palmer@jnj.com",
+        "initials": "AP",
+        "title": "IT Audit Manager",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-manager"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270903-it-director",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-003",
+    "jobId": "20270903",
+    "engagementName": "Software Part 11 Audit",
+    "plant": "Biosense Webster Irvine",
+    "roleId": "it-director",
+    "roleName": "IT Director",
+    "function": "IT",
+    "level": "Director",
+    "userIds": [
+      "USR-009"
+    ],
+    "users": [
+      {
+        "id": "USR-009",
+        "name": "Brian Cox",
+        "email": "brian.cox@jnj.com",
+        "initials": "BC",
+        "title": "IT Audit Director",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-director"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270903-it-vp",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-003",
+    "jobId": "20270903",
+    "engagementName": "Software Part 11 Audit",
+    "plant": "Biosense Webster Irvine",
+    "roleId": "it-vp",
+    "roleName": "IT Vice President",
+    "function": "IT",
+    "level": "Vice President",
+    "userIds": [
+      "USR-011"
+    ],
+    "users": [
+      {
+        "id": "USR-011",
+        "name": "Robert Chen",
+        "email": "robert.chen@jnj.com",
+        "initials": "RC",
+        "title": "VP, Global IT Audit",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-vp"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270903-finops-auditor",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-003",
+    "jobId": "20270903",
+    "engagementName": "Software Part 11 Audit",
+    "plant": "Biosense Webster Irvine",
+    "roleId": "finops-auditor",
+    "roleName": "FinOps Auditor",
+    "function": "FinOps",
+    "level": "Auditor",
+    "userIds": [
+      "USR-005",
+      "USR-004"
+    ],
+    "users": [
+      {
+        "id": "USR-005",
+        "name": "David Miller",
+        "email": "david.miller@jnj.com",
+        "initials": "DM",
+        "title": "Senior FinOps Auditor",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-auditor"
+      },
+      {
+        "id": "USR-004",
+        "name": "Rachel Green",
+        "email": "rachel.green@jnj.com",
+        "initials": "RG",
+        "title": "Lead FinOps Auditor",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-auditor"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270903-finops-team-coordinator",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-003",
+    "jobId": "20270903",
+    "engagementName": "Software Part 11 Audit",
+    "plant": "Biosense Webster Irvine",
+    "roleId": "finops-team-coordinator",
+    "roleName": "FinOps Team Coordinator",
+    "function": "FinOps",
+    "level": "Team Coordinator",
+    "userIds": [
+      "USR-008"
+    ],
+    "users": [
+      {
+        "id": "USR-008",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@jnj.com",
+        "initials": "ER",
+        "title": "FinOps Team Coordinator",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-team-coordinator"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270903-finops-manager",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-003",
+    "jobId": "20270903",
+    "engagementName": "Software Part 11 Audit",
+    "plant": "Biosense Webster Irvine",
+    "roleId": "finops-manager",
+    "roleName": "FinOps Manager",
+    "function": "FinOps",
+    "level": "Manager",
+    "userIds": [
+      "USR-007"
+    ],
+    "users": [
+      {
+        "id": "USR-007",
+        "name": "Carlos Mendez",
+        "email": "carlos.mendez@jnj.com",
+        "initials": "CM",
+        "title": "FinOps Audit Manager",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-manager"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270903-finops-director",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-003",
+    "jobId": "20270903",
+    "engagementName": "Software Part 11 Audit",
+    "plant": "Biosense Webster Irvine",
+    "roleId": "finops-director",
+    "roleName": "FinOps Director",
+    "function": "FinOps",
+    "level": "Director",
+    "userIds": [
+      "USR-010"
+    ],
+    "users": [
+      {
+        "id": "USR-010",
+        "name": "Jessica Taylor",
+        "email": "jessica.taylor@jnj.com",
+        "initials": "JT",
+        "title": "FinOps Audit Director",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-director"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270903-finops-vp",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-003",
+    "jobId": "20270903",
+    "engagementName": "Software Part 11 Audit",
+    "plant": "Biosense Webster Irvine",
+    "roleId": "finops-vp",
+    "roleName": "FinOps Vice President",
+    "function": "FinOps",
+    "level": "Vice President",
+    "userIds": [
+      "USR-012"
+    ],
+    "users": [
+      {
+        "id": "USR-012",
+        "name": "Emily Davis",
+        "email": "emily.davis@jnj.com",
+        "initials": "ED",
+        "title": "VP, Global FinOps Audit",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-vp"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270903-business-contact",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-003",
+    "jobId": "20270903",
+    "engagementName": "Software Part 11 Audit",
+    "plant": "Biosense Webster Irvine",
+    "roleId": "business-contact",
+    "roleName": "Business Contact",
+    "function": "Business",
+    "level": "Business Contact",
+    "userIds": [
+      "USR-015"
+    ],
+    "users": [
+      {
+        "id": "USR-015",
+        "name": "Jennifer Aniston",
+        "email": "jennifer.aniston@jnj.com",
+        "initials": "JA",
+        "title": "Quality Assurance Business Contact",
+        "function": "Business",
+        "isAlternateRole": false,
+        "baselineRole": "business-contact"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270904-it-auditor",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-004",
+    "jobId": "20270904",
+    "engagementName": "3D Printing GxP Audit",
+    "plant": "DePuy Synthes Raynham",
+    "roleId": "it-auditor",
+    "roleName": "IT Auditor",
+    "function": "IT",
+    "level": "Auditor",
+    "userIds": [
+      "USR-001",
+      "USR-002"
+    ],
+    "users": [
+      {
+        "id": "USR-001",
+        "name": "Marcus Vance",
+        "email": "marcus.vance@jnj.com",
+        "initials": "MV",
+        "title": "Senior IT Auditor",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-auditor"
+      },
+      {
+        "id": "USR-002",
+        "name": "Sarah Jenkins",
+        "email": "sarah.jenkins@jnj.com",
+        "initials": "SJ",
+        "title": "Staff IT Auditor",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-auditor"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270904-it-team-coordinator",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-004",
+    "jobId": "20270904",
+    "engagementName": "3D Printing GxP Audit",
+    "plant": "DePuy Synthes Raynham",
+    "roleId": "it-team-coordinator",
+    "roleName": "IT Team Coordinator",
+    "function": "IT",
+    "level": "Team Coordinator",
+    "userIds": [
+      "USR-003"
+    ],
+    "users": [
+      {
+        "id": "USR-003",
+        "name": "Kevin Zhang",
+        "email": "kevin.zhang@jnj.com",
+        "initials": "KZ",
+        "title": "IT Audit Team Coordinator",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-team-coordinator"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270904-it-manager",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-004",
+    "jobId": "20270904",
+    "engagementName": "3D Printing GxP Audit",
+    "plant": "DePuy Synthes Raynham",
+    "roleId": "it-manager",
+    "roleName": "IT Manager",
+    "function": "IT",
+    "level": "Manager",
+    "userIds": [
+      "USR-006"
+    ],
+    "users": [
+      {
+        "id": "USR-006",
+        "name": "Amanda Palmer",
+        "email": "amanda.palmer@jnj.com",
+        "initials": "AP",
+        "title": "IT Audit Manager",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-manager"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270904-it-director",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-004",
+    "jobId": "20270904",
+    "engagementName": "3D Printing GxP Audit",
+    "plant": "DePuy Synthes Raynham",
+    "roleId": "it-director",
+    "roleName": "IT Director",
+    "function": "IT",
+    "level": "Director",
+    "userIds": [
+      "USR-009"
+    ],
+    "users": [
+      {
+        "id": "USR-009",
+        "name": "Brian Cox",
+        "email": "brian.cox@jnj.com",
+        "initials": "BC",
+        "title": "IT Audit Director",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-director"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270904-it-vp",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-004",
+    "jobId": "20270904",
+    "engagementName": "3D Printing GxP Audit",
+    "plant": "DePuy Synthes Raynham",
+    "roleId": "it-vp",
+    "roleName": "IT Vice President",
+    "function": "IT",
+    "level": "Vice President",
+    "userIds": [
+      "USR-011"
+    ],
+    "users": [
+      {
+        "id": "USR-011",
+        "name": "Robert Chen",
+        "email": "robert.chen@jnj.com",
+        "initials": "RC",
+        "title": "VP, Global IT Audit",
+        "function": "IT",
+        "isAlternateRole": false,
+        "baselineRole": "it-vp"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270904-finops-auditor",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-004",
+    "jobId": "20270904",
+    "engagementName": "3D Printing GxP Audit",
+    "plant": "DePuy Synthes Raynham",
+    "roleId": "finops-auditor",
+    "roleName": "FinOps Auditor",
+    "function": "FinOps",
+    "level": "Auditor",
+    "userIds": [
+      "USR-005",
+      "USR-004"
+    ],
+    "users": [
+      {
+        "id": "USR-005",
+        "name": "David Miller",
+        "email": "david.miller@jnj.com",
+        "initials": "DM",
+        "title": "Senior FinOps Auditor",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-auditor"
+      },
+      {
+        "id": "USR-004",
+        "name": "Rachel Green",
+        "email": "rachel.green@jnj.com",
+        "initials": "RG",
+        "title": "Lead FinOps Auditor",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-auditor"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270904-finops-team-coordinator",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-004",
+    "jobId": "20270904",
+    "engagementName": "3D Printing GxP Audit",
+    "plant": "DePuy Synthes Raynham",
+    "roleId": "finops-team-coordinator",
+    "roleName": "FinOps Team Coordinator",
+    "function": "FinOps",
+    "level": "Team Coordinator",
+    "userIds": [
+      "USR-008"
+    ],
+    "users": [
+      {
+        "id": "USR-008",
+        "name": "Elena Rostova",
+        "email": "elena.rostova@jnj.com",
+        "initials": "ER",
+        "title": "FinOps Team Coordinator",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-team-coordinator"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270904-finops-manager",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-004",
+    "jobId": "20270904",
+    "engagementName": "3D Printing GxP Audit",
+    "plant": "DePuy Synthes Raynham",
+    "roleId": "finops-manager",
+    "roleName": "FinOps Manager",
+    "function": "FinOps",
+    "level": "Manager",
+    "userIds": [
+      "USR-007"
+    ],
+    "users": [
+      {
+        "id": "USR-007",
+        "name": "Carlos Mendez",
+        "email": "carlos.mendez@jnj.com",
+        "initials": "CM",
+        "title": "FinOps Audit Manager",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-manager"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270904-finops-director",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-004",
+    "jobId": "20270904",
+    "engagementName": "3D Printing GxP Audit",
+    "plant": "DePuy Synthes Raynham",
+    "roleId": "finops-director",
+    "roleName": "FinOps Director",
+    "function": "FinOps",
+    "level": "Director",
+    "userIds": [
+      "USR-010"
+    ],
+    "users": [
+      {
+        "id": "USR-010",
+        "name": "Jessica Taylor",
+        "email": "jessica.taylor@jnj.com",
+        "initials": "JT",
+        "title": "FinOps Audit Director",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-director"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270904-finops-vp",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-004",
+    "jobId": "20270904",
+    "engagementName": "3D Printing GxP Audit",
+    "plant": "DePuy Synthes Raynham",
+    "roleId": "finops-vp",
+    "roleName": "FinOps Vice President",
+    "function": "FinOps",
+    "level": "Vice President",
+    "userIds": [
+      "USR-012"
+    ],
+    "users": [
+      {
+        "id": "USR-012",
+        "name": "Emily Davis",
+        "email": "emily.davis@jnj.com",
+        "initials": "ED",
+        "title": "VP, Global FinOps Audit",
+        "function": "FinOps",
+        "isAlternateRole": false,
+        "baselineRole": "finops-vp"
+      }
+    ],
+    "isRoleRotated": false
+  },
+  {
+    "id": "ASG-20270904-business-contact",
+    "assessmentId": "ASM-2027",
+    "assessmentName": "2027 Internal Audit Assessments",
+    "assessmentStatus": "Open",
+    "engagementId": "REP-2027-004",
+    "jobId": "20270904",
+    "engagementName": "3D Printing GxP Audit",
+    "plant": "DePuy Synthes Raynham",
+    "roleId": "business-contact",
+    "roleName": "Business Contact",
+    "function": "Business",
+    "level": "Business Contact",
+    "userIds": [
+      "USR-018"
+    ],
+    "users": [
+      {
+        "id": "USR-018",
+        "name": "Brandon Walsh",
+        "email": "brandon.walsh@jnj.com",
+        "initials": "BW",
+        "title": "Commercial Compliance Partner",
+        "function": "Business",
+        "isAlternateRole": false,
+        "baselineRole": "business-contact"
+      }
+    ],
+    "isRoleRotated": false
+  }
+]

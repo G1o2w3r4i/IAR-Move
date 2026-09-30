@@ -1,0 +1,176 @@
+[
+  {
+    "id": "AIVER-801-01",
+    "issueId": "ISSUE-801",
+    "engagementId": "REP-2026-008",
+    "versionNumber": 1,
+    "triggerStage": "INITIAL_CREATION",
+    "model": "medtech-gx-compliance-v2.5",
+    "status": "SUPERSEDED",
+    "fields": {
+      "title": "Automated Telemetry Drift & Sensor Outliers in Cleanroom HVAC",
+      "rootCause": "Initial Root Cause: Calibration sensor drift exceeding baseline tolerance across packaging lines.",
+      "impact": "Production line telemetry variance exceeding Q1 parameters with potential environmental excursion.",
+      "recommendation": "1. Recalibrate sensors every 14 days.\n2. Review calibration logs weekly.\n3. Verify against standard maintenance SOP.",
+      "description": "An environmental telemetry assessment for the Manufacturing Operations Cleanroom environment identified drift exceeding allowable thresholds.\n\nViolation Reference\nNon-Compliant with some of the sections of IAPP:\n1. S-15 Section No. [2] - Environmental Telemetry Controls for Critical Assets\n2. S-15 Section No. [4.18] - Periodic Calibration Log Verification"
+    },
+    "fieldSelectionMap": null,
+    "createdBy": {
+      "userId": "USR-001",
+      "name": "Marcus Vance",
+      "role": "Senior IT Auditor",
+      "avatar": "MV",
+      "avatarBg": "#7C3AED"
+    },
+    "createdAt": "2026-07-28T09:30:00Z",
+    "displayTime": "07/28/2026 at 09:30 AM"
+  },
+  {
+    "id": "AIVER-801-02",
+    "issueId": "ISSUE-801",
+    "engagementId": "REP-2026-008",
+    "versionNumber": 2,
+    "triggerStage": "PRE_SAVE_REGENERATION",
+    "model": "medtech-gx-compliance-v2.5",
+    "status": "ACTIVE",
+    "fields": {
+      "title": "AI Refined: Automated Telemetry & Calibration Logging Review - Manufacturing Operations",
+      "rootCause": "Enhanced Root Cause Analysis: Systemic telemetry & gain offset in packaging line 3 related to TP-103, exacerbated by uncalibrated analog converters.",
+      "impact": "Escalated operational risk variance: Criticality level Major with potential GxP batch release timeline excursion impact.",
+      "recommendation": "1. Enforce automated verification protocols for TP-103 calibration runs.\n2. Mandate secondary supervisory sign-off for sensor drift exceeding 0.5%.\n3. Schedule monthly compliance reconciliation audits with Plant Engineering.",
+      "description": "An automated telemetry assessment for the Manufacturing Operations Cleanroom environment identified sensor drift (+0.84°C excursion) on packaging line 3.\n\nViolation Reference\nNon-Compliant with some of the sections of IAPP:\n1. S-15 Section No. [2] - Security Assessment for COTS Systems/Applications — Security assessment not completed for the environment\n2. S-15 Section No. [11] - ISRM Approval Prior to Production — ISRM approval lacking due to missing assessment\n3. S-15 Section No. [4.18] - Periodic Application Architecture/Code/Config Assessment — No periodic assessment of architecture, code, configuration"
+    },
+    "fieldSelectionMap": {
+      "title": "v2",
+      "rootCause": "v2",
+      "impact": "v2",
+      "recommendation": "v2",
+      "description": "v2"
+    },
+    "createdBy": {
+      "userId": "USR-001",
+      "name": "Marcus Vance",
+      "role": "Senior IT Auditor",
+      "avatar": "MV",
+      "avatarBg": "#7C3AED"
+    },
+    "createdAt": "2026-07-28T10:15:00Z",
+    "displayTime": "07/28/2026 at 10:15 AM"
+  },
+  {
+    "id": "AIVER-801-03",
+    "issueId": "ISSUE-801",
+    "engagementId": "REP-2026-008",
+    "versionNumber": 3,
+    "triggerStage": "WORKFLOW_REVIEW",
+    "model": "medtech-gx-compliance-v2.5",
+    "status": "CANDIDATE",
+    "fields": {
+      "title": "AI Enhanced: Packaging Line 3 Telemetry Gain Excursion & Automated Supervisory Controls",
+      "rootCause": "Comprehensive Root Cause: Calibration drift in analog-to-digital sensor transducers on packaging line 3 combined with lack of real-time alerting in central SCADA system.",
+      "impact": "Operational, regulatory (FDA 21 CFR Part 11), and financial exposure from potential batch quarantine and re-testing requirements.",
+      "recommendation": "1. Implement automated real-time SCADA alerting for gain drift >= 0.5°C.\n2. Establish mandatory dual-custody verification for calibration adjustments.\n3. Deploy firmware patch v4.12 across all line 3 RTD sensor modules.\n4. Complete retrospective batch impact review within 30 calendar days.",
+      "description": "An automated telemetry assessment for the Manufacturing Operations Cleanroom environment identified sensor drift (+0.84°C excursion) on packaging line 3 without real-time supervisory alarm triggering.\n\nViolation Reference\nNon-Compliant with some of the sections of IAPP:\n1. S-15 Section No. [2] - Security & Telemetry Assessment for Manufacturing Systems\n2. S-15 Section No. [11] - Supervisory Authorization Prior to Production Excursions\n3. S-15 Section No. [4.18] - Periodic Application Architecture/Code/Config Assessment"
+    },
+    "fieldSelectionMap": null,
+    "createdBy": {
+      "userId": "USR-003",
+      "name": "Kevin Zhang",
+      "role": "IT Audit Team Coordinator",
+      "avatar": "KZ",
+      "avatarBg": "#2563EB"
+    },
+    "createdAt": "2026-07-30T14:20:00Z",
+    "displayTime": "07/30/2026 at 02:20 PM"
+  },
+  {
+    "id": "AIVER-802-01",
+    "issueId": "ISSUE-802",
+    "engagementId": "REP-2026-008",
+    "versionNumber": 1,
+    "triggerStage": "INITIAL_CREATION",
+    "model": "medtech-gx-compliance-v2.5",
+    "status": "ACTIVE",
+    "fields": {
+      "title": "Third-Party Logistics Deprovisioning Latency in European Cold-Chain Network",
+      "rootCause": "Root Cause: Manual ticket routing between Global Logistics HR portal and regional warehouse IAM directory resulting in 14-day deactivation backlog.",
+      "impact": "Unauthorized access window for terminated contractor accounts into logistics portal.",
+      "recommendation": "1. Integrate Workday HR termination events directly into IAM provisioning queue via automated webhook.\n2. Conduct bi-weekly reconciliation of active contractor tokens against active vendor rosters.",
+      "description": "Sample testing of 25 terminated vendor credentials revealed 4 accounts remained active for more than 10 business days following contract cessation."
+    },
+    "fieldSelectionMap": {
+      "title": "v1",
+      "rootCause": "v1",
+      "impact": "v1",
+      "recommendation": "v1",
+      "description": "v1"
+    },
+    "createdBy": {
+      "userId": "USR-001",
+      "name": "Marcus Vance",
+      "role": "Senior IT Auditor",
+      "avatar": "MV",
+      "avatarBg": "#7C3AED"
+    },
+    "createdAt": "2026-07-29T11:00:00Z",
+    "displayTime": "07/29/2026 at 11:00 AM"
+  },
+  {
+    "id": "AIVER-001-01",
+    "issueId": "ISSUE-001",
+    "engagementId": "REP-2026-001",
+    "versionNumber": 1,
+    "triggerStage": "INITIAL_CREATION",
+    "model": "medtech-gx-compliance-v2.5",
+    "status": "SUPERSEDED",
+    "fields": {
+      "title": "User Access & Authentication Review - Deprovisioning Deficiencies",
+      "rootCause": "Lack of automated synchronization between enterprise IAM directory and local plant active directory.",
+      "impact": "Stale accounts remaining active post-separation.",
+      "recommendation": "1. Establish automated sync scripts.\n2. Review quarterly access logs.",
+      "description": "Testing of access management revealed 8 terminated employee accounts active past policy thresholds."
+    },
+    "fieldSelectionMap": null,
+    "createdBy": {
+      "userId": "USR-001",
+      "name": "Marcus Vance",
+      "role": "Senior IT Auditor",
+      "avatar": "MV",
+      "avatarBg": "#7C3AED"
+    },
+    "createdAt": "2026-08-10T09:15:00Z",
+    "displayTime": "08/10/2026 at 09:15 AM"
+  },
+  {
+    "id": "AIVER-001-02",
+    "issueId": "ISSUE-001",
+    "engagementId": "REP-2026-001",
+    "versionNumber": 2,
+    "triggerStage": "PRE_SAVE_REGENERATION",
+    "model": "medtech-gx-compliance-v2.5",
+    "status": "ACTIVE",
+    "fields": {
+      "title": "AI Refined: User Access & Authentication Review - Enterprise IAM Deprovisioning Controls",
+      "rootCause": "Systemic configuration gap: Batch deprovisioning cron job failing to parse employee transfer status codes, leaving credentials active across manufacturing sub-domains.",
+      "impact": "High compliance exposure: Violation of SOX 404 access control guidelines and potential unauthorized intellectual property access.",
+      "recommendation": "1. Deploy revised IAM connector v3.2 to parse status codes 104 and 108.\n2. Implement weekly automated reconciliation reports sent to Information Security Risk Management.\n3. Execute immediate password reset and revocation for all identified stale accounts.",
+      "description": "During the review of User Access & Authentication controls, 12 contractor credentials were found active beyond the 10 business day policy window defined in IAPP S-07."
+    },
+    "fieldSelectionMap": {
+      "title": "v2",
+      "rootCause": "v2",
+      "impact": "v2",
+      "recommendation": "v2",
+      "description": "v2"
+    },
+    "createdBy": {
+      "userId": "USR-001",
+      "name": "Marcus Vance",
+      "role": "Senior IT Auditor",
+      "avatar": "MV",
+      "avatarBg": "#7C3AED"
+    },
+    "createdAt": "2026-08-10T10:00:00Z",
+    "displayTime": "08/10/2026 at 10:00 AM"
+  }
+]

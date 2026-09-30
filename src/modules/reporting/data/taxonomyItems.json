@@ -1,0 +1,838 @@
+[
+  {
+    "id": "ITEM-IT-01",
+    "taxonomyId": "TAX-ISSUE-TYPE",
+    "taxonomyCode": "ISSUE_TYPE",
+    "code": "OPERATIONAL",
+    "label": "Operational",
+    "displayOrder": 1,
+    "isActive": true,
+    "description": "Operational execution and standard operating procedure gaps"
+  },
+  {
+    "id": "ITEM-IT-02",
+    "taxonomyId": "TAX-ISSUE-TYPE",
+    "taxonomyCode": "ISSUE_TYPE",
+    "code": "COMPLIANCE",
+    "label": "Compliance",
+    "displayOrder": 2,
+    "isActive": true,
+    "description": "Internal policy and corporate governance non-adherence"
+  },
+  {
+    "id": "ITEM-IT-03",
+    "taxonomyId": "TAX-ISSUE-TYPE",
+    "taxonomyCode": "ISSUE_TYPE",
+    "code": "FINANCIAL_SOX",
+    "label": "Financial / SOX",
+    "displayOrder": 3,
+    "isActive": true,
+    "description": "Internal controls over financial reporting (ICFR / SOX 404)"
+  },
+  {
+    "id": "ITEM-IT-04",
+    "taxonomyId": "TAX-ISSUE-TYPE",
+    "taxonomyCode": "ISSUE_TYPE",
+    "code": "IT_CYBERSECURITY",
+    "label": "IT / Cybersecurity",
+    "displayOrder": 4,
+    "isActive": true,
+    "description": "Information security, network defense, identity, and access controls"
+  },
+  {
+    "id": "ITEM-IT-05",
+    "taxonomyId": "TAX-ISSUE-TYPE",
+    "taxonomyCode": "ISSUE_TYPE",
+    "code": "REGULATORY_GXP",
+    "label": "Regulatory / GxP",
+    "displayOrder": 5,
+    "isActive": true,
+    "description": "Healthcare regulatory mandates (FDA 21 CFR Part 11, ISO 13485, GMP)"
+  },
+  {
+    "id": "ITEM-IT-06",
+    "taxonomyId": "TAX-ISSUE-TYPE",
+    "taxonomyCode": "ISSUE_TYPE",
+    "code": "REPUTATIONAL_STRATEGIC",
+    "label": "Reputational / Strategic",
+    "displayOrder": 6,
+    "isActive": true,
+    "description": "Corporate reputation, brand integrity, and strategic objectives"
+  },
+
+  {
+    "id": "ITEM-IS-01",
+    "taxonomyId": "TAX-ISSUE-SOURCE",
+    "taxonomyCode": "ISSUE_SOURCE",
+    "code": "INTERNAL_AUDIT",
+    "label": "Internal Audit",
+    "displayOrder": 1,
+    "isActive": true,
+    "description": "Identified through internal corporate audit procedures"
+  },
+  {
+    "id": "ITEM-IS-02",
+    "taxonomyId": "TAX-ISSUE-SOURCE",
+    "taxonomyCode": "ISSUE_SOURCE",
+    "code": "EXTERNAL_AUDIT",
+    "label": "External Audit (PwC)",
+    "displayOrder": 2,
+    "isActive": true,
+    "description": "Identified during independent external auditor procedures"
+  },
+  {
+    "id": "ITEM-IS-03",
+    "taxonomyId": "TAX-ISSUE-SOURCE",
+    "taxonomyCode": "ISSUE_SOURCE",
+    "code": "REGULATORY_INSPECTION",
+    "label": "Regulatory Inspection (FDA / ISO)",
+    "displayOrder": 3,
+    "isActive": true,
+    "description": "Observed during regulatory agency inspections"
+  },
+  {
+    "id": "ITEM-IS-04",
+    "taxonomyId": "TAX-ISSUE-SOURCE",
+    "taxonomyCode": "ISSUE_SOURCE",
+    "code": "MANAGEMENT_SELF_IDENTIFIED",
+    "label": "Management Self-Identified",
+    "displayOrder": 4,
+    "isActive": true,
+    "description": "Self-disclosed by business management prior to audit discovery"
+  },
+  {
+    "id": "ITEM-IS-05",
+    "taxonomyId": "TAX-ISSUE-SOURCE",
+    "taxonomyCode": "ISSUE_SOURCE",
+    "code": "SOX_404_ASSESSMENT",
+    "label": "SOX 404 Assessment",
+    "displayOrder": 5,
+    "isActive": true,
+    "description": "Result of Sarbanes-Oxley control testing"
+  },
+  {
+    "id": "ITEM-IS-06",
+    "taxonomyId": "TAX-ISSUE-SOURCE",
+    "taxonomyCode": "ISSUE_SOURCE",
+    "code": "CONTINUOUS_AUTOMATED_MONITORING",
+    "label": "Continuous Automated Monitoring",
+    "displayOrder": 6,
+    "isActive": true,
+    "description": "Automated telemetry drift detection and anomaly alerting"
+  },
+
+  {
+    "id": "ITEM-KT-01",
+    "taxonomyId": "TAX-KEY-THEME",
+    "taxonomyCode": "KEY_THEME",
+    "code": "ACCESS_GOVERNANCE",
+    "label": "Access Governance & Authorization Matrix",
+    "displayOrder": 1,
+    "isActive": true,
+    "description": "Segregation of duties, access provisioning, dormant user deactivation"
+  },
+  {
+    "id": "ITEM-KT-02",
+    "taxonomyId": "TAX-KEY-THEME",
+    "taxonomyCode": "KEY_THEME",
+    "code": "FINANCIAL_CLOSE",
+    "label": "Financial Close & Account Reconciliation",
+    "displayOrder": 2,
+    "isActive": true,
+    "description": "Period-end journal entry controls and variance reconciliation"
+  },
+  {
+    "id": "ITEM-KT-03",
+    "taxonomyId": "TAX-KEY-THEME",
+    "taxonomyCode": "KEY_THEME",
+    "code": "MANUFACTURING_TELEMETRY",
+    "label": "Manufacturing Telemetry & Calibration Drift",
+    "displayOrder": 3,
+    "isActive": true,
+    "description": "Shopfloor instrumentation, sensor calibration, environmental tolerances"
+  },
+  {
+    "id": "ITEM-KT-04",
+    "taxonomyId": "TAX-KEY-THEME",
+    "taxonomyCode": "KEY_THEME",
+    "code": "VENDOR_RISK",
+    "label": "Third-Party Vendor Risk & Deprovisioning",
+    "displayOrder": 4,
+    "isActive": true,
+    "description": "Supplier risk assessment, contractor offboarding, SLA monitoring"
+  },
+  {
+    "id": "ITEM-KT-05",
+    "taxonomyId": "TAX-KEY-THEME",
+    "taxonomyCode": "KEY_THEME",
+    "code": "DATA_INTEGRITY",
+    "label": "Data Integrity, Retention & GxP Archival",
+    "displayOrder": 5,
+    "isActive": true,
+    "description": "Audit trail logging, 7-year records retention, cloud archival"
+  },
+  {
+    "id": "ITEM-KT-06",
+    "taxonomyId": "TAX-KEY-THEME",
+    "taxonomyCode": "KEY_THEME",
+    "code": "CHANGE_MANAGEMENT",
+    "label": "Change Management & Transport Release",
+    "displayOrder": 6,
+    "isActive": true,
+    "description": "Production release sign-off, emergency transport governance"
+  },
+
+  {
+    "id": "ITEM-ITAS-01",
+    "taxonomyId": "TAX-IT-ASSET-SECTOR",
+    "taxonomyCode": "IT_ASSET_ACCOUNTABLE_SECTOR",
+    "code": "CONSUMER",
+    "label": "Consumer",
+    "displayOrder": 1,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-ITAS-02",
+    "taxonomyId": "TAX-IT-ASSET-SECTOR",
+    "taxonomyCode": "IT_ASSET_ACCOUNTABLE_SECTOR",
+    "code": "CORP",
+    "label": "CORP",
+    "displayOrder": 2,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-ITAS-03",
+    "taxonomyId": "TAX-IT-ASSET-SECTOR",
+    "taxonomyCode": "IT_ASSET_ACCOUNTABLE_SECTOR",
+    "code": "IM",
+    "label": "IM",
+    "displayOrder": 3,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-ITAS-04",
+    "taxonomyId": "TAX-IT-ASSET-SECTOR",
+    "taxonomyCode": "IT_ASSET_ACCOUNTABLE_SECTOR",
+    "code": "ISRM",
+    "label": "ISRM",
+    "displayOrder": 4,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-ITAS-05",
+    "taxonomyId": "TAX-IT-ASSET-SECTOR",
+    "taxonomyCode": "IT_ASSET_ACCOUNTABLE_SECTOR",
+    "code": "MT",
+    "label": "MT",
+    "displayOrder": 5,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-ITAS-06",
+    "taxonomyId": "TAX-IT-ASSET-SECTOR",
+    "taxonomyCode": "IT_ASSET_ACCOUNTABLE_SECTOR",
+    "code": "TS",
+    "label": "TS",
+    "displayOrder": 6,
+    "isActive": true
+  },
+
+  {
+    "id": "ITEM-REG-01",
+    "taxonomyId": "TAX-IMPACTED-REGION",
+    "taxonomyCode": "IMPACTED_REGION",
+    "code": "APAC",
+    "label": "APAC",
+    "displayOrder": 1,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-REG-02",
+    "taxonomyId": "TAX-IMPACTED-REGION",
+    "taxonomyCode": "IMPACTED_REGION",
+    "code": "EMEA",
+    "label": "EMEA",
+    "displayOrder": 2,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-REG-03",
+    "taxonomyId": "TAX-IMPACTED-REGION",
+    "taxonomyCode": "IMPACTED_REGION",
+    "code": "LATAM",
+    "label": "LATAM",
+    "displayOrder": 3,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-REG-04",
+    "taxonomyId": "TAX-IMPACTED-REGION",
+    "taxonomyCode": "IMPACTED_REGION",
+    "code": "NA",
+    "label": "NA",
+    "displayOrder": 4,
+    "isActive": true
+  },
+
+  {
+    "id": "ITEM-SEC-01",
+    "taxonomyId": "TAX-IMPACTED-SECTOR",
+    "taxonomyCode": "IMPACTED_SECTOR",
+    "code": "CPC",
+    "label": "CPC",
+    "displayOrder": 1,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-SEC-02",
+    "taxonomyId": "TAX-IMPACTED-SECTOR",
+    "taxonomyCode": "IMPACTED_SECTOR",
+    "code": "GS-NOP",
+    "label": "GS-NOP",
+    "displayOrder": 2,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-SEC-03",
+    "taxonomyId": "TAX-IMPACTED-SECTOR",
+    "taxonomyCode": "IMPACTED_SECTOR",
+    "code": "MED",
+    "label": "MED",
+    "displayOrder": 3,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-SEC-04",
+    "taxonomyId": "TAX-IMPACTED-SECTOR",
+    "taxonomyCode": "IMPACTED_SECTOR",
+    "code": "NOP",
+    "label": "NOP",
+    "displayOrder": 4,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-SEC-05",
+    "taxonomyId": "TAX-IMPACTED-SECTOR",
+    "taxonomyCode": "IMPACTED_SECTOR",
+    "code": "PHR",
+    "label": "PHR",
+    "displayOrder": 5,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-SEC-06",
+    "taxonomyId": "TAX-IMPACTED-SECTOR",
+    "taxonomyCode": "IMPACTED_SECTOR",
+    "code": "ORTHO_SYNTHES",
+    "label": "Ortho_Synthes",
+    "displayOrder": 6,
+    "isActive": true
+  },
+
+  {
+    "id": "ITEM-MRC-01",
+    "taxonomyId": "TAX-IMPACTED-MRC",
+    "taxonomyCode": "IMPACTED_MRC",
+    "code": "MRC-01",
+    "label": "MRC-01: Global Supply Chain & Manufacturing Operations",
+    "displayOrder": 1,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-MRC-02",
+    "taxonomyId": "TAX-IMPACTED-MRC",
+    "taxonomyCode": "IMPACTED_MRC",
+    "code": "MRC-02",
+    "label": "MRC-02: Commercial Operations & Hospital Distribution",
+    "displayOrder": 2,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-MRC-03",
+    "taxonomyId": "TAX-IMPACTED-MRC",
+    "taxonomyCode": "IMPACTED_MRC",
+    "code": "MRC-03",
+    "label": "MRC-03: Research, Clinical Trials & Biopharma Development",
+    "displayOrder": 3,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-MRC-04",
+    "taxonomyId": "TAX-IMPACTED-MRC",
+    "taxonomyCode": "IMPACTED_MRC",
+    "code": "MRC-04",
+    "label": "MRC-04: Corporate Shared Services & IT Infrastructure",
+    "displayOrder": 4,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-MRC-05",
+    "taxonomyId": "TAX-IMPACTED-MRC",
+    "taxonomyCode": "IMPACTED_MRC",
+    "code": "MRC-05",
+    "label": "MRC-05: Treasury, Capital Planning & Tax Strategy",
+    "displayOrder": 5,
+    "isActive": true
+  },
+
+  {
+    "id": "ITEM-QTR-01",
+    "taxonomyId": "TAX-QUARTER-IMPACTED",
+    "taxonomyCode": "QUARTER_IMPACTED",
+    "code": "Q1_2026",
+    "label": "Q1 2026",
+    "displayOrder": 1,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-QTR-02",
+    "taxonomyId": "TAX-QUARTER-IMPACTED",
+    "taxonomyCode": "QUARTER_IMPACTED",
+    "code": "Q2_2026",
+    "label": "Q2 2026",
+    "displayOrder": 2,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-QTR-03",
+    "taxonomyId": "TAX-QUARTER-IMPACTED",
+    "taxonomyCode": "QUARTER_IMPACTED",
+    "code": "Q3_2026",
+    "label": "Q3 2026",
+    "displayOrder": 3,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-QTR-04",
+    "taxonomyId": "TAX-QUARTER-IMPACTED",
+    "taxonomyCode": "QUARTER_IMPACTED",
+    "code": "Q4_2026",
+    "label": "Q4 2026",
+    "displayOrder": 4,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-QTR-05",
+    "taxonomyId": "TAX-QUARTER-IMPACTED",
+    "taxonomyCode": "QUARTER_IMPACTED",
+    "code": "Q1_2025",
+    "label": "Q1 2025",
+    "displayOrder": 5,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-QTR-06",
+    "taxonomyId": "TAX-QUARTER-IMPACTED",
+    "taxonomyCode": "QUARTER_IMPACTED",
+    "code": "Q2_2025",
+    "label": "Q2 2025",
+    "displayOrder": 6,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-QTR-07",
+    "taxonomyId": "TAX-QUARTER-IMPACTED",
+    "taxonomyCode": "QUARTER_IMPACTED",
+    "code": "Q3_2025",
+    "label": "Q3 2025",
+    "displayOrder": 7,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-QTR-08",
+    "taxonomyId": "TAX-QUARTER-IMPACTED",
+    "taxonomyCode": "QUARTER_IMPACTED",
+    "code": "Q4_2025",
+    "label": "Q4 2025",
+    "displayOrder": 8,
+    "isActive": true
+  },
+
+  {
+    "id": "ITEM-CRIT-01",
+    "taxonomyId": "TAX-CRITICALITY",
+    "taxonomyCode": "CRITICALITY",
+    "code": "CRITICAL",
+    "label": "Critical",
+    "displayOrder": 1,
+    "isActive": true,
+    "description": "Immediate regulatory, financial, or cyber breach requiring VP and Audit Committee escalation"
+  },
+  {
+    "id": "ITEM-CRIT-02",
+    "taxonomyId": "TAX-CRITICALITY",
+    "taxonomyCode": "CRITICALITY",
+    "code": "MAJOR",
+    "label": "Major",
+    "displayOrder": 2,
+    "isActive": true,
+    "description": "Significant control deficiency or process non-compliance requiring prompt remediation"
+  },
+  {
+    "id": "ITEM-CRIT-03",
+    "taxonomyId": "TAX-CRITICALITY",
+    "taxonomyCode": "CRITICALITY",
+    "code": "MINOR",
+    "label": "Minor",
+    "displayOrder": 3,
+    "isActive": true,
+    "description": "Operational improvement opportunity or low-risk procedural gap"
+  },
+
+  {
+    "id": "ITEM-FUNC-01",
+    "taxonomyId": "TAX-AUDIT-FUNCTION",
+    "taxonomyCode": "AUDIT_FUNCTION",
+    "code": "IT",
+    "label": "IT",
+    "displayOrder": 1,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-FUNC-02",
+    "taxonomyId": "TAX-AUDIT-FUNCTION",
+    "taxonomyCode": "AUDIT_FUNCTION",
+    "code": "FINOPS",
+    "label": "FinOps",
+    "displayOrder": 2,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-FUNC-03",
+    "taxonomyId": "TAX-AUDIT-FUNCTION",
+    "taxonomyCode": "AUDIT_FUNCTION",
+    "code": "QUALITY_AUDIT",
+    "label": "Quality Audit",
+    "displayOrder": 3,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-FUNC-04",
+    "taxonomyId": "TAX-AUDIT-FUNCTION",
+    "taxonomyCode": "AUDIT_FUNCTION",
+    "code": "SUPPLY_CHAIN",
+    "label": "Supply Chain",
+    "displayOrder": 4,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-FUNC-05",
+    "taxonomyId": "TAX-AUDIT-FUNCTION",
+    "taxonomyCode": "AUDIT_FUNCTION",
+    "code": "MANUFACTURING_OPERATIONS",
+    "label": "Manufacturing Operations",
+    "displayOrder": 5,
+    "isActive": true
+  },
+
+  {
+    "id": "ITEM-CAUSE-01",
+    "taxonomyId": "TAX-ISSUE-CAUSE-TYPE",
+    "taxonomyCode": "ISSUE_CAUSE_TYPE",
+    "code": "OPERATING_EFFECTIVENESS",
+    "label": "Operating Effectiveness",
+    "displayOrder": 1,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-CAUSE-02",
+    "taxonomyId": "TAX-ISSUE-CAUSE-TYPE",
+    "taxonomyCode": "ISSUE_CAUSE_TYPE",
+    "code": "DESIGN_EFFECTIVENESS",
+    "label": "Design Effectiveness",
+    "displayOrder": 2,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-CAUSE-03",
+    "taxonomyId": "TAX-ISSUE-CAUSE-TYPE",
+    "taxonomyCode": "ISSUE_CAUSE_TYPE",
+    "code": "AUTOMATED_CALIBRATION_DRIFT",
+    "label": "Automated Sensor Calibration Drift",
+    "displayOrder": 3,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-CAUSE-04",
+    "taxonomyId": "TAX-ISSUE-CAUSE-TYPE",
+    "taxonomyCode": "ISSUE_CAUSE_TYPE",
+    "code": "MANUAL_ENTRY_EXCURSION",
+    "label": "Manual Data Entry Excursion",
+    "displayOrder": 4,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-CAUSE-05",
+    "taxonomyId": "TAX-ISSUE-CAUSE-TYPE",
+    "taxonomyCode": "ISSUE_CAUSE_TYPE",
+    "code": "FIRMWARE_CHECKSUM_ERROR",
+    "label": "Firmware Integrity Checksum Error",
+    "displayOrder": 5,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-CAUSE-06",
+    "taxonomyId": "TAX-ISSUE-CAUSE-TYPE",
+    "taxonomyCode": "ISSUE_CAUSE_TYPE",
+    "code": "ENVIRONMENTAL_EXCURSION",
+    "label": "Cleanroom HVAC Environmental Excursion",
+    "displayOrder": 6,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-CAUSE-07",
+    "taxonomyId": "TAX-ISSUE-CAUSE-TYPE",
+    "taxonomyCode": "ISSUE_CAUSE_TYPE",
+    "code": "ACCESS_CONTROL_FAILURE",
+    "label": "System Access Control Failure",
+    "displayOrder": 7,
+    "isActive": true
+  },
+
+  {
+    "id": "ITEM-PROC-01",
+    "taxonomyId": "TAX-PROCESS-AREA",
+    "taxonomyCode": "PROCESS_AREA",
+    "code": "GLOBAL_ACCESS_MANAGEMENT",
+    "label": "Global_Access_Management",
+    "displayOrder": 1,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-PROC-02",
+    "taxonomyId": "TAX-PROCESS-AREA",
+    "taxonomyCode": "PROCESS_AREA",
+    "code": "CYBERSECURITY",
+    "label": "Cybersecurity",
+    "displayOrder": 2,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-PROC-03",
+    "taxonomyId": "TAX-PROCESS-AREA",
+    "taxonomyCode": "PROCESS_AREA",
+    "code": "LEASING",
+    "label": "Leasing",
+    "displayOrder": 3,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-PROC-04",
+    "taxonomyId": "TAX-PROCESS-AREA",
+    "taxonomyCode": "PROCESS_AREA",
+    "code": "GLOBAL_CHANGE_MANAGEMENT",
+    "label": "Global_Change_Management",
+    "displayOrder": 4,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-PROC-05",
+    "taxonomyId": "TAX-PROCESS-AREA",
+    "taxonomyCode": "PROCESS_AREA",
+    "code": "SYSTEM_CONFIGURATION",
+    "label": "System Configuration",
+    "displayOrder": 5,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-PROC-06",
+    "taxonomyId": "TAX-PROCESS-AREA",
+    "taxonomyCode": "PROCESS_AREA",
+    "code": "CATHETER_ELECTROPHYSIOLOGY",
+    "label": "Catheter Line 3 Electrophysiology",
+    "displayOrder": 6,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-PROC-07",
+    "taxonomyId": "TAX-PROCESS-AREA",
+    "taxonomyCode": "PROCESS_AREA",
+    "code": "CLEANROOM_HVAC",
+    "label": "Cleanroom HVAC Unit 4",
+    "displayOrder": 7,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-PROC-08",
+    "taxonomyId": "TAX-PROCESS-AREA",
+    "taxonomyCode": "PROCESS_AREA",
+    "code": "PACKAGING_STERILIZATION",
+    "label": "Packaging & Sterilization Unit",
+    "displayOrder": 8,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-PROC-09",
+    "taxonomyId": "TAX-PROCESS-AREA",
+    "taxonomyCode": "PROCESS_AREA",
+    "code": "OPTIC_SENSOR_CALIBRATION",
+    "label": "Optic Sensor Calibration",
+    "displayOrder": 9,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-PROC-10",
+    "taxonomyId": "TAX-PROCESS-AREA",
+    "taxonomyCode": "PROCESS_AREA",
+    "code": "GXP_SOFTWARE_ACCESS",
+    "label": "GxP Software Access Control",
+    "displayOrder": 10,
+    "isActive": true
+  },
+
+  {
+    "id": "ITEM-BOOL-01",
+    "taxonomyId": "TAX-BOOLEAN-FLAG",
+    "taxonomyCode": "BOOLEAN_FLAG",
+    "code": "NO",
+    "label": "No",
+    "displayOrder": 1,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-BOOL-02",
+    "taxonomyId": "TAX-BOOLEAN-FLAG",
+    "taxonomyCode": "BOOLEAN_FLAG",
+    "code": "YES",
+    "label": "Yes",
+    "displayOrder": 2,
+    "isActive": true
+  },
+
+  {
+    "id": "ITEM-STAT-01",
+    "taxonomyId": "TAX-ISSUE-STATUS",
+    "taxonomyCode": "ISSUE_STATUS",
+    "code": "PENDING_STAFF",
+    "label": "Pending Staff",
+    "displayOrder": 1,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-STAT-02",
+    "taxonomyId": "TAX-ISSUE-STATUS",
+    "taxonomyCode": "ISSUE_STATUS",
+    "code": "PENDING_TC",
+    "label": "Pending TC",
+    "displayOrder": 2,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-STAT-03",
+    "taxonomyId": "TAX-ISSUE-STATUS",
+    "taxonomyCode": "ISSUE_STATUS",
+    "code": "PENDING_MANAGER",
+    "label": "Pending Manager",
+    "displayOrder": 3,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-STAT-04",
+    "taxonomyId": "TAX-ISSUE-STATUS",
+    "taxonomyCode": "ISSUE_STATUS",
+    "code": "PENDING_WITH_BUSINESS",
+    "label": "Pending with Business",
+    "displayOrder": 4,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-STAT-05",
+    "taxonomyId": "TAX-ISSUE-STATUS",
+    "taxonomyCode": "ISSUE_STATUS",
+    "code": "MANAGER_COMPLETED_WAITING",
+    "label": "Manager Completed (Waiting on other issues)",
+    "displayOrder": 5,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-STAT-06",
+    "taxonomyId": "TAX-ISSUE-STATUS",
+    "taxonomyCode": "ISSUE_STATUS",
+    "code": "READY_DIRECTOR_REVIEW",
+    "label": "Ready for Director Review",
+    "displayOrder": 6,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-STAT-07",
+    "taxonomyId": "TAX-ISSUE-STATUS",
+    "taxonomyCode": "ISSUE_STATUS",
+    "code": "PENDING_DIRECTOR_REVIEW",
+    "label": "Pending Director Review",
+    "displayOrder": 7,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-STAT-08",
+    "taxonomyId": "TAX-ISSUE-STATUS",
+    "taxonomyCode": "ISSUE_STATUS",
+    "code": "READY_VP_REVIEW",
+    "label": "Ready for VP Review",
+    "displayOrder": 8,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-STAT-09",
+    "taxonomyId": "TAX-ISSUE-STATUS",
+    "taxonomyCode": "ISSUE_STATUS",
+    "code": "PENDING_VP_REVIEW",
+    "label": "Pending VP Review",
+    "displayOrder": 9,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-STAT-10",
+    "taxonomyId": "TAX-ISSUE-STATUS",
+    "taxonomyCode": "ISSUE_STATUS",
+    "code": "SIGNED_OFF",
+    "label": "Signed Off",
+    "displayOrder": 10,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-STAT-11",
+    "taxonomyId": "TAX-ISSUE-STATUS",
+    "taxonomyCode": "ISSUE_STATUS",
+    "code": "CLOSED",
+    "label": "Closed",
+    "displayOrder": 11,
+    "isActive": true
+  },
+
+  {
+    "id": "ITEM-ENG-STAT-01",
+    "taxonomyId": "TAX-ENGAGEMENT-STATUS",
+    "taxonomyCode": "ENGAGEMENT_STATUS",
+    "code": "NOT_STARTED",
+    "label": "Not Started",
+    "displayOrder": 1,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-ENG-STAT-02",
+    "taxonomyId": "TAX-ENGAGEMENT-STATUS",
+    "taxonomyCode": "ENGAGEMENT_STATUS",
+    "code": "AUDIT_REPORT_INPROGRESS",
+    "label": "Audit Report Inprogress",
+    "displayOrder": 2,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-ENG-STAT-03",
+    "taxonomyId": "TAX-ENGAGEMENT-STATUS",
+    "taxonomyCode": "ENGAGEMENT_STATUS",
+    "code": "EXECUTIVE_REPORT_INPROGRESS",
+    "label": "Executive Report Inprogress",
+    "displayOrder": 3,
+    "isActive": true
+  },
+  {
+    "id": "ITEM-ENG-STAT-04",
+    "taxonomyId": "TAX-ENGAGEMENT-STATUS",
+    "taxonomyCode": "ENGAGEMENT_STATUS",
+    "code": "COMPLETED",
+    "label": "Completed",
+    "displayOrder": 4,
+    "isActive": true
+  }
+]

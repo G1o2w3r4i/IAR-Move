@@ -1,0 +1,46 @@
+[
+  {
+    "id": "ASM-2024",
+    "year": 2024,
+    "name": "2024 Internal Audit Assessments",
+    "status": "Re-Opened",
+    "description": "Prior year audit plan re-opened for post-regulatory verification & CAPA tracking.",
+    "startDate": "2024-01-01",
+    "endDate": "2024-12-31",
+    "totalEngagements": 3,
+    "activeAuditorsCount": 8
+  },
+  {
+    "id": "ASM-2025",
+    "year": 2025,
+    "name": "2025 Internal Audit Assessments",
+    "status": "Closed",
+    "description": "Annual internal audit assessment portfolio for fiscal year 2025 (All engagements finalized & archived).",
+    "startDate": "2025-01-01",
+    "endDate": "2025-12-31",
+    "totalEngagements": 4,
+    "activeAuditorsCount": 14
+  },
+  {
+    "id": "ASM-2026",
+    "year": 2026,
+    "name": "2026 Internal Audit Assessments",
+    "status": "Open",
+    "description": "Active annual internal audit assessment portfolio covering global MedTech, Innovative Medicine, and Enterprise IT.",
+    "startDate": "2026-01-01",
+    "endDate": "2026-12-31",
+    "totalEngagements": 12,
+    "activeAuditorsCount": 18
+  },
+  {
+    "id": "ASM-2027",
+    "year": 2027,
+    "name": "2027 Internal Audit Assessments",
+    "status": "Open",
+    "description": "Advance internal audit assessment plan focusing on AI validation, robotic surgical systems, and next-gen cold chain.",
+    "startDate": "2027-01-01",
+    "endDate": "2027-12-31",
+    "totalEngagements": 4,
+    "activeAuditorsCount": 12
+  }
+]

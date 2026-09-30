@@ -1,0 +1,199 @@
+[
+  {
+    "id": "LOG-AUD-REP008-01",
+    "engagementId": "REP-2026-008",
+    "issueId": null,
+    "timestamp": "2026-07-25T08:00:00Z",
+    "displayTime": "07/25/2026 at 08:00 AM",
+    "actor": {
+      "userId": "USR-003",
+      "name": "Kevin Zhang",
+      "role": "IT Audit Team Coordinator",
+      "domain": "IT"
+    },
+    "category": "REPORT_INITIALIZATION",
+    "badgeType": "create",
+    "action": "Audit Report Initiated & Workpapers Seeded",
+    "fieldChanged": "Report Stage",
+    "oldValue": "Not Started",
+    "newValue": "In Progress (Fieldwork)",
+    "details": {
+      "leadAuditor": "Sarah Jenkins",
+      "auditScope": "Janssen Vaccine Cold Chain & Thermal Integrity",
+      "totalIssuesMapped": 3
+    }
+  },
+  {
+    "id": "LOG-AUD-REP008-02",
+    "engagementId": "REP-2026-008",
+    "issueId": "ISSUE-802",
+    "timestamp": "2026-08-01T15:35:00Z",
+    "displayTime": "08/01/2026 at 03:35 PM",
+    "actor": {
+      "userId": "USR-006",
+      "name": "Amanda Palmer",
+      "role": "IT Audit Manager",
+      "domain": "IT"
+    },
+    "category": "INTERIM_GATE_UPDATE",
+    "badgeType": "workflow",
+    "action": "Interim Manager Review Completed (1 of 3 Findings Cleared)",
+    "fieldChanged": "Engagement Audit Progress",
+    "oldValue": "Fieldwork In Progress",
+    "newValue": "Manager Review (Waiting on remaining 2 findings)",
+    "details": {
+      "clearedIssue": "ISSUE-802",
+      "remainingIssuesCount": 2,
+      "gateRule": "BATCH_SYNCHRONIZATION_GATE"
+    }
+  },
+  {
+    "id": "LOG-AUD-REP003-01",
+    "engagementId": "REP-2026-003",
+    "issueId": null,
+    "timestamp": "2026-07-15T09:00:00Z",
+    "displayTime": "07/15/2026 at 09:00 AM",
+    "actor": {
+      "userId": "USR-008",
+      "name": "Elena Rostova",
+      "role": "FinOps Team Coordinator",
+      "domain": "FinOps"
+    },
+    "category": "REPORT_INITIALIZATION",
+    "badgeType": "create",
+    "action": "Audit Report Initiated & Scope Defined",
+    "fieldChanged": "Report Status",
+    "oldValue": "Draft",
+    "newValue": "Fieldwork In Progress",
+    "details": {
+      "leadAuditor": "Rachel Green",
+      "totalIssuesMapped": 3
+    }
+  },
+  {
+    "id": "LOG-AUD-REP003-02",
+    "engagementId": "REP-2026-003",
+    "issueId": "ISSUE-303",
+    "timestamp": "2026-08-02T16:05:00Z",
+    "displayTime": "08/02/2026 at 04:05 PM",
+    "actor": {
+      "userId": "USR-007",
+      "name": "Carlos Mendez",
+      "role": "FinOps Audit Manager",
+      "domain": "FinOps"
+    },
+    "category": "BATCH_ISSUES_COMPILED",
+    "badgeType": "workflow",
+    "action": "All Issues Completed by Manager — Audit Report Compiled for Director Review",
+    "fieldChanged": "Engagement Queue & Stage",
+    "oldValue": "Manager Review Queue",
+    "newValue": "Pending Director",
+    "details": {
+      "triggerIssueId": "ISSUE-303",
+      "gateRule": "BATCH_SYNCHRONIZATION_GATE",
+      "totalIssuesCompiled": 3,
+      "severityBreakdown": {
+        "Critical": 1,
+        "Major": 2,
+        "Moderate": 0,
+        "Minor": 0
+      },
+      "allIssuesCleared": true
+    }
+  },
+  {
+    "id": "LOG-AUD-REP005-01",
+    "engagementId": "REP-2026-005",
+    "issueId": null,
+    "timestamp": "2026-07-10T08:30:00Z",
+    "displayTime": "07/10/2026 at 08:30 AM",
+    "actor": {
+      "userId": "USR-003",
+      "name": "Kevin Zhang",
+      "role": "IT Audit Team Coordinator",
+      "domain": "IT"
+    },
+    "category": "REPORT_INITIALIZATION",
+    "badgeType": "create",
+    "action": "CAR-T Manufacturing Audit Report Initiated",
+    "fieldChanged": "Report Stage",
+    "oldValue": "Not Started",
+    "newValue": "Fieldwork In Progress",
+    "details": {
+      "leadAuditor": "Marcus Vance",
+      "totalIssuesMapped": 3
+    }
+  },
+  {
+    "id": "LOG-AUD-REP005-02",
+    "engagementId": "REP-2026-005",
+    "issueId": null,
+    "timestamp": "2026-08-01T17:00:00Z",
+    "displayTime": "08/01/2026 at 05:00 PM",
+    "actor": {
+      "userId": "USR-006",
+      "name": "Amanda Palmer",
+      "role": "IT Audit Manager",
+      "domain": "IT"
+    },
+    "category": "BATCH_ISSUES_COMPILED",
+    "badgeType": "workflow",
+    "action": "All Findings Cleared — Report Compiled and Submitted to Director",
+    "fieldChanged": "Engagement Queue",
+    "oldValue": "Manager Review",
+    "newValue": "Pending Director",
+    "details": {
+      "gateRule": "BATCH_SYNCHRONIZATION_GATE",
+      "totalIssuesCompiled": 3,
+      "allIssuesCleared": true
+    }
+  },
+  {
+    "id": "LOG-AUD-REP005-03",
+    "engagementId": "REP-2026-005",
+    "issueId": null,
+    "timestamp": "2026-08-04T15:05:00Z",
+    "displayTime": "08/04/2026 at 03:05 PM",
+    "actor": {
+      "userId": "USR-009",
+      "name": "Brian Cox",
+      "role": "IT Audit Director",
+      "domain": "IT"
+    },
+    "category": "DIRECTOR_REVIEW_SUBMIT",
+    "badgeType": "director",
+    "action": "Director Review Approved — Audit Report Submitted to Vice President",
+    "fieldChanged": "Engagement Queue & Stage",
+    "oldValue": "Pending Director",
+    "newValue": "Pending VP",
+    "details": {
+      "directorComments": "High-risk CAR-T cleanroom batch records reviewed. Mitigating automated sensors confirmed in place. Forwarded for VP review and executive sign-off.",
+      "targetRole": "Vice President",
+      "reviewDurationDays": 3
+    }
+  },
+  {
+    "id": "LOG-AUD-REP001-01",
+    "engagementId": "REP-2026-001",
+    "issueId": null,
+    "timestamp": "2026-07-05T09:00:00Z",
+    "displayTime": "07/05/2026 at 09:00 AM",
+    "actor": {
+      "userId": "USR-003",
+      "name": "Kevin Zhang",
+      "role": "IT Audit Team Coordinator",
+      "domain": "IT"
+    },
+    "category": "REPORT_INITIALIZATION",
+    "badgeType": "create",
+    "action": "Suzhou Plant Audit Workpapers Initialized",
+    "fieldChanged": "Report Stage",
+    "oldValue": "Not Started",
+    "newValue": "In Progress (Fieldwork)",
+    "details": {
+      "leadAuditor": "Marcus Vance",
+      "auditScope": "Orthopedics Plant IT & Automated Manufacturing",
+      "totalIssuesMapped": 5
+    }
+  }
+]

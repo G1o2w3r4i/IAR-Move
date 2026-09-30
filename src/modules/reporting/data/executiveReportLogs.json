@@ -1,0 +1,250 @@
+[
+  {
+    "id": "LOG-EXEC-REP008-01",
+    "engagementId": "REP-2026-008",
+    "timestamp": "2026-08-03T18:00:00Z",
+    "displayTime": "08/03/2026 at 06:00 PM",
+    "actor": {
+      "userId": "SYS-AI",
+      "name": "AI Executive Report Generator",
+      "role": "Audit Intelligence Copilot",
+      "domain": "Cross-Domain"
+    },
+    "category": "REPORT_GENERATION",
+    "badgeType": "create",
+    "action": "Synthesized Executive Summary & Process Scope Matrix",
+    "fieldChanged": "All Executive Summary Sections",
+    "oldValue": null,
+    "newValue": "Draft Executive Narrative & Scope Matrix Initialized",
+    "details": {
+      "synthesisSource": "Aggregated 3 workpaper issues from REP-2026-008",
+      "sectionsGenerated": [
+        "backgroundSummary",
+        "scopeMatrix",
+        "keyThemes",
+        "financialImpactSummary"
+      ],
+      "totalQuantifiedExposure": "USD 840,000"
+    }
+  },
+  {
+    "id": "LOG-EXEC-REP008-02",
+    "engagementId": "REP-2026-008",
+    "timestamp": "2026-08-04T09:30:00Z",
+    "displayTime": "08/04/2026 at 09:30 AM",
+    "actor": {
+      "userId": "USR-003",
+      "name": "Kevin Zhang",
+      "role": "IT Audit Team Coordinator",
+      "domain": "IT"
+    },
+    "category": "FIELD_EDIT",
+    "badgeType": "matrix",
+    "action": "Updated Scope Matrix Severity Ratings",
+    "fieldChanged": "Scope Matrix — Cold Chain Storage Row",
+    "oldValue": "Critical: 0, Major: 1, Minor: 2",
+    "newValue": "Critical: 0, Major: 2, Minor: 1",
+    "details": {
+      "rowKey": "cold_chain_storage",
+      "columnChanged": "Major Findings",
+      "rationale": "Realigned with final workpaper finding ISSUE-802."
+    }
+  },
+  {
+    "id": "LOG-EXEC-REP008-03",
+    "engagementId": "REP-2026-008",
+    "timestamp": "2026-08-04T14:15:00Z",
+    "displayTime": "08/04/2026 at 02:15 PM",
+    "actor": {
+      "userId": "SYS-AI",
+      "name": "AI Executive Report Generator",
+      "role": "Audit Intelligence Copilot",
+      "domain": "Cross-Domain"
+    },
+    "category": "REPORT_REGENERATION",
+    "badgeType": "ai",
+    "action": "AI Prompt Regeneration of Key Executive Themes",
+    "fieldChanged": "Key Themes — Narrative Section",
+    "oldValue": "Generic supply chain transit timing observations",
+    "newValue": "Refined executive analysis highlighting temperature excursion telemetry variances across European distribution hubs",
+    "details": {
+      "promptRefinement": "Emphasize regional GxP cold chain logistics compliance and financial write-off risks",
+      "generationCycle": 2,
+      "quantifiedLoss": "USD 320,000"
+    }
+  },
+  {
+    "id": "LOG-EXEC-REP008-04",
+    "engagementId": "REP-2026-008",
+    "timestamp": "2026-08-05T10:00:00Z",
+    "displayTime": "08/05/2026 at 10:00 AM",
+    "actor": {
+      "userId": "USR-009",
+      "name": "Brian Cox",
+      "role": "IT Audit Director",
+      "domain": "IT"
+    },
+    "category": "COMMENT_COLLABORATION",
+    "badgeType": "comment",
+    "action": "Added Field Reviewer Comment on Executive Background",
+    "fieldChanged": "Executive Background Section",
+    "oldValue": null,
+    "newValue": "Ensure EU MDR 2017/745 regulatory citation is explicitly included in paragraph 1.",
+    "details": {
+      "commentId": "COMM-EXEC-801",
+      "sectionKey": "executiveBackground",
+      "status": "Open"
+    }
+  },
+  {
+    "id": "LOG-EXEC-REP008-05",
+    "engagementId": "REP-2026-008",
+    "timestamp": "2026-08-06T15:00:00Z",
+    "displayTime": "08/06/2026 at 03:00 PM",
+    "actor": {
+      "userId": "USR-009",
+      "name": "Brian Cox",
+      "role": "IT Audit Director",
+      "domain": "IT"
+    },
+    "category": "WORKFLOW_TRANSITION",
+    "badgeType": "workflow",
+    "action": "Executive Summary Approved by Director — Submitted to VP",
+    "fieldChanged": "Executive Report Workflow Stage",
+    "oldValue": "Director Review",
+    "newValue": "Pending VP Sign-Off",
+    "details": {
+      "targetRole": "Vice President",
+      "readinessScore": "100% Complete"
+    }
+  },
+  {
+    "id": "LOG-EXEC-REP001-01",
+    "engagementId": "REP-2026-001",
+    "timestamp": "2026-08-16T10:05:00Z",
+    "displayTime": "08/16/2026 at 10:05 AM",
+    "actor": {
+      "userId": "SYS-AI",
+      "name": "AI Executive Report Generator",
+      "role": "Audit Intelligence Copilot",
+      "domain": "Cross-Domain"
+    },
+    "category": "REPORT_GENERATION",
+    "badgeType": "create",
+    "action": "Executive Summary Draft Initialized",
+    "fieldChanged": "All Executive Fields",
+    "oldValue": "-",
+    "newValue": "Initial executive report draft generated from finalized workpaper issues and scope parameters",
+    "details": {
+      "totalIssuesMapped": 5,
+      "sourceReport": "MedTech Suzhou - Orthopedics Plant"
+    }
+  },
+  {
+    "id": "LOG-EXEC-REP001-02",
+    "engagementId": "REP-2026-001",
+    "timestamp": "2026-08-17T02:15:00Z",
+    "displayTime": "08/17/2026 at 02:15 PM",
+    "actor": {
+      "userId": "USR-001",
+      "name": "Marcus Vance",
+      "role": "Senior IT Auditor",
+      "domain": "IT"
+    },
+    "category": "FIELD_EDIT",
+    "badgeType": "issue",
+    "action": "Updated Critical Issue Title & Costar Impact Description",
+    "fieldChanged": "Critical Issue — Costar Lease Records",
+    "oldValue": "Lease calculation differences in Costar",
+    "newValue": "Lease data discrepancies and system limitations in Costar records (understated liabilities by USD 1.28M)",
+    "details": {
+      "fieldKey": "criticalIssuesCostar",
+      "quantifiedExposure": "USD 1.28M"
+    }
+  },
+  {
+    "id": "LOG-EXEC-REP001-03",
+    "engagementId": "REP-2026-001",
+    "timestamp": "2026-08-17T04:20:00Z",
+    "displayTime": "08/17/2026 at 04:20 PM",
+    "actor": {
+      "userId": "SYS-AI",
+      "name": "AI Executive Report Generator",
+      "role": "Audit Intelligence Copilot",
+      "domain": "Cross-Domain"
+    },
+    "category": "REPORT_REGENERATION",
+    "badgeType": "ai",
+    "action": "Synthesized Executive Audit Insights & Root Cause",
+    "fieldChanged": "Audit Insights — Key Observations",
+    "oldValue": "Raw observations collected from 8 individual fieldwork testing sheets",
+    "newValue": "Synthesized executive narrative identifying $1.28M Costar liability understatement & dormant user access risks",
+    "details": {
+      "generationCycle": 2,
+      "themesRefined": 3
+    }
+  },
+  {
+    "id": "LOG-EXEC-REP001-04",
+    "engagementId": "REP-2026-001",
+    "timestamp": "2026-08-18T11:30:00Z",
+    "displayTime": "08/18/2026 at 11:30 AM",
+    "actor": {
+      "userId": "USR-002",
+      "name": "Sarah Jenkins",
+      "role": "Staff IT Auditor",
+      "domain": "IT"
+    },
+    "category": "FIELD_EDIT",
+    "badgeType": "update",
+    "action": "Refined Executive Summary Objective Bullets",
+    "fieldChanged": "Scope Summary — Objective Bullet #2",
+    "oldValue": "Assess plant vendor management activities",
+    "newValue": "Assess the company's oversight over critical third-party vendors and GxP contract manufacturers.",
+    "details": {
+      "fieldKey": "scopeObjectiveBullet2"
+    }
+  },
+  {
+    "id": "LOG-EXEC-REP001-05",
+    "engagementId": "REP-2026-001",
+    "timestamp": "2026-08-18T13:18:00Z",
+    "displayTime": "08/18/2026 at 01:18 PM",
+    "actor": {
+      "userId": "USR-009",
+      "name": "Brian Cox",
+      "role": "IT Audit Director",
+      "domain": "IT"
+    },
+    "category": "FIELD_EDIT",
+    "badgeType": "scope",
+    "action": "Extended Assessment Period & Location Details",
+    "fieldChanged": "Scope Summary — Assessment Period",
+    "oldValue": "Q1 2026 (Jan 1, 2026 – Mar 31, 2026)",
+    "newValue": "Q1 2026 – Q2 2026 (Jan 1, 2026 – Jun 30, 2026)",
+    "details": {
+      "fieldKey": "assessmentPeriod"
+    }
+  },
+  {
+    "id": "LOG-EXEC-REP001-06",
+    "engagementId": "REP-2026-001",
+    "timestamp": "2026-08-18T14:45:00Z",
+    "displayTime": "08/18/2026 at 02:45 PM",
+    "actor": {
+      "userId": "USR-002",
+      "name": "Sarah Jenkins",
+      "role": "Staff IT Auditor",
+      "domain": "IT"
+    },
+    "category": "FIELD_EDIT",
+    "badgeType": "matrix",
+    "action": "Updated Process Matrix Severity Ratings",
+    "fieldChanged": "Scope Matrix — Leasing Row",
+    "oldValue": "Critical: 0, Major: 1, Minor: 3 (Total: 4)",
+    "newValue": "Critical: 1, Major: 0, Minor: 3 (Total: 4, Grand Total: 8)",
+    "details": {
+      "fieldKey": "leasingRowMatrix"
+    }
+  }
+]

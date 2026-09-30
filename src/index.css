@@ -1,0 +1,857 @@
+@import './styles/tokens.css';
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "jj-circular", Arial, Helvetica, sans-serif;
+  color: var(--ara-body-text, #212121);
+  background-color: var(--ara-body-bg, #f4f4f4);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  background: transparent !important;
+}
+
+:root {
+  --color-border: #d8d8d8;
+  --color-divider: #d8d8d8;
+  --color-separator: #d8d8d8;
+  --border-default: 1px solid #d8d8d8;
+  --border-divider: 1px solid #d8d8d8;
+}
+
+hr,
+.divider,
+.separator,
+[role="separator"] {
+  border: none;
+  border-top: 1px solid #d8d8d8;
+  margin: 0;
+  width: 100%;
+}
+
+#root {
+  min-height: 100%;
+  width: 100%;
+}
+
+/* ==============================================================================
+   Reporting Queue & Workbench Styles (Harmonized with J&J Brand)
+   ============================================================================== */
+
+.full-width-queue {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  position: relative;
+}
+
+.table-card-container {
+  background: #ffffff;
+  border: 1px solid #d8d8d8;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.table-scroll-body {
+  overflow-y: auto !important;
+  overflow-x: auto;
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+}
+
+.full-width-queue .table-scroll-body {
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+.full-width-queue .table-scroll-body::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  background: transparent !important;
+}
+
+.full-width-queue .table-scroll-body::-webkit-scrollbar-track,
+.full-width-queue .table-scroll-body::-webkit-scrollbar-thumb {
+  display: none !important;
+  background: transparent !important;
+}
+
+.table-scroll-body table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 13px;
+}
+
+.full-width-queue .table-scroll-body > table > thead > tr > th {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #f8fafc;
+  color: #212121;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  padding: 14px 16px;
+  border-bottom: 2px solid #eb1700;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  user-select: none;
+}
+
+.full-width-queue .table-scroll-body > table > thead > tr > th:hover {
+  background: #f1f5f9;
+  color: #000099;
+}
+
+.table-scroll-body tbody tr {
+  border-bottom: 1px solid #d8d8d8;
+  transition: all 0.15s ease;
+}
+
+.table-row-interactive {
+  cursor: pointer;
+  border-bottom: 1px solid #d8d8d8;
+  border-left: 3px solid transparent;
+}
+
+.table-row-interactive:hover {
+  background-color: #fbfbfe;
+  border-left-color: #eb1700;
+}
+
+.table-row-interactive.active-selected {
+  background-color: #f1f4ff;
+  border-left-color: #000099;
+}
+
+.search-input-wrapper {
+  flex: 1;
+  min-width: 220px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #ffffff;
+  border: 1px solid #d8d8d8;
+  border-radius: 8px;
+  padding: 0 12px;
+  height: 36px;
+  transition: all 0.2s ease;
+}
+
+.search-input-wrapper:focus-within {
+  border-color: #000099;
+  box-shadow: 0 0 0 2px rgba(0, 0, 153, 0.15);
+}
+
+.search-field-input {
+  width: 100%;
+  font-size: 12px;
+  font-family: inherit;
+  color: #212121;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+/* ==============================================================================
+   SharedTable & Embedded Table Design Harmonization
+   (Matches Dashboards - AccordionGroup with Parent Header - Embedded Table)
+   ============================================================================== */
+.shared-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  background-color: #ffffff;
+  border: 1px solid #d8d8d8;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+.shared-table-wrapper::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  background: transparent !important;
+}
+
+.shared-table-wrapper.no-border {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.shared-table-root {
+  width: 100%;
+  min-width: 100%;
+  border-collapse: collapse;
+}
+
+.shared-table-root thead tr {
+  background-color: #f2f2f1 !important;
+}
+
+.shared-table-root th.MuiTableCell-head {
+  background-color: #f2f2f1 !important;
+  color: #64748B !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.12em !important;
+  border-bottom: 1px solid #d8d8d8 !important;
+  padding: 11px 16px !important;
+  line-height: 1.4 !important;
+  font-family: inherit !important;
+  white-space: nowrap;
+}
+
+.shared-table-root th.MuiTableCell-head .MuiTableSortLabel-root {
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.12em !important;
+  color: #64748B !important;
+}
+
+.shared-table-root th.MuiTableCell-head .MuiTableSortLabel-root:hover,
+.shared-table-root th.MuiTableCell-head .MuiTableSortLabel-root.Mui-active {
+  color: #000099 !important;
+}
+
+.shared-table-root td.MuiTableCell-body {
+  font-size: 13px !important;
+  color: #212121 !important;
+  border-bottom: 1px solid #e2e8f0 !important;
+  padding: 12px 16px !important;
+  font-family: inherit !important;
+  vertical-align: middle !important;
+}
+
+.shared-table-root tbody tr.MuiTableRow-root {
+  transition: background-color 0.15s ease;
+}
+
+.shared-table-root tbody tr.MuiTableRow-root:hover {
+  background-color: #f8fafc !important;
+}
+
+.shared-table-root tbody tr:last-child td.MuiTableCell-body {
+  border-bottom: none !important;
+}
+
+.shared-table-root tbody tr .inner-row-action-buttons {
+  opacity: 0.9;
+  transition: opacity 0.15s ease;
+}
+
+.shared-table-root tbody tr:hover .inner-row-action-buttons {
+  opacity: 1;
+}
+
+.inner-sub-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid #d8d8d8;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+}
+
+.inner-sub-table th {
+  background: #f2f2f1 !important;
+  color: #64748B !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.12em !important;
+  padding: 11px 16px !important;
+  border-bottom: 1px solid #d8d8d8 !important;
+}
+
+.inner-sub-table tbody tr {
+  border-bottom: 1px solid #e2e8f0;
+  transition: background-color 0.15s ease;
+}
+
+.inner-sub-table tbody tr:hover {
+  background-color: #f8fafc !important;
+}
+
+.inner-sub-table tbody tr:last-child {
+  border-bottom: none !important;
+}
+
+.inner-sub-table tbody tr .inner-row-action-buttons {
+  opacity: 0.9;
+  transition: opacity 0.15s ease;
+}
+
+.inner-sub-table tbody tr:hover .inner-row-action-buttons {
+  opacity: 1;
+}
+
+.th-content {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.th-sort-icon {
+  width: 13px;
+  height: 13px;
+  color: #888b8d;
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.97) translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+/* =========================================================
+   AUDIT QUEUE CARD ACCORDION TABLE (SCREENSHOT HARMONIZATION)
+   ========================================================= */
+
+.audit-queue-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  position: relative;
+}
+
+.audit-queue-scroll-container {
+  overflow-x: auto;
+  overflow-y: auto;
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+.audit-queue-scroll-container::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  background: transparent !important;
+}
+
+.audit-queue-scroll-container::-webkit-scrollbar-track {
+  display: none !important;
+  background: transparent !important;
+}
+
+.audit-queue-scroll-container::-webkit-scrollbar-thumb {
+  display: none !important;
+  background: transparent !important;
+}
+
+.audit-queue-table-layout {
+  min-width: 1280px;
+  padding-bottom: 24px;
+}
+
+.audit-queue-section-header {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.audit-queue-header-grid {
+  display: grid;
+  align-items: center;
+  background: transparent;
+  color: #63666A;
+  font-size: 12.5px;
+  font-weight: 700;
+  text-transform: none;
+  letter-spacing: normal;
+  padding: 4px 14px 10px 14px;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 6px;
+  user-select: none;
+  box-shadow: none;
+}
+
+/* Default / All Associated layout: Queue & Owner before Issues */
+.audit-queue-header-grid,
+.audit-queue-header-grid.all-associated-layout {
+  grid-template-columns: 44px minmax(200px, 1.8fr) minmax(150px, 1.2fr) minmax(130px, 1fr) minmax(170px, 1.3fr) minmax(100px, 0.8fr) minmax(90px, 0.7fr) minmax(90px, 0.7fr) minmax(260px, 2fr);
+}
+
+/* My Actions layout: Action Issues directly next to Status, balanced spacing, expanded action column */
+.audit-queue-header-grid.my-actions-layout {
+  grid-template-columns: 44px minmax(210px, 1.8fr) minmax(140px, 1fr) minmax(110px, 0.9fr) minmax(140px, 1.1fr) minmax(180px, 1.3fr) minmax(270px, 2fr);
+}
+
+.audit-queue-header-col {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.audit-queue-header-col.sortable {
+  cursor: pointer;
+  transition: color 0.15s ease;
+}
+
+.audit-queue-header-col.sortable:hover {
+  color: #000099;
+}
+
+.audit-queue-header-col.center {
+  justify-content: center;
+  text-align: center;
+}
+
+.audit-queue-header-col.right {
+  justify-content: flex-end;
+  text-align: right;
+  padding-right: 6px;
+}
+
+.audit-queue-card {
+  background: #ffffff;
+  border: 1px solid #d8d8d8;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.03);
+  margin-bottom: 12px;
+  transition: all 0.2s ease;
+  overflow: hidden;
+}
+
+.audit-queue-card:hover {
+  border-color: #cbd5e1;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.03);
+}
+
+.audit-queue-card.expanded {
+  border-color: #d8d8d8;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.audit-queue-card-summary {
+  display: grid;
+  align-items: center;
+  padding: 13px 14px;
+  min-height: 56px;
+  cursor: pointer;
+  background: #ffffff;
+  transition: background-color 0.15s ease;
+}
+
+/* Default / All Associated layout for card row */
+.audit-queue-card-summary,
+.audit-queue-card-summary.all-associated-layout {
+  grid-template-columns: 44px minmax(200px, 1.8fr) minmax(150px, 1.2fr) minmax(130px, 1fr) minmax(170px, 1.3fr) minmax(100px, 0.8fr) minmax(90px, 0.7fr) minmax(90px, 0.7fr) minmax(260px, 2fr);
+}
+
+/* My Actions layout for card row: Action Issues directly next to Status, balanced spacing, expanded action column */
+.audit-queue-card-summary.my-actions-layout {
+  grid-template-columns: 44px minmax(210px, 1.8fr) minmax(140px, 1fr) minmax(110px, 0.9fr) minmax(140px, 1.1fr) minmax(180px, 1.3fr) minmax(270px, 2fr);
+}
+
+.audit-queue-card-summary:hover {
+  background-color: #fafbfc;
+}
+
+.audit-queue-card-summary .expand-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  color: #eb1700;
+  transition: all 0.15s ease;
+}
+
+.audit-queue-card-summary .expand-btn:hover {
+  background-color: #fff1f0;
+}
+
+/* Primary row action buttons: visible ONLY on row hover */
+.audit-queue-row-actions {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.18s ease, visibility 0.18s ease, transform 0.18s ease;
+  transform: translateX(4px);
+  white-space: nowrap !important;
+  flex-wrap: nowrap !important;
+  flex-shrink: 0 !important;
+}
+
+.audit-queue-card:hover .audit-queue-row-actions,
+.audit-queue-card-summary:hover .audit-queue-row-actions {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateX(0);
+}
+
+.audit-queue-card-summary.is-expanded:hover {
+  background-color: #fafbfc;
+}
+
+.audit-queue-row-actions-expanded {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: none;
+  white-space: nowrap !important;
+  flex-wrap: nowrap !important;
+  flex-shrink: 0 !important;
+}
+
+/* Responsive Action Buttons: Full labels on monitor, compact labels on laptop (Option 2) */
+.audit-queue-btn-label-full {
+  display: inline;
+}
+
+.audit-queue-btn-label-compact {
+  display: none;
+}
+
+@media screen and (max-width: 1440px) {
+  .audit-queue-btn-label-full {
+    display: none !important;
+  }
+  .audit-queue-btn-label-compact {
+    display: inline !important;
+  }
+  .audit-queue-row-actions,
+  .audit-queue-row-actions-expanded {
+    gap: 4px !important;
+  }
+  .audit-queue-action-btn {
+    padding: 4px 7px !important;
+    font-size: 11px !important;
+    gap: 4px !important;
+  }
+}
+
+
+/* ==============================================================================
+   Comprehensive Enterprise Responsive Design System
+   ============================================================================== */
+
+/* Laptops & Compact Desktops (<= 1200px) */
+@media screen and (max-width: 1200px) {
+  .jnj-app-header-inner {
+    padding: 0 20px !important;
+  }
+  .jnj-nav-bar {
+    gap: 20px !important;
+  }
+  .full-width-queue {
+    padding: 14px 16px !important;
+  }
+}
+
+/* Tablets Landscape & Medium Screens (<= 1024px) */
+@media screen and (max-width: 1024px) {
+  .jnj-app-header-inner {
+    padding: 0 16px !important;
+  }
+  .jnj-nav-bar {
+    gap: 14px !important;
+  }
+  .jnj-nav-item {
+    font-size: 13.5px !important;
+    padding: 4px 4px 8px 4px !important;
+  }
+  .table-card-container {
+    border-radius: 6px !important;
+  }
+  .single-row-filter-panel {
+    gap: 8px !important;
+  }
+}
+
+/* Tablets Portrait & Small Screens (<= 860px) */
+@media screen and (max-width: 860px) {
+  .jnj-nav-bar {
+    overflow-x: auto !important;
+    scrollbar-width: none !important;
+    -ms-overflow-style: none !important;
+    max-width: 100% !important;
+    white-space: nowrap !important;
+    -webkit-overflow-scrolling: touch !important;
+    gap: 12px !important;
+  }
+  .jnj-nav-bar::-webkit-scrollbar {
+    display: none !important;
+  }
+  .jnj-logo-subtitle {
+    font-size: 8.5px !important;
+  }
+  .full-width-queue {
+    padding: 12px 12px !important;
+  }
+  .single-row-filter-panel {
+    gap: 8px !important;
+    margin-bottom: 12px !important;
+  }
+}
+
+/* Mobile Screens (<= 640px) */
+@media screen and (max-width: 640px) {
+  .jnj-app-header-inner {
+    height: auto !important;
+    min-height: 54px !important;
+    padding: 8px 12px !important;
+    flex-wrap: wrap !important;
+    row-gap: 8px !important;
+  }
+  .jnj-logo-container {
+    order: 1 !important;
+  }
+  .jnj-header-tools {
+    order: 2 !important;
+    gap: 10px !important;
+  }
+  .jnj-nav-bar {
+    order: 3 !important;
+    width: 100% !important;
+    height: 38px !important;
+    gap: 12px !important;
+    border-top: 1px solid #f1f5f9 !important;
+    overflow-x: auto !important;
+  }
+  .jnj-logo-img {
+    height: 22px !important;
+  }
+  .jnj-logo-subtitle {
+    font-size: 8px !important;
+    letter-spacing: 0.4px !important;
+  }
+  .jnj-user-profile-name {
+    display: none !important;
+  }
+  .full-width-queue {
+    padding: 8px 8px !important;
+  }
+  .single-row-filter-panel {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 8px !important;
+  }
+  .single-row-filter-panel > * {
+    width: 100% !important;
+    min-width: 100% !important;
+    max-width: 100% !important;
+  }
+  .table-card-container {
+    border-radius: 6px !important;
+  }
+  .table-scroll-body table {
+    font-size: 12px !important;
+  }
+  .th-content span {
+    font-size: 11px !important;
+  }
+}
+
+/* Scrollbar Track & Thumb Suppression (Maintains full scrollability without visible tracks/bars) */
+.overflow-x-auto,
+.overflow-y-auto,
+.audit-queue-table-layout,
+.no-scrollbar {
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+.overflow-x-auto::-webkit-scrollbar,
+.overflow-y-auto::-webkit-scrollbar,
+.audit-queue-table-layout::-webkit-scrollbar,
+.no-scrollbar::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  background: transparent !important;
+}
+
+/* Action buttons in expanded issue table */
+.shared-table-action-btn {
+  padding: 4px 10px;
+  font-size: 11px;
+  font-weight: 700;
+  color: #475569;
+  background-color: #F8FAFC;
+  border: 1px solid #CBD5E1;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+
+.shared-table-action-btn:hover {
+  background-color: #F1F5F9;
+  border-color: #94A3B8;
+  color: #1E293B;
+}
+
+/* Slim, very light grey scrollbar for dialogs and modal content */
+.slim-light-scrollbar,
+.MuiDialogContent-root {
+  scrollbar-width: thin !important;
+  scrollbar-color: #E2E8F0 transparent !important;
+}
+
+.slim-light-scrollbar::-webkit-scrollbar,
+.MuiDialogContent-root::-webkit-scrollbar {
+  width: 4px !important;
+  height: 4px !important;
+}
+
+.slim-light-scrollbar::-webkit-scrollbar-track,
+.MuiDialogContent-root::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+
+.slim-light-scrollbar::-webkit-scrollbar-thumb,
+.MuiDialogContent-root::-webkit-scrollbar-thumb {
+  background-color: #E2E8F0 !important;
+  border-radius: 4px !important;
+}
+
+.slim-light-scrollbar::-webkit-scrollbar-thumb:hover,
+.MuiDialogContent-root::-webkit-scrollbar-thumb:hover {
+  background-color: #CBD5E1 !important;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Lean, Light Scrollbar for Textarea Components (visible only on hover/focus)*/
+/* -------------------------------------------------------------------------- */
+textarea,
+.MuiInputBase-inputMultiline,
+.ai-input-textarea,
+.shared-textarea-wrapper textarea {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+  transition: scrollbar-color 0.15s ease;
+}
+
+textarea::-webkit-scrollbar,
+.MuiInputBase-inputMultiline::-webkit-scrollbar,
+.ai-input-textarea::-webkit-scrollbar,
+.shared-textarea-wrapper textarea::-webkit-scrollbar {
+  width: 4px !important;
+  height: 4px !important;
+}
+
+textarea::-webkit-scrollbar-track,
+.MuiInputBase-inputMultiline::-webkit-scrollbar-track,
+.ai-input-textarea::-webkit-scrollbar-track,
+.shared-textarea-wrapper textarea::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+
+textarea::-webkit-scrollbar-thumb,
+.MuiInputBase-inputMultiline::-webkit-scrollbar-thumb,
+.ai-input-textarea::-webkit-scrollbar-thumb,
+.shared-textarea-wrapper textarea::-webkit-scrollbar-thumb {
+  background-color: transparent !important;
+  border-radius: 4px !important;
+  transition: background-color 0.15s ease;
+}
+
+/* Visible on hover, click, or focus */
+textarea:hover,
+textarea:focus,
+textarea:focus-within,
+textarea:active,
+.MuiInputBase-root:hover textarea,
+.MuiInputBase-root:focus-within textarea,
+.ai-input-group:hover textarea,
+.ai-input-group:focus-within textarea,
+.shared-textarea-wrapper:hover textarea,
+.shared-textarea-wrapper:focus-within textarea {
+  scrollbar-color: #CBD5E1 transparent !important;
+}
+
+textarea:hover::-webkit-scrollbar-thumb,
+textarea:focus::-webkit-scrollbar-thumb,
+textarea:focus-within::-webkit-scrollbar-thumb,
+textarea:active::-webkit-scrollbar-thumb,
+.MuiInputBase-root:hover textarea::-webkit-scrollbar-thumb,
+.MuiInputBase-root:focus-within textarea::-webkit-scrollbar-thumb,
+.ai-input-group:hover textarea::-webkit-scrollbar-thumb,
+.ai-input-group:focus-within textarea::-webkit-scrollbar-thumb,
+.shared-textarea-wrapper:hover textarea::-webkit-scrollbar-thumb,
+.shared-textarea-wrapper:focus-within textarea::-webkit-scrollbar-thumb {
+  background-color: #CBD5E1 !important;
+}
+
+textarea::-webkit-scrollbar-thumb:hover,
+.MuiInputBase-inputMultiline::-webkit-scrollbar-thumb:hover,
+.ai-input-textarea::-webkit-scrollbar-thumb:hover,
+.shared-textarea-wrapper textarea::-webkit-scrollbar-thumb:hover {
+  background-color: #94A3B8 !important;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Subtle Minute Blinking Animation for Locked Icons                          */
+/* -------------------------------------------------------------------------- */
+@keyframes lockBlink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.28;
+  }
+}
+
+.lock-icon-blink {
+  animation: lockBlink 1.4s ease-in-out infinite !important;
+  display: inline-flex !important;
+  align-items: center;
+}
+
+
+
+

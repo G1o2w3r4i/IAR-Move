@@ -1,0 +1,182 @@
+[
+  {
+    "id": "USR-001",
+    "name": "Marcus Vance",
+    "email": "marcus.vance@jnj.com",
+    "initials": "MV",
+    "title": "Senior IT Auditor",
+    "function": "IT",
+    "location": "Raritan, NJ (US)",
+    "baselineRole": "it-auditor"
+  },
+  {
+    "id": "USR-002",
+    "name": "Sarah Jenkins",
+    "email": "sarah.jenkins@jnj.com",
+    "initials": "SJ",
+    "title": "Staff IT Auditor",
+    "function": "IT",
+    "location": "New Brunswick, NJ (US)",
+    "baselineRole": "it-auditor"
+  },
+  {
+    "id": "USR-003",
+    "name": "Kevin Zhang",
+    "email": "kevin.zhang@jnj.com",
+    "initials": "KZ",
+    "title": "IT Audit Team Coordinator",
+    "function": "IT",
+    "location": "Bridgewater, NJ (US)",
+    "baselineRole": "it-team-coordinator"
+  },
+  {
+    "id": "USR-004",
+    "name": "Rachel Green",
+    "email": "rachel.green@jnj.com",
+    "initials": "RG",
+    "title": "Lead FinOps Auditor",
+    "function": "FinOps",
+    "location": "Titusville, NJ (US)",
+    "baselineRole": "finops-auditor"
+  },
+  {
+    "id": "USR-005",
+    "name": "David Miller",
+    "email": "david.miller@jnj.com",
+    "initials": "DM",
+    "title": "Senior FinOps Auditor",
+    "function": "FinOps",
+    "location": "Fort Washington, PA (US)",
+    "baselineRole": "finops-auditor"
+  },
+  {
+    "id": "USR-006",
+    "name": "Amanda Palmer",
+    "email": "amanda.palmer@jnj.com",
+    "initials": "AP",
+    "title": "IT Audit Manager",
+    "function": "IT",
+    "location": "Horsham, PA (US)",
+    "baselineRole": "it-manager"
+  },
+  {
+    "id": "USR-007",
+    "name": "Carlos Mendez",
+    "email": "carlos.mendez@jnj.com",
+    "initials": "CM",
+    "title": "FinOps Audit Manager",
+    "function": "FinOps",
+    "location": "Jacksonville, FL (US)",
+    "baselineRole": "finops-manager"
+  },
+  {
+    "id": "USR-008",
+    "name": "Elena Rostova",
+    "email": "elena.rostova@jnj.com",
+    "initials": "ER",
+    "title": "FinOps Team Coordinator",
+    "function": "FinOps",
+    "location": "Cincinnati, OH (US)",
+    "baselineRole": "finops-team-coordinator"
+  },
+  {
+    "id": "USR-009",
+    "name": "Brian Cox",
+    "email": "brian.cox@jnj.com",
+    "initials": "BC",
+    "title": "IT Audit Director",
+    "function": "IT",
+    "location": "New Brunswick, NJ (US)",
+    "baselineRole": "it-director"
+  },
+  {
+    "id": "USR-010",
+    "name": "Jessica Taylor",
+    "email": "jessica.taylor@jnj.com",
+    "initials": "JT",
+    "title": "FinOps Audit Director",
+    "function": "FinOps",
+    "location": "New Brunswick, NJ (US)",
+    "baselineRole": "finops-director"
+  },
+  {
+    "id": "USR-011",
+    "name": "Robert Chen",
+    "email": "robert.chen@jnj.com",
+    "initials": "RC",
+    "title": "VP, Global IT Audit",
+    "function": "IT",
+    "location": "Skillman, NJ (US)",
+    "baselineRole": "it-vp"
+  },
+  {
+    "id": "USR-012",
+    "name": "Emily Davis",
+    "email": "emily.davis@jnj.com",
+    "initials": "ED",
+    "title": "VP, Global FinOps Audit",
+    "function": "FinOps",
+    "location": "Skillman, NJ (US)",
+    "baselineRole": "finops-vp"
+  },
+  {
+    "id": "USR-013",
+    "name": "Thomas Wright",
+    "email": "thomas.wright@jnj.com",
+    "initials": "TW",
+    "title": "Plant Operations Business Contact",
+    "function": "Business",
+    "location": "Raynham, MA (US)",
+    "baselineRole": "business-contact"
+  },
+  {
+    "id": "USR-014",
+    "name": "Michael Scott",
+    "email": "michael.scott@jnj.com",
+    "initials": "MS",
+    "title": "Regional Business Liaison",
+    "function": "Business",
+    "location": "Irvine, CA (US)",
+    "baselineRole": "business-contact"
+  },
+  {
+    "id": "USR-015",
+    "name": "Jennifer Aniston",
+    "email": "jennifer.aniston@jnj.com",
+    "initials": "JA",
+    "title": "Quality Assurance Business Contact",
+    "function": "Business",
+    "location": "Santa Barbara, CA (US)",
+    "baselineRole": "business-contact"
+  },
+  {
+    "id": "USR-016",
+    "name": "Christopher Hayes",
+    "email": "christopher.hayes@jnj.com",
+    "initials": "CH",
+    "title": "Associate IT Auditor",
+    "function": "IT",
+    "location": "Bridgewater, NJ (US)",
+    "baselineRole": "it-auditor"
+  },
+  {
+    "id": "USR-017",
+    "name": "Laura Bailey",
+    "email": "laura.bailey@jnj.com",
+    "initials": "LB",
+    "title": "Associate FinOps Auditor",
+    "function": "FinOps",
+    "location": "New Brunswick, NJ (US)",
+    "baselineRole": "finops-auditor"
+  },
+  {
+    "id": "USR-018",
+    "name": "Brandon Walsh",
+    "email": "brandon.walsh@jnj.com",
+    "initials": "BW",
+    "title": "Commercial Compliance Partner",
+    "function": "Business",
+    "location": "Horsham, PA (US)",
+    "baselineRole": "business-contact"
+  }
+]

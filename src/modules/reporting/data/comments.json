@@ -1,0 +1,362 @@
+[
+  {
+    "id": "COMM-801-01",
+    "targetType": "ISSUE_FIELD",
+    "engagementId": "REP-2026-008",
+    "issueId": "ISSUE-801",
+    "fieldKey": "title",
+    "fieldName": "Issue Title",
+    "author": {
+      "userId": "USR-001",
+      "name": "Marcus Vance",
+      "role": "Senior IT Auditor",
+      "avatar": "MV",
+      "avatarBg": "#7C3AED"
+    },
+    "taggedUser": null,
+    "text": "Ensure the 10 business days threshold aligns with IAPP S-07 deprovisioning policy.",
+    "timestamp": "2026-07-29T10:15:00Z",
+    "displayTime": "07/29/2026 at 10:15 AM",
+    "isResolved": false,
+    "resolvedBy": null,
+    "resolvedAt": null
+  },
+  {
+    "id": "COMM-801-02",
+    "targetType": "ISSUE_FIELD",
+    "engagementId": "REP-2026-008",
+    "issueId": "ISSUE-801",
+    "fieldKey": "criticality",
+    "fieldName": "Criticality Level",
+    "author": {
+      "userId": "USR-003",
+      "name": "Kevin Zhang",
+      "role": "IT Audit Team Coordinator",
+      "avatar": "KZ",
+      "avatarBg": "#2563EB"
+    },
+    "taggedUser": {
+      "userId": "USR-006",
+      "name": "Amanda Palmer",
+      "role": "IT Audit Manager"
+    },
+    "text": "@Amanda Palmer Categorized as Major due to recurring telemetry drift pattern on Line 3. Please confirm elevation from Moderate.",
+    "timestamp": "2026-07-30T10:15:00Z",
+    "displayTime": "07/30/2026 at 10:15 AM",
+    "isResolved": false,
+    "resolvedBy": null,
+    "resolvedAt": null
+  },
+  {
+    "id": "COMM-801-03",
+    "targetType": "ISSUE_FIELD",
+    "engagementId": "REP-2026-008",
+    "issueId": "ISSUE-801",
+    "fieldKey": "rootCause",
+    "fieldName": "Root Cause Analysis",
+    "author": {
+      "userId": "USR-006",
+      "name": "Amanda Palmer",
+      "role": "IT Audit Manager",
+      "avatar": "AP",
+      "avatarBg": "#D8001D"
+    },
+    "taggedUser": {
+      "userId": "USR-003",
+      "name": "Kevin Zhang",
+      "role": "IT Audit Team Coordinator"
+    },
+    "text": "@Kevin Zhang Reviewed MES logs. Telemetry gain drift verified (+0.84°C excursion). Approved for inclusion.",
+    "timestamp": "2026-07-30T14:45:00Z",
+    "displayTime": "07/30/2026 at 02:45 PM",
+    "isResolved": true,
+    "resolvedBy": {
+      "userId": "USR-003",
+      "name": "Kevin Zhang",
+      "role": "IT Audit Team Coordinator"
+    },
+    "resolvedAt": "2026-07-30T16:00:00Z"
+  },
+  {
+    "id": "COMM-801-04",
+    "targetType": "ISSUE_FIELD",
+    "engagementId": "REP-2026-008",
+    "issueId": "ISSUE-801",
+    "fieldKey": "mitigatingControl",
+    "fieldName": "Mitigating Controls",
+    "author": {
+      "userId": "USR-003",
+      "name": "Kevin Zhang",
+      "role": "IT Audit Team Coordinator",
+      "avatar": "KZ",
+      "avatarBg": "#2563EB"
+    },
+    "taggedUser": null,
+    "text": "Added secondary supervisory sign-off as interim mitigating control.",
+    "timestamp": "2026-07-31T09:00:00Z",
+    "displayTime": "07/31/2026 at 09:00 AM",
+    "isResolved": true,
+    "resolvedBy": {
+      "userId": "USR-008",
+      "name": "Elena Rostova",
+      "role": "FinOps Team Coordinator"
+    },
+    "resolvedAt": "2026-07-31T11:00:00Z"
+  },
+  {
+    "id": "COMM-802-01",
+    "targetType": "ISSUE_FIELD",
+    "engagementId": "REP-2026-008",
+    "issueId": "ISSUE-802",
+    "fieldKey": "title",
+    "fieldName": "Issue Title",
+    "author": {
+      "userId": "USR-001",
+      "name": "Marcus Vance",
+      "role": "Senior IT Auditor",
+      "avatar": "MV",
+      "avatarBg": "#7C3AED"
+    },
+    "taggedUser": null,
+    "text": "Drift percentage updated to 4.2% based on latest calibration telemetry run.",
+    "timestamp": "2026-07-29T16:30:00Z",
+    "displayTime": "07/29/2026 at 04:30 PM",
+    "isResolved": false,
+    "resolvedBy": null,
+    "resolvedAt": null
+  },
+  {
+    "id": "COMM-802-02",
+    "targetType": "ISSUE_FIELD",
+    "engagementId": "REP-2026-008",
+    "issueId": "ISSUE-802",
+    "fieldKey": "impact",
+    "fieldName": "Impact Assessment",
+    "author": {
+      "userId": "USR-003",
+      "name": "Kevin Zhang",
+      "role": "IT Audit Team Coordinator",
+      "avatar": "KZ",
+      "avatarBg": "#2563EB"
+    },
+    "taggedUser": {
+      "userId": "USR-004",
+      "name": "Rachel Green",
+      "role": "Lead FinOps Auditor"
+    },
+    "text": "@Rachel Green Transferred to FinOps queue for inventory spoilage valuation check.",
+    "timestamp": "2026-07-30T10:00:00Z",
+    "displayTime": "07/30/2026 at 10:00 AM",
+    "isResolved": false,
+    "resolvedBy": null,
+    "resolvedAt": null
+  },
+  {
+    "id": "COMM-001-01",
+    "targetType": "ISSUE_FIELD",
+    "engagementId": "REP-2026-001",
+    "issueId": "ISSUE-001",
+    "fieldKey": "testProcedure",
+    "fieldName": "Test Procedure",
+    "author": {
+      "userId": "USR-008",
+      "name": "Elena Rostova",
+      "role": "FinOps Team Coordinator",
+      "avatar": "ER",
+      "avatarBg": "#059669"
+    },
+    "taggedUser": null,
+    "text": "Verified against TP-001 procedure criteria. Complies with Q1 cycle requirements.",
+    "timestamp": "2026-07-20T11:00:00Z",
+    "displayTime": "07/20/2026 at 11:00 AM",
+    "isResolved": false,
+    "resolvedBy": null,
+    "resolvedAt": null
+  },
+  {
+    "id": "COMM-001-02",
+    "targetType": "ISSUE_FIELD",
+    "engagementId": "REP-2026-001",
+    "issueId": "ISSUE-001",
+    "fieldKey": "mitigatingControl",
+    "fieldName": "Mitigating Controls",
+    "author": {
+      "userId": "USR-001",
+      "name": "Marcus Vance",
+      "role": "Senior IT Auditor",
+      "avatar": "MV",
+      "avatarBg": "#7C3AED"
+    },
+    "taggedUser": {
+      "userId": "USR-009",
+      "name": "Brian Cox",
+      "role": "IT Audit Director"
+    },
+    "text": "@Brian Cox Mitigating control verified in Active Directory prior to quarter-end close.",
+    "timestamp": "2026-07-21T14:00:00Z",
+    "displayTime": "07/21/2026 at 02:00 PM",
+    "isResolved": true,
+    "resolvedBy": {
+      "userId": "USR-009",
+      "name": "Brian Cox",
+      "role": "IT Audit Director"
+    },
+    "resolvedAt": "2026-07-22T09:30:00Z"
+  },
+  {
+    "id": "COMM-EXEC-808-01",
+    "targetType": "EXECUTIVE_FIELD",
+    "engagementId": "REP-2026-008",
+    "issueId": null,
+    "fieldKey": "scope_objective",
+    "fieldName": "Executive Scope & Objective",
+    "author": {
+      "userId": "USR-009",
+      "name": "Brian Cox",
+      "role": "IT Audit Director",
+      "avatar": "BC",
+      "avatarBg": "#1E40AF"
+    },
+    "taggedUser": {
+      "userId": "USR-006",
+      "name": "Amanda Palmer",
+      "role": "IT Audit Manager"
+    },
+    "text": "@Amanda Palmer Ensure European distribution hub cold-chain logistics is explicitly highlighted in objective bullet #2.",
+    "timestamp": "2026-08-04T10:00:00Z",
+    "displayTime": "08/04/2026 at 10:00 AM",
+    "isResolved": false,
+    "resolvedBy": null,
+    "resolvedAt": null
+  },
+  {
+    "id": "COMM-EXEC-808-02",
+    "targetType": "EXECUTIVE_FIELD",
+    "engagementId": "REP-2026-008",
+    "issueId": null,
+    "fieldKey": "insights_narrative",
+    "fieldName": "Executive Audit Insights",
+    "author": {
+      "userId": "USR-003",
+      "name": "Kevin Zhang",
+      "role": "IT Audit Team Coordinator",
+      "avatar": "KZ",
+      "avatarBg": "#2563EB"
+    },
+    "taggedUser": null,
+    "text": "Executive insights narrative verified against Plant Leadership exit interview takeaways.",
+    "timestamp": "2026-08-04T14:00:00Z",
+    "displayTime": "08/04/2026 at 02:00 PM",
+    "isResolved": false,
+    "resolvedBy": null,
+    "resolvedAt": null
+  },
+  {
+    "id": "COMM-EXEC-001-01",
+    "targetType": "EXECUTIVE_FIELD",
+    "engagementId": "REP-2026-001",
+    "issueId": null,
+    "fieldKey": "scope_objective",
+    "fieldName": "Scope Summary — Objective",
+    "author": {
+      "userId": "USR-001",
+      "name": "Marcus Vance",
+      "role": "Senior IT Auditor",
+      "avatar": "MV",
+      "avatarBg": "#7C3AED"
+    },
+    "taggedUser": null,
+    "text": "Ensure manufacturing automation drift controls align with the Q2 scope mandate.",
+    "timestamp": "2026-08-16T11:00:00Z",
+    "displayTime": "08/16/2026 at 11:00 AM",
+    "isResolved": true,
+    "resolvedBy": {
+      "userId": "USR-002",
+      "name": "Sarah Jenkins",
+      "role": "Staff IT Auditor"
+    },
+    "resolvedAt": "2026-08-16T15:30:00Z"
+  },
+  {
+    "id": "COMM-EXEC-001-02",
+    "targetType": "EXECUTIVE_FIELD",
+    "engagementId": "REP-2026-001",
+    "issueId": null,
+    "fieldKey": "processMatrix_row_0",
+    "fieldName": "Process Scope Matrix — Row 1",
+    "author": {
+      "userId": "USR-002",
+      "name": "Sarah Jenkins",
+      "role": "Staff IT Auditor",
+      "avatar": "SJ",
+      "avatarBg": "#059669"
+    },
+    "taggedUser": {
+      "userId": "USR-001",
+      "name": "Marcus Vance",
+      "role": "Senior IT Auditor"
+    },
+    "text": "@Marcus Vance Reclassified 1 Minor finding under this process to ensure alignment with local SOP-402.",
+    "timestamp": "2026-08-17T09:15:00Z",
+    "displayTime": "08/17/2026 at 09:15 AM",
+    "isResolved": true,
+    "resolvedBy": {
+      "userId": "USR-001",
+      "name": "Marcus Vance",
+      "role": "Senior IT Auditor"
+    },
+    "resolvedAt": "2026-08-17T11:45:00Z"
+  },
+  {
+    "id": "COMM-EXEC-001-03",
+    "targetType": "EXECUTIVE_FIELD",
+    "engagementId": "REP-2026-001",
+    "issueId": null,
+    "fieldKey": "criticalIssue_description",
+    "fieldName": "Critical Issue Summary",
+    "author": {
+      "userId": "USR-008",
+      "name": "Elena Rostova",
+      "role": "FinOps Team Coordinator",
+      "avatar": "ER",
+      "avatarBg": "#DC2626"
+    },
+    "taggedUser": {
+      "userId": "USR-009",
+      "name": "Brian Cox",
+      "role": "IT Audit Director"
+    },
+    "text": "@Brian Cox Confirmed remediating CAPA timeline is capped at 30 days due to critical status.",
+    "timestamp": "2026-08-17T14:30:00Z",
+    "displayTime": "08/17/2026 at 02:30 PM",
+    "isResolved": false,
+    "resolvedBy": null,
+    "resolvedAt": null
+  },
+  {
+    "id": "COMM-TRANS-801-01",
+    "targetType": "WORKFLOW_TRANSITION",
+    "engagementId": "REP-2026-008",
+    "issueId": "ISSUE-801",
+    "fieldKey": "WORKFLOW_HANDOFF",
+    "fieldName": "Workflow Hand-Off Note",
+    "author": {
+      "userId": "USR-003",
+      "name": "Kevin Zhang",
+      "role": "IT Audit Team Coordinator",
+      "avatar": "KZ",
+      "avatarBg": "#2563EB"
+    },
+    "taggedUser": {
+      "userId": "USR-006",
+      "name": "Amanda Palmer",
+      "role": "IT Audit Manager"
+    },
+    "text": "@Amanda Palmer Transferred for Manager review. Fieldwork telemetry data reconciled against factory calibrations.",
+    "timestamp": "2026-08-01T11:30:00Z",
+    "displayTime": "08/01/2026 at 11:30 AM",
+    "isResolved": false,
+    "resolvedBy": null,
+    "resolvedAt": null
+  }
+]

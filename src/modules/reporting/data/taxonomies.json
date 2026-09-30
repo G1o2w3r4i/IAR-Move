@@ -1,0 +1,152 @@
+[
+  {
+    "id": "TAX-ISSUE-TYPE",
+    "code": "ISSUE_TYPE",
+    "name": "Issue Type",
+    "description": "Classification of the primary nature of the audit finding",
+    "category": "Finding Classification",
+    "isMultiSelect": false,
+    "isRequired": false,
+    "isActive": true
+  },
+  {
+    "id": "TAX-ISSUE-SOURCE",
+    "code": "ISSUE_SOURCE",
+    "name": "Issue Source",
+    "description": "Originating audit program, testing framework, or inspection body",
+    "category": "Finding Classification",
+    "isMultiSelect": false,
+    "isRequired": false,
+    "isActive": true
+  },
+  {
+    "id": "TAX-KEY-THEME",
+    "code": "KEY_THEME",
+    "name": "Key Theme",
+    "description": "High-level strategic risk theme for enterprise audit aggregation",
+    "category": "Risk Governance",
+    "isMultiSelect": false,
+    "isRequired": false,
+    "isActive": true
+  },
+  {
+    "id": "TAX-IT-ASSET-SECTOR",
+    "code": "IT_ASSET_ACCOUNTABLE_SECTOR",
+    "name": "IT Asset Accountable Sector",
+    "description": "Johnson & Johnson sector responsible for the underlying IT asset",
+    "category": "Organizational Hierarchy",
+    "isMultiSelect": false,
+    "isRequired": false,
+    "isActive": true
+  },
+  {
+    "id": "TAX-IMPACTED-REGION",
+    "code": "IMPACTED_REGION",
+    "name": "Impacted Region",
+    "description": "Geographical region impacted by the audit finding",
+    "category": "Geographical Hierarchy",
+    "isMultiSelect": false,
+    "isRequired": false,
+    "isActive": true
+  },
+  {
+    "id": "TAX-IMPACTED-SECTOR",
+    "code": "IMPACTED_SECTOR",
+    "name": "Impacted Sector",
+    "description": "Business sector or operating company segment directly affected",
+    "category": "Organizational Hierarchy",
+    "isMultiSelect": false,
+    "isRequired": false,
+    "isActive": true
+  },
+  {
+    "id": "TAX-IMPACTED-MRC",
+    "code": "IMPACTED_MRC",
+    "name": "Impacted MRC",
+    "description": "Management Responsibility Center governing the audited operational scope",
+    "category": "Organizational Hierarchy",
+    "isMultiSelect": false,
+    "isRequired": false,
+    "isActive": true
+  },
+  {
+    "id": "TAX-QUARTER-IMPACTED",
+    "code": "QUARTER_IMPACTED",
+    "name": "Quarter Impacted",
+    "description": "Financial or operational fiscal calendar quarter of finding discovery",
+    "category": "Fiscal Calendar",
+    "isMultiSelect": false,
+    "isRequired": false,
+    "isActive": true
+  },
+  {
+    "id": "TAX-CRITICALITY",
+    "code": "CRITICALITY",
+    "name": "Issue Criticality",
+    "description": "Risk ranking determining audit committee reporting escalation",
+    "category": "Risk Governance",
+    "isMultiSelect": false,
+    "isRequired": true,
+    "isActive": true
+  },
+  {
+    "id": "TAX-AUDIT-FUNCTION",
+    "code": "AUDIT_FUNCTION",
+    "name": "Audit Function / Domain",
+    "description": "Operational audit functional team executing the review",
+    "category": "Operational Scope",
+    "isMultiSelect": false,
+    "isRequired": true,
+    "isActive": true
+  },
+  {
+    "id": "TAX-ISSUE-CAUSE-TYPE",
+    "code": "ISSUE_CAUSE_TYPE",
+    "name": "Issue Cause Type",
+    "description": "Root operational or design defect trigger",
+    "category": "Root Cause Analysis",
+    "isMultiSelect": false,
+    "isRequired": false,
+    "isActive": true
+  },
+  {
+    "id": "TAX-PROCESS-AREA",
+    "code": "PROCESS_AREA",
+    "name": "Process Area",
+    "description": "Audited business or manufacturing process workflow",
+    "category": "Operational Scope",
+    "isMultiSelect": false,
+    "isRequired": false,
+    "isActive": true
+  },
+  {
+    "id": "TAX-BOOLEAN-FLAG",
+    "code": "BOOLEAN_FLAG",
+    "name": "Binary Flag (Yes/No)",
+    "description": "Standard binary selection for boolean audit attributes",
+    "category": "System Primitives",
+    "isMultiSelect": false,
+    "isRequired": false,
+    "isActive": true
+  },
+  {
+    "id": "TAX-ISSUE-STATUS",
+    "code": "ISSUE_STATUS",
+    "name": "Issue Workflow Status",
+    "description": "Review and sign-off pipeline stages for individual audit findings",
+    "category": "Workflow Pipeline",
+    "isMultiSelect": false,
+    "isRequired": true,
+    "isActive": true
+  },
+  {
+    "id": "TAX-ENGAGEMENT-STATUS",
+    "code": "ENGAGEMENT_STATUS",
+    "name": "Engagement Status",
+    "description": "Overall audit engagement project lifecycle state",
+    "category": "Workflow Pipeline",
+    "isMultiSelect": false,
+    "isRequired": true,
+    "isActive": true
+  }
+]
